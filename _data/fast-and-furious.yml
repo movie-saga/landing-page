@@ -1,8 +1,7 @@
 saga_name: Fast & Furious
 movies:
   - name: The Fast and the Furious
-    publication_order: 1
-    watch_order: 1
+    watch_order: 10
     imdb: https://www.imdb.com/title/tt0232500
     image: https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX280_CR0,1,280,414_.jpg
     actors: Vin Diesel, Paul Walker
@@ -10,8 +9,7 @@ movies:
     description: Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.
 
   - name: The Turbo Charged Prelude
-    publication_order: 2
-    watch_order: 2
+    watch_order: 20
     short: true
     image: https://m.media-amazon.com/images/M/MV5BY2Y2ODBjN2QtZTE3OS00NDliLWIwZjktMmY5MmQyZDMzNWMyXkEyXkFqcGdeQXVyNjUyODQ4NzE@._V1_QL75_UX380_CR0,4,380,562_.jpg
     imdb: https://www.imdb.com/title/tt2055789/
@@ -20,8 +18,7 @@ movies:
     description: Taking place after The Fast and The Furious, Brian O'Connor tries to evade the law, which leads up to the events of 2 Fast 2 Furious.
 
   - name: 2 Fast 2 Furious
-    publication_order: 3
-    watch_order: 3
+    watch_order: 30
     image: https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UX280_CR0,3,280,414_.jpg
     imdb: https://www.imdb.com/title/tt0322259
     actors: Paul Walker, Tyrese Gibson, Eva Mendes
@@ -29,8 +26,7 @@ movies:
     description: Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.
 
   - name: Los Bandoleros
-    publication_order: 4
-    watch_order: 4
+    watch_order: 40
     short: true
     image: https://m.media-amazon.com/images/M/MV5BMDllYmEzNTctODFkMi00NTllLTk5ZTktMjAxMjYyYWEwOTM1XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_QL75_UX380_CR0,12,380,562_.jpg
     imdb: https://www.imdb.com/title/tt1538503
@@ -39,8 +35,7 @@ movies:
     description: This is a short film which is a prequel to Fast and Furious involving the fugitive ex-convict Dom assembling his crew in the Dominican Republic to plan a hijacking of a road train gasoline tanker truck.
 
   - name: "The Fast and the Furious: Tokyo Drift"
-    publication_order: 5
-    watch_order: 8
+    watch_order: 80
     image: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_QL75_UY414_CR0,0,280,414_.jpg
     imdb: https://www.imdb.com/title/tt0463985
     actors: Lucas Black, Zachery Ty Bryan, Shad Moss
@@ -48,86 +43,81 @@ movies:
     description: A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.
 
   - name: Fast & Furious
-    publication_order: 6
-    watch_order: 5
+    watch_order: 50
     image: https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UX280_CR0,1,280,414_.jpg
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    imdb: https://www.imdb.com/title/tt1013752
+    actors: Vin Diesel, Paul Walker, Michelle Rodriguez
+    pub_year: 2009
+    description: Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.
 
   - name: Fast Five
     alias: Fast & Furious 5 
-    publication_order: 7
-    watch_order: 6
+    watch_order: 60
     image: https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_QL75_UX280_CR0,0,280,414_.jpg
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    imdb: https://www.imdb.com/title/tt1596343/
+    actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    pub_year: 2011
+    description: Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.
 
   - name: Fast & Furious 6
-    publication_order: 8
-    watch_order: 7
+    watch_order: 70
     image: https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_QL75_UX280_CR0,0,280,414_.jpg
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    imdb: https://www.imdb.com/title/tt1905041
+    actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    pub_year: 2013
+    description: "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty."
 
   - name : Furious 7
     alias: Fast & Furious 7
-    publication_order: 9
-    watch_order: 9
+    watch_order: 90
     image: https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_QL75_UX280_CR0,14,280,414_.jpg
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    imdb: https://www.imdb.com/title/tt2820852
+    actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    pub_year: 2015
+    description: "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
 
   - name: The Fate of the Furious
     alias: Fast & Furious 8
-    publication_order: 10
-    watch_order: 10
+    watch_order: 100
     image: https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_QL75_UX280_CR0,14,280,414_.jpg
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    imdb: https://www.imdb.com/title/tt4630562
+    actors: Vin Diesel, Jason Statham, Dwayne Johnson
+    pub_year: 2017
+    description: When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.
 
-  - name: "Fast & Furious: Hobbs & Shaw"
-    publication_order: 11
-    watch_order: 11
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+  - name: "Fast & Furious Presents: Hobbs & Shaw"
+    watch_order: 110
+    imdb: https://www.imdb.com/title/tt6806448
+    actors: Dwayne Johnson, Jason Statham, Idris Elba
+    pub_year: 2019
+    description: Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.
+    image: https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UY562_CR3,0,380,562_.jpg
 
   - name: F9
-    alias: Fast & Furious 9
-    publication_order: 12
-    watch_order: 12
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    alias: "Fast & Furious 9, F9: The Fast Saga"
+    watch_order: 120
+    imdb: https://www.imdb.com/title/tt5433138
+    actors: Vin Diesel, Michelle Rodriguez, Jordana Brewster
+    pub_year: 2021
+    description: Dom and the crew must take on an international terrorist who turns out to be Dom and Mia's estranged brother.
+    image: https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_QL75_UX380_CR0,20,380,562_.jpg
 
   - name: Fast X
     alias: Fast & Furious 10
-    publication_order: 13
-    watch_order: 13
-    imdb: 
-    actors: 
-    pub_year: 
-    description:
+    watch_order: 130
+    imdb: https://www.imdb.com/title/tt5433140
+    actors: Vin Diesel, Michelle Rodriguez, Jason Statham
+    pub_year: 2023
+    description: Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.
+    image: https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_QL75_UX380_CR0,20,380,562_.jpg
 
   - name: Better Luck Tomorrow
-    publication_order: 
-    watch_order: 
+    watch_order: 35
     imdb: https://www.imdb.com/title/tt0280477
     image: https://m.media-amazon.com/images/M/MV5BMTk4OTYwODUyN15BMl5BanBnXkFtZTYwMDUzMTQ3._V1_QL75_UY562_CR0,0,380,562_.jpg
     actors: Parry Shen, Jason Tobin, Sung Kang
     pub_year: 2002
     description: A group of over-achieving East Asian American high school seniors enjoy a power trip when they dip into extracurricular criminal activities.
+    note: Not a movie from the franchise but this movie is Han's backstory
 
 

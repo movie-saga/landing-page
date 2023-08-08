@@ -1,11 +1,10 @@
 
-<div class="card" 
+<div class="card custom-card" data-bs-theme="dark" 
     style="
         margin-bottom: 15px; 
         padding: 0;
-        {% if movie.short %}background-color: #e0cffc;{% endif %}
     ">
-<div class="row">
+    <div class="row">
         <div class="col-1">
             <img 
                 src="{{ movie.image }}" 
@@ -14,11 +13,11 @@
                 alt="...">
         </div>
         <div class="col-11">
-            <div class="card-body">
+            <div class="card-body custom-card-body">
                 <h5 class="card-title">{{ include.movie.name }} {% if movie.alias %}({{ movie.alias }}){% endif %}{% if movie.short %}| Short movie{% endif %}</h5>
                 <div class="container">
                   <div class="row justify-content-start">
-                    <div class="col-11">
+                    <div class="col-11 custom-card-content">
                       <h6 class="card-subtitle mb-2 text-muted">
                           {{ include.movie.pub_year}} |
                           {{ include.movie.actors }}
@@ -26,6 +25,11 @@
                       <p>
                         {{ include.movie.description }}
                       </p>
+                      {% if movie.note %}
+                        <blockquote>
+                          {{ movie.note }}
+                        </blockquote>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -33,9 +37,11 @@
         </div>
 </div>
 <div class="card-footer text-muted">
-    <a href="{{ include.movie.imdb }}">Imdb</a> | watch on: 
+    <a href="{{ include.movie.imdb }}">Imdb</a>
+    <!-- | watch on: 
         <a href="">
             <img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" style="height:40px;">
         </a>
+      -->
   </div>
 </div>
