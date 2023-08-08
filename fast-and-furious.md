@@ -1,27 +1,14 @@
 ---
-layout: saga
+layout: base_hero
 title:  "Fast & Furious"
+url: fast-and-furious
 hero: "custom_includes/fast-and-furious-hero.html"
+description: "From street racers to elaborate heists follow the group of Dominic Torretto through the world for exciting adventures."
 ---
-{% assign title_1 = "Best chronologically accurate order" %}
-{% assign title_2 = "Publication order of the movies" %}
-* [{{title_1}}](#{{title_1 | slugify}})
-* [{{title_2}}](#{{title_2 | slugify}})
 
-# {{title_1 }}
+# Orders
 
-{% assign movies_sorted = site.data.fast-and-furious.movies | sort: 'watch_order' %}
-{% for movie in movies_sorted %}
-{% include movie_card.html movie=movie %}
-{% endfor %}
-
-This order will let you watch the movie for the most coherent and logical story progression.
-
-# {{ title_2 }}
-
-{% assign movies_sorted = site.data.fast-and-furious.movies | sort: 'pub_year' %}
-{% for movie in movies_sorted %}
-{% include movie_card.html movie=movie %}
-{% endfor %}
-
-This is the order of the recording of each movies, keep in mind that it leads to some weird story inconsistencies.
+{% assign title_1 = "Story accurate order" %}
+{% assign title_2 = "Release order of the movies" %}
+* [{{title_1}}](fast-and-furious-story-order.html)
+* [{{title_2}}](fast-and-furious-release-order.html)
