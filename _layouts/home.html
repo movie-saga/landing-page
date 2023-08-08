@@ -1,0 +1,14 @@
+---
+layout: base
+---
+
+<ul>
+    {% for saga in site.data._saga %}
+      <li>
+        <a href="{{ site.url }}{{site.baseurl}}{{ saga.url }}">
+          {{ saga.name }}
+        </a>
+      </li>
+    {% endfor %}
+</ul>
+{{ content }}

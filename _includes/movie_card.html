@@ -1,0 +1,40 @@
+
+<div class="card" 
+    style="
+        margin-bottom: 15px; 
+        {% if movie.short %}background-color: #e0cffc;{% endif %}
+    ">
+<div class="row">
+        <div class="col-1">
+            <img 
+                src="{{ movie.image }}" 
+                class=""
+                style="height:150px" 
+                alt="...">
+        </div>
+        <div class="col-11">
+            <div class="card-body">
+                <h5 class="card-title">{{ include.movie.name }} {% if movie.alias %}({{ movie.alias }}){% endif %}{% if movie.short %}| Short movie{% endif %}</h5>
+                <div class="container">
+                  <div class="row justify-content-start">
+                    <div class="col-11">
+                      <h6 class="card-subtitle mb-2 text-muted">
+                          {{ include.movie.pub_year}} |
+                          {{ include.movie.actors }}
+                      </h6>
+                      <p>
+                        {{ include.movie.description }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+</div>
+<div class="card-footer text-muted">
+    <a href="{{ include.movie.imdb }}">Imdb</a> | watch on: 
+        <a href="">
+            <img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" style="height:40px;">
+        </a>
+  </div>
+</div>

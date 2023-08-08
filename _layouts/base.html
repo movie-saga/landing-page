@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  {% include header.html %}
+  <body class="d-flex flex-column h-100"
+    style="
+        background-color: #eee;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        width: 100%;
+    ">
+    <div 
+      >
+      <div style="
+        background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
+      "
+      >
+        {% include navbar.html %}
+        <section style="
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background: linear-gradient(to bottom, black 50%, transparent 70%);
+          background-image: url('https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWq3Mo-U-cz-SHWzEM71fjR23KYrATFvxrH-oq-LsMIdznV9_d54ZhSCeA-qEHPI5otQBCML6cYjaT4qHiSxu4ALu1-DgsTc9iFu.jpg?r=472');
+          background-repeat: no-repeat;
+          filter: saturate(.25);
+          height: 600px;
+        ">
+          <div class="container-fluid container-md">
+            <h1>{{ page.title }}</h1>
+            {% if page.hero %}
+              {% include {{ page.hero }} %}
+            {% endif %}
+          </div>
+        </section>
+
+        <div class="container-fluid container-md" style="
+        "
+        >
+          {{ content }}
+        </div>
+        
+        {% include footer.html %}
+      </div>
+    </div>
+    <style>
+      section {
+        background: linear-gradient(0deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0));
+      }
+    </style>
+  </body>
+</html>

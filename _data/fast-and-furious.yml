@@ -1,0 +1,133 @@
+saga_name: Fast & Furious
+movies:
+  - name: The Fast and the Furious
+    publication_order: 1
+    watch_order: 1
+    imdb: https://www.imdb.com/title/tt0232500
+    image: https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX280_CR0,1,280,414_.jpg
+    actors: Vin Diesel, Paul Walker
+    pub_year: 2001
+    description: Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.
+
+  - name: The Turbo Charged Prelude
+    publication_order: 2
+    watch_order: 2
+    short: true
+    image: https://m.media-amazon.com/images/M/MV5BY2Y2ODBjN2QtZTE3OS00NDliLWIwZjktMmY5MmQyZDMzNWMyXkEyXkFqcGdeQXVyNjUyODQ4NzE@._V1_QL75_UX380_CR0,4,380,562_.jpg
+    imdb: https://www.imdb.com/title/tt2055789/
+    actors: Paul Walker
+    pub_year: 2003
+    description: Taking place after The Fast and The Furious, Brian O'Connor tries to evade the law, which leads up to the events of 2 Fast 2 Furious.
+
+  - name: 2 Fast 2 Furious
+    publication_order: 3
+    watch_order: 3
+    image: https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UX280_CR0,3,280,414_.jpg
+    imdb: https://www.imdb.com/title/tt0322259
+    actors: Paul Walker, Tyrese Gibson, Eva Mendes
+    pub_year: 2003
+    description: Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.
+
+  - name: Los Bandoleros
+    publication_order: 4
+    watch_order: 4
+    short: true
+    image: https://m.media-amazon.com/images/M/MV5BMDllYmEzNTctODFkMi00NTllLTk5ZTktMjAxMjYyYWEwOTM1XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_QL75_UX380_CR0,12,380,562_.jpg
+    imdb: https://www.imdb.com/title/tt1538503
+    actors: Vin Diesel, Michelle Rodriguez, Sung Kang
+    pub_year: 2009
+    description: This is a short film which is a prequel to Fast and Furious involving the fugitive ex-convict Dom assembling his crew in the Dominican Republic to plan a hijacking of a road train gasoline tanker truck.
+
+  - name: "The Fast and the Furious: Tokyo Drift"
+    publication_order: 5
+    watch_order: 8
+    image: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_QL75_UY414_CR0,0,280,414_.jpg
+    imdb: https://www.imdb.com/title/tt0463985
+    actors: Lucas Black, Zachery Ty Bryan, Shad Moss
+    pub_year: 2006
+    description: A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.
+
+  - name: Fast & Furious
+    publication_order: 6
+    watch_order: 5
+    image: https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UX280_CR0,1,280,414_.jpg
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: Fast Five
+    alias: Fast & Furious 5 
+    publication_order: 7
+    watch_order: 6
+    image: https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_QL75_UX280_CR0,0,280,414_.jpg
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: Fast & Furious 6
+    publication_order: 8
+    watch_order: 7
+    image: https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_QL75_UX280_CR0,0,280,414_.jpg
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name : Furious 7
+    alias: Fast & Furious 7
+    publication_order: 9
+    watch_order: 9
+    image: https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_QL75_UX280_CR0,14,280,414_.jpg
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: The Fate of the Furious
+    alias: Fast & Furious 8
+    publication_order: 10
+    watch_order: 10
+    image: https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_QL75_UX280_CR0,14,280,414_.jpg
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: "Fast & Furious: Hobbs & Shaw"
+    publication_order: 11
+    watch_order: 11
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: F9
+    alias: Fast & Furious 9
+    publication_order: 12
+    watch_order: 12
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: Fast X
+    alias: Fast & Furious 10
+    publication_order: 13
+    watch_order: 13
+    imdb: 
+    actors: 
+    pub_year: 
+    description:
+
+  - name: Better Luck Tomorrow
+    publication_order: 
+    watch_order: 
+    imdb: https://www.imdb.com/title/tt0280477
+    image: https://m.media-amazon.com/images/M/MV5BMTk4OTYwODUyN15BMl5BanBnXkFtZTYwMDUzMTQ3._V1_QL75_UY562_CR0,0,380,562_.jpg
+    actors: Parry Shen, Jason Tobin, Sung Kang
+    pub_year: 2002
+    description: A group of over-achieving East Asian American high school seniors enjoy a power trip when they dip into extracurricular criminal activities.
+
+
