@@ -2,35 +2,28 @@
 <html lang="en" class="h-100">
   {% include header.html %}
   <body class="d-flex flex-column h-100">
-    <div>
-      <div>
+
         {% include navbar.html %}
         <section class="hero-panel">
-          <div class="container-fluid container-md">
-            <h1>{{ page.title }}</h1>
-            {% if page.hero %}
-              {% include {{ page.hero }} %}
-            {% endif %}
+          <div class="gradient-panel-top">
+            <div class="container">
+              <div class="row">
+              </div>
+            </div>
           </div>
         </section>
-
-        <div class="container-fluid container-md content-panel">
-          {{ content }}
+        <div class="container container-fluid container-md content-panel row" style="
+        position: absolute;
+        margin-top: 60px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        ">
+            {{ content }}
         </div>
-        
-        {% include footer.html %}
-      </div>
-    </div>
-    <style>
-      .content-panel {
+        <!--% include footer.html %-->
 
-      }
-      .hero-panel {
-        background-image: url('https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWq3Mo-U-cz-SHWzEM71fjR23KYrATFvxrH-oq-LsMIdznV9_d54ZhSCeA-qEHPI5otQBCML6cYjaT4qHiSxu4ALu1-DgsTc9iFu.jpg?r=472');
-      }
-      .navbar-panel {
-
-      }
-    </style>
+  {% include style.html bg_url=page.img_url %}
   </body>
 </html>

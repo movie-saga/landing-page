@@ -30,63 +30,6 @@
         </section>        
         <!--% include footer.html %-->
 
-    <style>
-      body {
-        min-height: 100%;
-        background-color: #000; /*will become black*/
-      }
-      nav {
-        text-align: center;
-      }
-      nav > a {
-        color: #ddd;
-        font-style: normal;
-        text-decoration: none;
-        font-size: 35px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      }
-      html {
-        
-      }
-      .description {
-        font-size: 1.5em;
-        color: #eee;
-      }
-      .fact-box {
-        height: 6em;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        font-size: 1em;
-        text-align: center;
-      }
-      .fact-box > span {
-        font-size: 2em;
-        display: block;
-        text-align: center;
-      }
-      .content-panel {
-        
-      }
-      .hero-panel {
-        margin-top: 60px;
-        min-height: calc(100% - 60px);
-        filter: saturate(.25);
-        background-position: center; 
-        background-image: 
-          url('https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWq3Mo-U-cz-SHWzEM71fjR23KYrATFvxrH-oq-LsMIdznV9_d54ZhSCeA-qEHPI5otQBCML6cYjaT4qHiSxu4ALu1-DgsTc9iFu.jpg?r=472');
-      }
-      .hero-content {
-        background-color: #222;
-        color: #ddd;
-      }
-      .gradient-panel-top {
-        background-image: 
-          linear-gradient(0deg, rgba(0,0,0,0) 53%, rgba(104,121,150,0.7) 72%, rgba(0,0,0,1) 96%),
-          linear-gradient(180deg, rgba(0,0,0,0) 53%, rgba(104,121,150,0.7) 72%, rgba(0,0,0,1) 96%)
-        ;
-        background-repeat: no-repeat;
-        min-height: 100%;
-      }
-    </style>
+  {% include style.html bg_url=page.img_url %}
   </body>
 </html>
