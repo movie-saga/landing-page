@@ -23,7 +23,7 @@ email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   The best place to find in which order you can or should watch your favorite movie sagas !
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "https://movie-saga.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://telary.gitlab.io/movie_saga/" #"https://movie-saga.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
