@@ -4,7 +4,7 @@
 
 layout: home
 title: In what order to watch your favorite saga
-img_url: https://wallpapercave.com/wp/wp2037466.png
+#img_url: https://wallpapercave.com/wp/wp2037466.png
 ---
 
 # In what order to watch your favorite saga ?

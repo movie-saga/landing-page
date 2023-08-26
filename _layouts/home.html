@@ -1,14 +1,55 @@
----
-layout: base
----
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+  {% include header.html %}
+  <body class="d-flex flex-column h-100">
 
-<ul>
-    {% for saga in site.data._saga %}
-      <li>
-        <a href="{{ site.url }}{{site.baseurl}}{{ saga.url }}">
-          {{ saga.name }}
-        </a>
-      </li>
-    {% endfor %}
-</ul>
-{{ content }}
+        {% include navbar.html %}
+        <section class="hero-panel">
+          <div class="gradient-panel-top">
+            <div class="container">
+              <div class="row">
+                <h1 class="title" style="margin-top: 60px;">{{ page.title }}<span style="text-transform: lowercase;">{{ page.subtitle }}</span></h1>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="container container-fluid container-md content-panel row" style="
+        position: absolute;
+        margin-top: 140px;
+        left: 0; 
+        right: 0; 
+        margin-left: auto; 
+        margin-right: auto; 
+        ">
+        <div></div>
+        
+          <ul>
+            {% for saga in site.data._saga %}
+              <li>
+                <a href="{{ site.url }}{{site.baseurl}}{{ saga.url }}">
+                  {{ saga.name }}
+                </a>
+              </li>
+            {% endfor %}
+          </ul>
+          {{ content }}
+        </div>
+        <!--% include footer.html %-->
+
+  {% include style.html bg_url=page.img_url %}
+  </body>
+  <style>
+    .hero-panel::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      background-image: none;
+      background-repeat: no-repeat;
+      z-index: -1;
+    }
+  </style>
+</html>
