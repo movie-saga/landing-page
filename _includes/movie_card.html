@@ -5,14 +5,14 @@
         padding: 0;
     ">
     <div class="row">
-        <div class="col-1">
+        <div class="col-3 col-md-2 col-lg-2 col-xl-1">
             <img 
                 src="{{ movie.image }}" 
                 class=""
                 style="height:150px" 
                 alt="...">
         </div>
-        <div class="col-11 col-xs-8">
+        <div class="col-9 col-md-10 col-lg-10 col-xl-11">
             <div class="card-body custom-card-body">
                 <h5 class="card-title">{{ include.movie.name }} {% if movie.alias %}({{ movie.alias }}){% endif %}{% if movie.short %}| Short movie{% endif %}</h5>
                 <div class="container">
