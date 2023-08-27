@@ -5,7 +5,7 @@ title:  "Fast & Furious"
 subtitle: " | Story order"
 hero: "custom_includes/fast-and-furious-hero.html"
 ---
-{% assign title_1 = "Best chronologically accurate order" %}
+{% assign title_1 = "Best story accurate order" %}
 
 This order will let you watch the movie for the most coherent and logical story progression.
 
