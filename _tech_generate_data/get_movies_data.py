@@ -17,6 +17,7 @@ for file_name in file_list:
 file_source: {file_name}
 movies:
     """
+    duration = 0
 
     for movie in movies_ids:
         movie_id = movie["id"]
@@ -29,6 +30,16 @@ movies:
 {movie_detail_yaml}
         """
         file_content += movie_detail_yaml
+        try:
+            runtime = movie_details_json['Runtime']
+            if runtime == "N/A" or runtime is None:
+                pass
+            else:
+                duration += int(runtime.split(" ")[0])
+        except Exception:
+            pass
+    
+    file_content += f"\nduration: {duration}"
     
     with open(f"output/{file_name}", "w") as file:
         file.write(file_content)

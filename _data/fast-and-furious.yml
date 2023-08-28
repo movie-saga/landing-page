@@ -502,4 +502,31 @@ movies:
     imdbVotes: 10,320
     watch_order: 35
 
+  - imdb_id: tt8322592
+    Actors: Tyler Posey, Charlet Takahashi Chung, Jorge Diaz
+    Awards: 4 nominations
+    Country: United States
+    Director: N/A
+    Genre: Animation, Action, Adventure
+    Language: English
+    Metascore: N/A
+    Plot: A team of teenage street racers are hired to infiltrate a criminal gang.
+    Poster: https://m.media-amazon.com/images/M/MV5BYTdmYjFiZTYtZGZlZi00YTBjLWIxYmItYTQ5OWNiZmM5MzczXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_SX300.jpg
+    Rated: TV-Y7-FV
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 5.9/10
+    Released: 26 Dec 2019
+    Response: 'True'
+    Runtime: 23 min
+    Title: Fast & Furious Spy Racers
+    Type: series
+    Writer: Bret Haaland, Tim Hedrick
+    Year: "2019\u20132021"
+    imdbID: tt8322592
+    imdbRating: '5.9'
+    imdbVotes: 1,646
+    totalSeasons: '6'
+    watch_order: 100
         
+duration: 1528

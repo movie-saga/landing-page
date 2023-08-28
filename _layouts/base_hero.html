@@ -6,27 +6,7 @@
         {% include navbar.html %}
         <section class="hero-panel">
           <div class="gradient-panel-top">
-            <div class="container">
-              <div class="row">
-                <div class="col-4">
-                  <h1 class="title">{{ page.title }}</h1>
-                </div>
-              </div>
-            </br>
-              <div class="row">
-                <div class="col-4 content">
-                  {{ content }}
-                </div>
-                <div class="offset-1 col-5 description">
-                  {{ page.description }}
-                </div>
-              </div>
-            </br>
-              {% if page.hero %}
-                {% include {{ page.hero }} %}
-              {% endif %}
-              </div>
-            </div>
+            {{ content }}
           </div>
         </section>        
         <!--% include footer.html %-->

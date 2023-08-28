@@ -1,6 +1,6 @@
 
-- file_source: _star-wars.yml
-  movies:
+file_source: _star-wars.yml
+movies:
     
   - imdb_id: tt0076759
     Actors: Mark Hamill, Harrison Ford, Carrie Fisher
@@ -592,3 +592,4 @@
     totalSeasons: '1'
 
         
+duration: 1552

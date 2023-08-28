@@ -2,15 +2,15 @@
 layout: base_hero
 title:  "Fast & Furious"
 url: fast-and-furious
-hero: "custom_includes/fast-and-furious-hero.html"
 description: "From street racers to elaborate heists follow the group of Dominic Torretto through the world for exciting adventures."
 img_url: "https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABWq3Mo-U-cz-SHWzEM71fjR23KYrATFvxrH-oq-LsMIdznV9_d54ZhSCeA-qEHPI5otQBCML6cYjaT4qHiSxu4ALu1-DgsTc9iFu.jpg?r=472"
 ---
 
-# Discover the watching orders
-
+{% include saga_description_p1.html %}
 {% assign title_1 = "Story accurate order" %}
 {% assign title_2 = "Release order of the movies" %}
+
+<h1>Discover the watching orders</h1>
 
 <ul class="orders-list">
   <li>
@@ -29,3 +29,10 @@ img_url: "https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cn
     </a>
   </li>
 </ul>
+{% assign saga_movies = site.data.fast-and-furious.movies | where: "Type", "movie" %}
+{% assign saga_tv_shows = site.data.fast-and-furious.movies | where: "Type", "series" %}
+{% assign duration = site.data.fast-and-furious.duration | divided_by: 60 %}
+{% assign episodes = 52 %}
+{% 
+  include saga_description_p2.html
+%}
