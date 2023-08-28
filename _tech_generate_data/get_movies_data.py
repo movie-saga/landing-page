@@ -14,8 +14,8 @@ for file_name in file_list:
         movies_ids = yaml.safe_load(file)
     
     file_content = f"""
-- file_source: {file_name}
-  movies:
+file_source: {file_name}
+movies:
     """
 
     for movie in movies_ids:

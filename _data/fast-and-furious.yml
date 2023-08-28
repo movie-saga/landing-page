@@ -1,123 +1,491 @@
-saga_name: Fast & Furious
+file_source: _fast-and-furious.yml
 movies:
-  - name: The Fast and the Furious
-    watch_order: 10
-    imdb: https://www.imdb.com/title/tt0232500
-    image: https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX280_CR0,1,280,414_.jpg
-    actors: Vin Diesel, Paul Walker
-    pub_year: 2001
-    description: Los Angeles police officer Brian O'Conner must decide where his loyalty really lies when he becomes enamored with the street racing world he has been sent undercover to destroy.
+  - imdb_id: tt0232500
+    Actors: Vin Diesel, Paul Walker, Michelle Rodriguez
+    Awards: 11 wins & 18 nominations
+    BoxOffice: $144,745,925
+    Country: United States, Germany
+    DVD: 10 Sep 2015
+    Director: Rob Cohen
+    Genre: Action, Crime, Thriller
+    Language: English, Spanish
+    Metascore: '58'
+    Plot: Los Angeles police officer Brian O'Conner must decide where his loyalty really
+      lies when he becomes enamored with the street racing world he has been sent undercover
+      to destroy.
+    Poster: https://m.media-amazon.com/images/M/MV5BNzlkNzVjMDMtOTdhZC00MGE1LTkxODctMzFmMjkwZmMxZjFhXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.8/10
+    - Source: Rotten Tomatoes
+      Value: 55%
+    - Source: Metacritic
+      Value: 58/100
+    Released: 22 Jun 2001
+    Response: 'True'
+    Runtime: 106 min
+    Title: The Fast and the Furious
+    Type: movie
+    Website: N/A
+    Writer: Ken Li, Gary Scott Thompson, Erik Bergquist
+    Year: '2001'
+    imdbID: tt0232500
+    imdbRating: '6.8'
+    imdbVotes: 405,351
 
-  - name: The Turbo Charged Prelude
-    watch_order: 20
-    short: true
-    image: https://m.media-amazon.com/images/M/MV5BY2Y2ODBjN2QtZTE3OS00NDliLWIwZjktMmY5MmQyZDMzNWMyXkEyXkFqcGdeQXVyNjUyODQ4NzE@._V1_QL75_UX380_CR0,4,380,562_.jpg
-    imdb: https://www.imdb.com/title/tt2055789/
-    actors: Paul Walker
-    pub_year: 2003
-    description: Taking place after The Fast and The Furious, Brian O'Connor tries to evade the law, which leads up to the events of 2 Fast 2 Furious.
+        
+  - imdb_id: tt2055789
+    Actors: Paul Walker
+    Awards: N/A
+    BoxOffice: N/A
+    Country: USA
+    DVD: N/A
+    Director: Philip G. Atwell
+    Genre: Short, Action, Sport
+    Language: English
+    Metascore: N/A
+    Plot: Taking place after The Fast and The Furious, Brian O'Connor tries to evade the
+      law, which leads up to the events of 2 Fast 2 Furious.
+    Poster: https://m.media-amazon.com/images/M/MV5BY2Y2ODBjN2QtZTE3OS00NDliLWIwZjktMmY5MmQyZDMzNWMyXkEyXkFqcGdeQXVyNjUyODQ4NzE@._V1_SX300.jpg
+    Production: N/A
+    Rated: Not Rated
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.2/10
+    Released: 03 Jun 2003
+    Response: 'True'
+    Runtime: 6 min
+    Title: Turbo Charged Prelude to 2 Fast 2 Furious
+    Type: movie
+    Website: N/A
+    Writer: Keith Dinielli, Gary Scott Thompson (characters)
+    Year: '2003'
+    imdbID: tt2055789
+    imdbRating: '6.2'
+    imdbVotes: 3,452
 
-  - name: 2 Fast 2 Furious
-    watch_order: 30
-    image: https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_QL75_UX280_CR0,3,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt0322259
-    actors: Paul Walker, Tyrese Gibson, Eva Mendes
-    pub_year: 2003
-    description: Former cop Brian O'Conner is called upon to bust a dangerous criminal and he recruits the help of a former childhood friend and street racer who has a chance to redeem himself.
+        
+  - imdb_id: tt0322259
+    Actors: Paul Walker, Tyrese Gibson, Cole Hauser
+    Awards: 4 wins & 13 nominations
+    BoxOffice: $127,154,901
+    Country: United States, Germany
+    DVD: 01 Jan 2015
+    Director: John Singleton
+    Genre: Action, Crime, Thriller
+    Language: English, Spanish
+    Metascore: '38'
+    Plot: Former cop Brian O'Conner is called upon to bust a dangerous criminal and he
+      recruits the help of a former childhood friend and street racer who has a chance
+      to redeem himself.
+    Poster: https://m.media-amazon.com/images/M/MV5BMzExYjcyYWMtY2JkOC00NDUwLTg2OTgtMDI3MGY2OWQzMDE2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 5.9/10
+    - Source: Rotten Tomatoes
+      Value: 36%
+    - Source: Metacritic
+      Value: 38/100
+    Released: 06 Jun 2003
+    Response: 'True'
+    Runtime: 107 min
+    Title: 2 Fast 2 Furious
+    Type: movie
+    Website: N/A
+    Writer: Gary Scott Thompson, Michael Brandt, Derek Haas
+    Year: '2003'
+    imdbID: tt0322259
+    imdbRating: '5.9'
+    imdbVotes: 287,666
 
-  - name: Los Bandoleros
-    watch_order: 40
-    short: true
-    image: https://m.media-amazon.com/images/M/MV5BMDllYmEzNTctODFkMi00NTllLTk5ZTktMjAxMjYyYWEwOTM1XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_QL75_UX380_CR0,12,380,562_.jpg
-    imdb: https://www.imdb.com/title/tt1538503
-    actors: Vin Diesel, Michelle Rodriguez, Sung Kang
-    pub_year: 2009
-    description: This is a short film which is a prequel to Fast and Furious involving the fugitive ex-convict Dom assembling his crew in the Dominican Republic to plan a hijacking of a road train gasoline tanker truck.
+        
+  - imdb_id: tt1538503
+    Actors: Vin Diesel, Michelle Rodriguez, Sung Kang, Tego Calderon
+    Awards: N/A
+    BoxOffice: N/A
+    Country: USA
+    DVD: N/A
+    Director: Vin Diesel
+    Genre: Short, Action, Drama, Family
+    Language: English, Spanish
+    Metascore: N/A
+    Plot: This is a short film which is a prequel to Fast and Furious involving the fugitive
+      ex-convict Dom assembling his crew in the Dominican Republic to plan a hijacking
+      of a road train gasoline tanker truck.
+    Poster: https://m.media-amazon.com/images/M/MV5BMDllYmEzNTctODFkMi00NTllLTk5ZTktMjAxMjYyYWEwOTM1XkEyXkFqcGdeQXVyMzAzODY0NzE@._V1_SX300.jpg
+    Production: N/A
+    Rated: Not Rated
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 5.8/10
+    Released: 28 Jul 2009
+    Response: 'True'
+    Runtime: 20 min
+    Title: Los Bandoleros
+    Type: movie
+    Website: N/A
+    Writer: Vin Diesel, T.J. Mancini, T.J. Mancini (screenplay by), Gary Scott Thompson
+      (characters)
+    Year: '2009'
+    imdbID: tt1538503
+    imdbRating: '5.8'
+    imdbVotes: 4,091
 
-  - name: "The Fast and the Furious: Tokyo Drift"
-    watch_order: 80
-    image: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_QL75_UY414_CR0,0,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt0463985
-    actors: Lucas Black, Zachery Ty Bryan, Shad Moss
-    pub_year: 2006
-    description: A teenager becomes a major competitor in the world of drift racing after moving in with his father in Tokyo to avoid a jail sentence in America.
+        
+  - imdb_id: tt0463985
+    Actors: Lucas Black, Zachery Ty Bryan, Shad Moss
+    Awards: 1 win & 4 nominations
+    BoxOffice: $62,514,415
+    Country: United States, Germany, Japan
+    DVD: 22 Jul 2015
+    Director: Justin Lin
+    Genre: Action, Crime, Thriller
+    Language: English, Japanese, Portuguese
+    Metascore: '45'
+    Plot: A teenager becomes a major competitor in the world of drift racing after moving
+      in with his father in Tokyo to avoid a jail sentence in America.
+    Poster: https://m.media-amazon.com/images/M/MV5BMTQ2NTMxODEyNV5BMl5BanBnXkFtZTcwMDgxMjA0MQ@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.0/10
+    - Source: Rotten Tomatoes
+      Value: 38%
+    - Source: Metacritic
+      Value: 45/100
+    Released: 16 Jun 2006
+    Response: 'True'
+    Runtime: 104 min
+    Title: 'The Fast and the Furious: Tokyo Drift'
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan
+    Year: '2006'
+    imdbID: tt0463985
+    imdbRating: '6.0'
+    imdbVotes: 287,800
 
-  - name: Fast & Furious
-    watch_order: 50
-    image: https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UX280_CR0,1,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt1013752
-    actors: Vin Diesel, Paul Walker, Michelle Rodriguez
-    pub_year: 2009
-    description: Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic Toretto to bring down a heroin importer by infiltrating his operation.
+        
+  - imdb_id: tt1013752
+    Actors: Vin Diesel, Paul Walker, Michelle Rodriguez
+    Awards: 6 wins & 2 nominations
+    BoxOffice: $155,064,265
+    Country: United States, Japan
+    DVD: 01 Jan 2015
+    Director: Justin Lin
+    Genre: Action, Crime, Thriller
+    Language: English, Spanish
+    Metascore: '46'
+    Plot: Brian O'Conner, back working for the FBI in Los Angeles, teams up with Dominic
+      Toretto to bring down a heroin importer by infiltrating his operation.
+    Poster: https://m.media-amazon.com/images/M/MV5BYjQ1ZTMxNzgtZDcxOC00NWY5LTk3ZjAtYzRhMDhlNDZlOWEzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.5/10
+    - Source: Rotten Tomatoes
+      Value: 29%
+    - Source: Metacritic
+      Value: 46/100
+    Released: 03 Apr 2009
+    Response: 'True'
+    Runtime: 107 min
+    Title: Fast & Furious
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan, Gary Scott Thompson
+    Year: '2009'
+    imdbID: tt1013752
+    imdbRating: '6.5'
+    imdbVotes: 301,320
 
-  - name: Fast Five
-    alias: Fast & Furious 5 
-    watch_order: 60
-    image: https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_QL75_UX280_CR0,0,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt1596343/
-    actors: Vin Diesel, Paul Walker, Dwayne Johnson
-    pub_year: 2011
-    description: Dominic Toretto and his crew of street racers plan a massive heist to buy their freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal agent.
+        
+  - imdb_id: tt1596343
+    Actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    Awards: 9 wins & 21 nominations
+    BoxOffice: $209,837,675
+    Country: United States
+    DVD: 01 Jan 2015
+    Director: Justin Lin
+    Genre: Action, Crime, Thriller
+    Language: English, Portuguese, Spanish, Italian, French
+    Metascore: '66'
+    Plot: Dominic Toretto and his crew of street racers plan a massive heist to buy their
+      freedom while in the sights of a powerful Brazilian drug lord and a dangerous federal
+      agent.
+    Poster: https://m.media-amazon.com/images/M/MV5BMTUxNTk5MTE0OF5BMl5BanBnXkFtZTcwMjA2NzY3NA@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.3/10
+    - Source: Rotten Tomatoes
+      Value: 78%
+    - Source: Metacritic
+      Value: 66/100
+    Released: 29 Apr 2011
+    Response: 'True'
+    Runtime: 130 min
+    Title: Fast Five
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan, Gary Scott Thompson
+    Year: '2011'
+    imdbID: tt1596343
+    imdbRating: '7.3'
+    imdbVotes: 396,619
 
-  - name: Fast & Furious 6
-    watch_order: 70
-    image: https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_QL75_UX280_CR0,0,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt1905041
-    actors: Vin Diesel, Paul Walker, Dwayne Johnson
-    pub_year: 2013
-    description: "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty."
+        
+  - imdb_id: tt1905041
+    Actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    Awards: 11 wins & 22 nominations
+    BoxOffice: $238,679,850
+    Country: United States, Japan, Spain, United Kingdom
+    DVD: 06 Jan 2015
+    Director: Justin Lin
+    Genre: Action, Adventure, Crime
+    Language: English, Spanish, Russian, Japanese, Cantonese, Dutch, Danish, Ukrainian
+    Metascore: '61'
+    Plot: 'Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries:
+      Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend,
+      Letty.'
+    Poster: https://m.media-amazon.com/images/M/MV5BMTM3NTg2NDQzOF5BMl5BanBnXkFtZTcwNjc2NzQzOQ@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.0/10
+    - Source: Rotten Tomatoes
+      Value: 71%
+    - Source: Metacritic
+      Value: 61/100
+    Released: 24 May 2013
+    Response: 'True'
+    Runtime: 130 min
+    Title: Fast & Furious 6
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan, Gary Scott Thompson
+    Year: '2013'
+    imdbID: tt1905041
+    imdbRating: '7.0'
+    imdbVotes: 407,595
 
-  - name : Furious 7
-    alias: Fast & Furious 7
-    watch_order: 90
-    image: https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_QL75_UX280_CR0,14,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt2820852
-    actors: Vin Diesel, Paul Walker, Dwayne Johnson
-    pub_year: 2015
-    description: "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother."
+        
+  - imdb_id: tt2820852
+    Actors: Vin Diesel, Paul Walker, Dwayne Johnson
+    Awards: 37 wins & 36 nominations
+    BoxOffice: $353,007,020
+    Country: United States, China, Japan, Canada, United Arab Emirates
+    DVD: 01 Mar 2016
+    Director: James Wan
+    Genre: Action, Crime, Thriller
+    Language: English, Thai, Arabic, Spanish
+    Metascore: '67'
+    Plot: Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose
+      brother.
+    Poster: https://m.media-amazon.com/images/M/MV5BMTQxOTA2NDUzOV5BMl5BanBnXkFtZTgwNzY2MTMxMzE@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.1/10
+    - Source: Rotten Tomatoes
+      Value: 81%
+    - Source: Metacritic
+      Value: 67/100
+    Released: 03 Apr 2015
+    Response: 'True'
+    Runtime: 137 min
+    Title: Furious 7
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan, Gary Scott Thompson
+    Year: '2015'
+    imdbID: tt2820852
+    imdbRating: '7.1'
+    imdbVotes: 404,699
 
-  - name: The Fate of the Furious
-    alias: Fast & Furious 8
-    watch_order: 100
-    image: https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_QL75_UX280_CR0,14,280,414_.jpg
-    imdb: https://www.imdb.com/title/tt4630562
-    actors: Vin Diesel, Jason Statham, Dwayne Johnson
-    pub_year: 2017
-    description: When a mysterious woman seduces Dominic Toretto into the world of terrorism and a betrayal of those closest to him, the crew face trials that will test them as never before.
+        
+  - imdb_id: tt4630562
+    Actors: Vin Diesel, Jason Statham, Dwayne Johnson
+    Awards: 2 wins & 14 nominations
+    BoxOffice: $226,008,385
+    Country: China, Japan, United States
+    DVD: 27 Jun 2017
+    Director: F. Gary Gray
+    Genre: Action, Crime, Thriller
+    Language: English, Russian, Spanish
+    Metascore: '56'
+    Plot: When a mysterious woman seduces Dominic Toretto into the world of terrorism
+      and a betrayal of those closest to him, the crew face trials that will test them
+      as never before.
+    Poster: https://m.media-amazon.com/images/M/MV5BMjMxODI2NDM5Nl5BMl5BanBnXkFtZTgwNjgzOTk1MTI@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.6/10
+    - Source: Rotten Tomatoes
+      Value: 67%
+    - Source: Metacritic
+      Value: 56/100
+    Released: 14 Apr 2017
+    Response: 'True'
+    Runtime: 136 min
+    Title: The Fate of the Furious
+    Type: movie
+    Website: N/A
+    Writer: Gary Scott Thompson, Chris Morgan
+    Year: '2017'
+    imdbID: tt4630562
+    imdbRating: '6.6'
+    imdbVotes: 245,269
 
-  - name: "Fast & Furious Presents: Hobbs & Shaw"
-    watch_order: 110
-    imdb: https://www.imdb.com/title/tt6806448
-    actors: Dwayne Johnson, Jason Statham, Idris Elba
-    pub_year: 2019
-    description: Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.
-    image: https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_QL75_UY562_CR3,0,380,562_.jpg
+        
+  - imdb_id: tt6806448
+    Actors: Dwayne Johnson, Jason Statham, Idris Elba
+    Awards: 1 win & 30 nominations
+    BoxOffice: $173,956,935
+    Country: United States, Japan
+    DVD: 27 Aug 2019
+    Director: David Leitch
+    Genre: Action, Adventure, Thriller
+    Language: English, Samoan, Russian
+    Metascore: '60'
+    Plot: Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a
+      cyber-genetically enhanced villain threatens the future of humanity.
+    Poster: https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.5/10
+    - Source: Rotten Tomatoes
+      Value: 67%
+    - Source: Metacritic
+      Value: 60/100
+    Released: 02 Aug 2019
+    Response: 'True'
+    Runtime: 137 min
+    Title: 'Fast & Furious Presents: Hobbs & Shaw'
+    Type: movie
+    Website: N/A
+    Writer: Chris Morgan, Drew Pearce, Gary Scott Thompson
+    Year: '2019'
+    imdbID: tt6806448
+    imdbRating: '6.5'
+    imdbVotes: 226,368
 
-  - name: F9
-    alias: "Fast & Furious 9, F9: The Fast Saga"
-    watch_order: 120
-    imdb: https://www.imdb.com/title/tt5433138
-    actors: Vin Diesel, Michelle Rodriguez, Jordana Brewster
-    pub_year: 2021
-    description: Dom and the crew must take on an international terrorist who turns out to be Dom and Mia's estranged brother.
-    image: https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_QL75_UX380_CR0,20,380,562_.jpg
+        
+  - imdb_id: tt5433138
+    Actors: Vin Diesel, Michelle Rodriguez, Jordana Brewster
+    Awards: 2 wins & 12 nominations
+    BoxOffice: $173,005,945
+    Country: United States
+    DVD: 30 Jul 2021
+    Director: Justin Lin
+    Genre: Action, Crime, Thriller
+    Language: English
+    Metascore: '58'
+    Plot: Dom and the crew must take on an international terrorist who turns out to be
+      Dom and Mia's estranged brother.
+    Poster: https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 5.2/10
+    - Source: Rotten Tomatoes
+      Value: 59%
+    - Source: Metacritic
+      Value: 58/100
+    Released: 25 Jun 2021
+    Response: 'True'
+    Runtime: 143 min
+    Title: 'F9: The Fast Saga'
+    Type: movie
+    Website: N/A
+    Writer: Daniel Casey, Justin Lin, Alfredo Botello
+    Year: '2021'
+    imdbID: tt5433138
+    imdbRating: '5.2'
+    imdbVotes: 153,702
 
-  - name: Fast X
-    alias: Fast & Furious 10
-    watch_order: 130
-    imdb: https://www.imdb.com/title/tt5433140
-    actors: Vin Diesel, Michelle Rodriguez, Jason Statham
-    pub_year: 2023
-    description: Dom Toretto and his family are targeted by the vengeful son of drug kingpin Hernan Reyes.
-    image: https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_QL75_UX380_CR0,20,380,562_.jpg
+        
+  - imdb_id: tt5433140
+    Actors: Vin Diesel, Michelle Rodriguez, Jason Statham
+    Awards: 2 nominations
+    BoxOffice: $145,960,660
+    Country: United States, China
+    DVD: 09 Jun 2023
+    Director: Louis Leterrier
+    Genre: Action, Adventure, Crime
+    Language: English
+    Metascore: '56'
+    Plot: Dom Toretto and his family are targeted by the vengeful son of drug kingpin
+      Hernan Reyes.
+    Poster: https://m.media-amazon.com/images/M/MV5BNzZmOTU1ZTEtYzVhNi00NzQxLWI5ZjAtNWNhNjEwY2E3YmZjXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 5.9/10
+    - Source: Rotten Tomatoes
+      Value: 57%
+    - Source: Metacritic
+      Value: 56/100
+    Released: 19 May 2023
+    Response: 'True'
+    Runtime: 141 min
+    Title: Fast X
+    Type: movie
+    Website: N/A
+    Writer: Dan Mazeau, Justin Lin, Zach Dean
+    Year: '2023'
+    imdbID: tt5433140
+    imdbRating: '5.9'
+    imdbVotes: 84,743
 
-  - name: Better Luck Tomorrow
-    watch_order: 35
-    imdb: https://www.imdb.com/title/tt0280477
-    image: https://m.media-amazon.com/images/M/MV5BMTk4OTYwODUyN15BMl5BanBnXkFtZTYwMDUzMTQ3._V1_QL75_UY562_CR0,0,380,562_.jpg
-    actors: Parry Shen, Jason Tobin, Sung Kang
-    pub_year: 2002
-    description: A group of over-achieving East Asian American high school seniors enjoy a power trip when they dip into extracurricular criminal activities.
-    note: Not a movie from the franchise but this movie is Han's backstory
+        
+  - imdb_id: tt0280477
+    Actors: Parry Shen, Jason Tobin, Sung Kang
+    Awards: 1 win & 2 nominations
+    BoxOffice: $3,802,390
+    Country: United States
+    DVD: 01 Jul 2013
+    Director: Justin Lin
+    Genre: Crime, Drama, Romance
+    Language: English
+    Metascore: '67'
+    Plot: A group of over-achieving East Asian American high school seniors enjoy a power
+      trip when they dip into extracurricular criminal activities.
+    Poster: https://m.media-amazon.com/images/M/MV5BMTk4OTYwODUyN15BMl5BanBnXkFtZTYwMDUzMTQ3._V1_SX300.jpg
+    Production: N/A
+    Rated: R
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.0/10
+    - Source: Rotten Tomatoes
+      Value: 81%
+    - Source: Metacritic
+      Value: 67/100
+    Released: 25 Apr 2003
+    Response: 'True'
+    Runtime: 101 min
+    Title: Better Luck Tomorrow
+    Type: movie
+    Website: N/A
+    Writer: Ernesto Foronda, Justin Lin, Fabian Marquez
+    Year: '2002'
+    imdbID: tt0280477
+    imdbRating: '7.0'
+    imdbVotes: 10,320
 
-
+        

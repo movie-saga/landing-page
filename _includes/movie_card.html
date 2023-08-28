@@ -7,23 +7,23 @@
     <div class="row">
         <div class="col-3 col-md-2 col-lg-2 col-xl-1">
             <img 
-                src="{{ movie.image }}" 
+                src="{{ movie.Poster }}" 
                 class=""
                 style="height:150px" 
                 alt="...">
         </div>
         <div class="col-9 col-md-10 col-lg-10 col-xl-11">
             <div class="card-body custom-card-body">
-                <h5 class="card-title">{{ include.movie.name }} {% if movie.alias %}({{ movie.alias }}){% endif %}{% if movie.short %}| Short movie{% endif %}</h5>
+                <h5 class="card-title">{{ include.movie.Title }} {% if movie.alias %}({{ movie.alias }}){% endif %}{% if movie.short %}| Short movie{% endif %}</h5>
                 <div class="container">
                   <div class="row justify-content-start">
                     <div class="col-11 custom-card-content">
                       <h6 class="card-subtitle mb-2 text-muted">
-                          {{ include.movie.pub_year}} |
-                          {{ include.movie.actors }}
+                          {{ include.movie.Year}} |
+                          {{ include.movie.Actors }}
                       </h6>
                       <p>
-                        {{ include.movie.description }}
+                        {{ include.movie.Plot }}
                       </p>
                       {% if movie.note %}
                         <blockquote>
@@ -37,7 +37,7 @@
         </div>
 </div>
 <div class="card-footer text-muted">
-    <a href="{{ include.movie.imdb }}">Imdb</a>
+    <a href="https://www.imdb.com/title/{{ include.movie.imdbID }}">Imdb</a>
     <!-- | watch on: 
         <a href="">
             <img src="https://cdn-icons-png.flaticon.com/512/5977/5977590.png" style="height:40px;">

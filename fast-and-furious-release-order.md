@@ -11,7 +11,7 @@ This is the order of the release of each movies, keep in mind that it leads to s
 
 # {{ title_2 }}
 
-{% assign movies_sorted = site.data.fast-and-furious.movies | sort: 'pub_year' %}
+{% assign movies_sorted = site.data.fast-and-furious.movies | sort: 'Year' %}
 {% for movie in movies_sorted %}
 {% include movie_card.html movie=movie %}
 {% endfor %}
