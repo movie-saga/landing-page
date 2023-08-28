@@ -1,0 +1,594 @@
+
+- file_source: _star-wars.yml
+  movies:
+    
+  - imdb_id: tt0076759
+    Actors: Mark Hamill, Harrison Ford, Carrie Fisher
+    Awards: Won 6 Oscars. 65 wins & 31 nominations total
+    BoxOffice: $460,998,507
+    Country: United States
+    DVD: 10 Oct 2016
+    Director: George Lucas
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '90'
+    Plot: Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and
+      two droids to save the galaxy from the Empire's world-destroying battle station,
+      while also attempting to rescue Princess Leia from the mysterious Darth ...
+    Poster: https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg
+    Production: N/A
+    Rated: PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.6/10
+    - Source: Rotten Tomatoes
+      Value: 93%
+    - Source: Metacritic
+      Value: 90/100
+    Released: 25 May 1977
+    Response: 'True'
+    Runtime: 121 min
+    Title: 'Star Wars: Episode IV - A New Hope'
+    Type: movie
+    Website: N/A
+    Writer: George Lucas
+    Year: '1977'
+    imdbID: tt0076759
+    imdbRating: '8.6'
+    imdbVotes: 1,405,284
+
+        
+  - imdb_id: tt0080684
+    Actors: Mark Hamill, Harrison Ford, Carrie Fisher
+    Awards: Won 1 Oscar. 26 wins & 20 nominations total
+    BoxOffice: $292,753,960
+    Country: United States
+    DVD: 10 Apr 2015
+    Director: Irvin Kershner
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '82'
+    Plot: After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi
+      training with Yoda, while his friends are pursued across the galaxy by Darth Vader
+      and bounty hunter Boba Fett.
+    Poster: https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.7/10
+    - Source: Rotten Tomatoes
+      Value: 94%
+    - Source: Metacritic
+      Value: 82/100
+    Released: 18 Jun 1980
+    Response: 'True'
+    Runtime: 124 min
+    Title: 'Star Wars: Episode V - The Empire Strikes Back'
+    Type: movie
+    Website: N/A
+    Writer: Leigh Brackett, Lawrence Kasdan, George Lucas
+    Year: '1980'
+    imdbID: tt0080684
+    imdbRating: '8.7'
+    imdbVotes: 1,333,514
+
+        
+  - imdb_id: tt0086190
+    Actors: Mark Hamill, Harrison Ford, Carrie Fisher
+    Awards: Nominated for 4 Oscars. 23 wins & 20 nominations total
+    BoxOffice: $316,566,101
+    Country: United States
+    DVD: 10 Apr 2015
+    Director: Richard Marquand
+    Genre: Action, Adventure, Fantasy
+    Language: English, Kikuyu, Tagalog, Kalmyk-Oirat, Quechua, Polish
+    Metascore: '58'
+    Plot: After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the
+      second Death Star, while Luke struggles to help Darth Vader back from the dark side.
+    Poster: https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.3/10
+    - Source: Rotten Tomatoes
+      Value: 83%
+    - Source: Metacritic
+      Value: 58/100
+    Released: 25 May 1983
+    Response: 'True'
+    Runtime: 131 min
+    Title: 'Star Wars: Episode VI - Return of the Jedi'
+    Type: movie
+    Website: N/A
+    Writer: Lawrence Kasdan, George Lucas
+    Year: '1983'
+    imdbID: tt0086190
+    imdbRating: '8.3'
+    imdbVotes: 1,087,569
+
+        
+  - imdb_id: tt0121766
+    Actors: Hayden Christensen, Natalie Portman, Ewan McGregor
+    Awards: Nominated for 1 Oscar. 27 wins & 64 nominations total
+    BoxOffice: $380,270,577
+    Country: United States, Italy, Switzerland, Thailand
+    DVD: 10 Apr 2015
+    Director: George Lucas
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '68'
+    Plot: Three years into the Clone Wars, Obi-Wan pursues a new threat, while Anakin
+      is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.
+    Poster: https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.6/10
+    - Source: Rotten Tomatoes
+      Value: 79%
+    - Source: Metacritic
+      Value: 68/100
+    Released: 19 May 2005
+    Response: 'True'
+    Runtime: 140 min
+    Title: 'Star Wars: Episode III - Revenge of the Sith'
+    Type: movie
+    Website: N/A
+    Writer: George Lucas, John Ostrander, Jan Duursema
+    Year: '2005'
+    imdbID: tt0121766
+    imdbRating: '7.6'
+    imdbVotes: 818,718
+
+        
+  - imdb_id: tt0121765
+    Actors: Hayden Christensen, Natalie Portman, Ewan McGregor
+    Awards: Nominated for 1 Oscar. 20 wins & 67 nominations total
+    BoxOffice: $310,676,740
+    Country: United States
+    DVD: 10 Apr 2015
+    Director: George Lucas
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '54'
+    Plot: "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance\
+      \ with Padm\xE9 Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted\
+      \ for the Jedi."
+    Poster: https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.6/10
+    - Source: Rotten Tomatoes
+      Value: 65%
+    - Source: Metacritic
+      Value: 54/100
+    Released: 16 May 2002
+    Response: 'True'
+    Runtime: 142 min
+    Title: 'Star Wars: Episode II - Attack of the Clones'
+    Type: movie
+    Website: N/A
+    Writer: George Lucas, Jonathan Hales
+    Year: '2002'
+    imdbID: tt0121765
+    imdbRating: '6.6'
+    imdbVotes: 735,298
+
+        
+  - imdb_id: tt0120915
+    Actors: Ewan McGregor, Liam Neeson, Natalie Portman
+    Awards: Nominated for 3 Oscars. 27 wins & 71 nominations total
+    BoxOffice: $474,544,677
+    Country: United States
+    DVD: 10 Apr 2015
+    Director: George Lucas
+    Genre: Action, Adventure, Fantasy
+    Language: English, Sanskrit
+    Metascore: '51'
+    Plot: Two Jedi escape a hostile blockade to find allies and come across a young boy
+      who may bring balance to the Force, but the long dormant Sith resurface to claim
+      their original glory.
+    Poster: https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.5/10
+    - Source: Rotten Tomatoes
+      Value: 51%
+    - Source: Metacritic
+      Value: 51/100
+    Released: 19 May 1999
+    Response: 'True'
+    Runtime: 136 min
+    Title: 'Star Wars: Episode I - The Phantom Menace'
+    Type: movie
+    Website: N/A
+    Writer: George Lucas
+    Year: '1999'
+    imdbID: tt0120915
+    imdbRating: '6.5'
+    imdbVotes: 831,009
+
+        
+  - imdb_id: tt2488496
+    Actors: Daisy Ridley, John Boyega, Oscar Isaac
+    Awards: Nominated for 5 Oscars. 64 wins & 140 nominations total
+    BoxOffice: $936,662,225
+    Country: United States
+    DVD: 01 Apr 2016
+    Director: J.J. Abrams
+    Genre: Action, Adventure, Sci-Fi
+    Language: English
+    Metascore: '80'
+    Plot: As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper,
+      must join Han Solo and Chewbacca to search for the one hope of restoring peace.
+    Poster: https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.8/10
+    - Source: Rotten Tomatoes
+      Value: 93%
+    - Source: Metacritic
+      Value: 80/100
+    Released: 18 Dec 2015
+    Response: 'True'
+    Runtime: 138 min
+    Title: 'Star Wars: Episode VII - The Force Awakens'
+    Type: movie
+    Website: N/A
+    Writer: Lawrence Kasdan, J.J. Abrams, Michael Arndt
+    Year: '2015'
+    imdbID: tt2488496
+    imdbRating: '7.8'
+    imdbVotes: 953,073
+
+        
+  - imdb_id: tt2527336
+    Actors: Daisy Ridley, John Boyega, Mark Hamill
+    Awards: Nominated for 4 Oscars. 25 wins & 98 nominations total
+    BoxOffice: $620,181,382
+    Country: United States
+    DVD: 11 Mar 2018
+    Director: Rian Johnson
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '84'
+    Plot: The Star Wars saga continues as new heroes and galactic legends go on an epic
+      adventure, unlocking mysteries of the Force and shocking revelations of the past.
+    Poster: https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.9/10
+    - Source: Rotten Tomatoes
+      Value: 91%
+    - Source: Metacritic
+      Value: 84/100
+    Released: 15 Dec 2017
+    Response: 'True'
+    Runtime: 152 min
+    Title: 'Star Wars: Episode VIII - The Last Jedi'
+    Type: movie
+    Website: N/A
+    Writer: Rian Johnson, George Lucas
+    Year: '2017'
+    imdbID: tt2527336
+    imdbRating: '6.9'
+    imdbVotes: 652,434
+
+        
+  - imdb_id: tt2527338
+    Actors: Daisy Ridley, John Boyega, Oscar Isaac
+    Awards: Nominated for 3 Oscars. 21 wins & 55 nominations total
+    BoxOffice: $515,202,542
+    Country: United States
+    DVD: 20 Dec 2019
+    Director: J.J. Abrams
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: '53'
+    Plot: In the riveting conclusion of the landmark Skywalker saga, new legends will
+      be born-and the final battle for freedom is yet to come.
+    Poster: https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.5/10
+    - Source: Rotten Tomatoes
+      Value: 52%
+    - Source: Metacritic
+      Value: 53/100
+    Released: 20 Dec 2019
+    Response: 'True'
+    Runtime: 141 min
+    Title: 'Star Wars: Episode IX - The Rise of Skywalker'
+    Type: movie
+    Website: N/A
+    Writer: Chris Terrio, J.J. Abrams, Derek Connolly
+    Year: '2019'
+    imdbID: tt2527338
+    imdbRating: '6.5'
+    imdbVotes: 472,341
+
+        
+  - imdb_id: tt3748528
+    Actors: Felicity Jones, Diego Luna, Alan Tudyk
+    Awards: Nominated for 2 Oscars. 24 wins & 85 nominations total
+    BoxOffice: $533,539,991
+    Country: United States
+    DVD: 24 Mar 2017
+    Director: Gareth Edwards
+    Genre: Action, Adventure, Sci-Fi
+    Language: English
+    Metascore: '65'
+    Plot: In a time of conflict, a group of unlikely heroes band together on a mission
+      to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.
+    Poster: https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.8/10
+    - Source: Rotten Tomatoes
+      Value: 84%
+    - Source: Metacritic
+      Value: 65/100
+    Released: 16 Dec 2016
+    Response: 'True'
+    Runtime: 133 min
+    Title: 'Rogue One: A Star Wars Story'
+    Type: movie
+    Website: N/A
+    Writer: Chris Weitz, Tony Gilroy, John Knoll
+    Year: '2016'
+    imdbID: tt3748528
+    imdbRating: '7.8'
+    imdbVotes: 663,358
+
+        
+  - imdb_id: tt3778644
+    Actors: Alden Ehrenreich, Woody Harrelson, Emilia Clarke
+    Awards: Nominated for 1 Oscar. 6 wins & 26 nominations total
+    BoxOffice: $213,767,512
+    Country: United States
+    DVD: 14 Sep 2018
+    Director: Ron Howard
+    Genre: Action, Adventure, Sci-Fi
+    Language: English
+    Metascore: '62'
+    Plot: Board the Millennium Falcon and journey to a galaxy far, far away in an epic
+      action-adventure that will set the course of one of the Star Wars saga's most unlikely
+      heroes.
+    Poster: https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX300.jpg
+    Production: N/A
+    Rated: PG-13
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 6.9/10
+    - Source: Rotten Tomatoes
+      Value: 69%
+    - Source: Metacritic
+      Value: 62/100
+    Released: 25 May 2018
+    Response: 'True'
+    Runtime: 135 min
+    Title: 'Solo: A Star Wars Story'
+    Type: movie
+    Website: N/A
+    Writer: Jonathan Kasdan, Lawrence Kasdan, George Lucas
+    Year: '2018'
+    imdbID: tt3778644
+    imdbRating: '6.9'
+    imdbVotes: 364,939
+
+        
+  - imdb_id: tt8466564
+    Actors: Ewan McGregor, Moses Ingram, Vivien Lyra Blair
+    Awards: Nominated for 5 Primetime Emmys. 5 wins & 23 nominations total
+    Country: United States
+    Director: N/A
+    Genre: Action, Adventure, Sci-Fi
+    Language: English
+    Metascore: N/A
+    Plot: Jedi Master Obi-Wan Kenobi has to save young Leia after she is kidnapped, all
+      the while being pursued by Imperial Inquisitors and his former Padawan, now known
+      as Darth Vader.
+    Poster: https://m.media-amazon.com/images/M/MV5BOTAxOTlmOTAtMjA0Yy00YjVjLWE3OTQtYjAzMWMxOTAwZTY1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg
+    Rated: TV-14
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.1/10
+    Released: 27 May 2022
+    Response: 'True'
+    Runtime: N/A
+    Title: Obi-Wan Kenobi
+    Type: series
+    Writer: N/A
+    Year: '2022'
+    imdbID: tt8466564
+    imdbRating: '7.1'
+    imdbVotes: 211,962
+    totalSeasons: '1'
+
+        
+  - imdb_id: tt13668894
+    Actors: Temuera Morrison, Ming-Na Wen, Frank Trigg
+    Awards: Won 1 Primetime Emmy. 4 wins & 13 nominations total
+    Country: United States
+    Director: N/A
+    Genre: Action, Adventure, Sci-Fi
+    Language: English
+    Metascore: N/A
+    Plot: Bounty hunter Boba Fett and mercenary Fennec Shand navigate the underworld when
+      they return to Tatooine to claim Jabba the Hutt's old turf.
+    Poster: https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg
+    Rated: TV-14
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.2/10
+    Released: 29 Dec 2021
+    Response: 'True'
+    Runtime: N/A
+    Title: The Book of Boba Fett
+    Type: series
+    Writer: Jon Favreau
+    Year: "2021\u20132022"
+    imdbID: tt13668894
+    imdbRating: '7.2'
+    imdbVotes: 171,695
+    totalSeasons: '1'
+
+        
+  - imdb_id: tt9253284
+    Actors: "Diego Luna, Kyle Soller, Stellan Skarsg\xE5rd"
+    Awards: Nominated for 8 Primetime Emmys. 2 wins & 44 nominations total
+    Country: United States
+    Director: N/A
+    Genre: Action, Adventure, Drama
+    Language: English
+    Metascore: N/A
+    Plot: Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception
+      and intrigue, Cassian will embark on the path that is destined to turn him into
+      a Rebel hero.
+    Poster: https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg
+    Rated: TV-14
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.4/10
+    Released: 21 Sep 2022
+    Response: 'True'
+    Runtime: N/A
+    Title: Andor
+    Type: series
+    Writer: Tony Gilroy
+    Year: "2022\u2013"
+    imdbID: tt9253284
+    imdbRating: '8.4'
+    imdbVotes: 143,786
+    totalSeasons: '2'
+
+        
+  - imdb_id: tt8111088
+    Actors: Pedro Pascal, Chris Bartlett, Katee Sackhoff
+    Awards: Won 14 Primetime Emmys. 58 wins & 135 nominations total
+    Country: United States
+    Director: N/A
+    Genre: Action, Adventure, Fantasy
+    Language: English
+    Metascore: N/A
+    Plot: The travels of a lone bounty hunter in the outer reaches of the galaxy, far
+      from the authority of the New Republic.
+    Poster: https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg
+    Rated: TV-14
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.7/10
+    Released: 12 Nov 2019
+    Response: 'True'
+    Runtime: 40 min
+    Title: The Mandalorian
+    Type: series
+    Writer: Jon Favreau
+    Year: "2019\u2013"
+    imdbID: tt8111088
+    imdbRating: '8.7'
+    imdbVotes: 556,774
+    totalSeasons: '3'
+
+        
+  - imdb_id: tt11502498
+    Actors: Jamie Costa, Tommy Snider, Maxine Phoenix
+    Awards: 1 win
+    BoxOffice: N/A
+    Country: United States
+    DVD: N/A
+    Director: Jason Satterlund
+    Genre: Short, Action, Adventure
+    Language: English
+    Metascore: N/A
+    Plot: After years in hiding, Obi-Wan Kenobi struggles to reconnect with the Force
+      in order to protect Luke Skywalker from Imperial forces.
+    Poster: https://m.media-amazon.com/images/M/MV5BOGUwZjg2NjUtMGViZC00ZjgxLTljZTYtNWU0ODcyNzg2NzBhXkEyXkFqcGdeQXVyMzMxMzQ2ODA@._V1_SX300.jpg
+    Production: N/A
+    Rated: Not Rated
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.0/10
+    Released: 24 Dec 2019
+    Response: 'True'
+    Runtime: 19 min
+    Title: 'Kenobi: A Star Wars Story'
+    Type: movie
+    Website: N/A
+    Writer: Jamie Costa, Rob Harmon, Jason Satterlund
+    Year: '2019'
+    imdbID: tt11502498
+    imdbRating: '7.0'
+    imdbVotes: 32,404
+
+        
+  - imdb_id: tt12708542
+    Actors: Ming-Na Wen, Dee Bradley Baker, Michelle Ang
+    Awards: 2 wins & 1 nomination
+    Country: United States
+    Director: N/A
+    Genre: Animation, Action, Adventure
+    Language: English
+    Metascore: N/A
+    Plot: The 'Bad Batch' of elite and experimental clones make their way through an ever-changing
+      galaxy in the immediate aftermath of the Clone Wars.
+    Poster: https://m.media-amazon.com/images/M/MV5BNDA5YzQzYmItZTE4NC00NTNkLTljZGItNDQ0YjI3MzdhZjlhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg
+    Rated: TV-PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 7.8/10
+    Released: 04 May 2021
+    Response: 'True'
+    Runtime: N/A
+    Title: 'Star Wars: The Bad Batch'
+    Type: series
+    Writer: Jennifer Corbett, Dave Filoni
+    Year: "2021\u2013"
+    imdbID: tt12708542
+    imdbRating: '7.8'
+    imdbVotes: 45,173
+    totalSeasons: '2'
+
+        
+  - imdb_id: tt20723374
+    Actors: Corey Burton, Ashley Eckstein, Dee Bradley Baker
+    Awards: 2 nominations
+    Country: United States
+    Director: N/A
+    Genre: Animation, Short, Action
+    Language: English
+    Metascore: N/A
+    Plot: It showcases animated shorts that feature Jedi from the prequel era.
+    Poster: https://m.media-amazon.com/images/M/MV5BODMwYmE1ZGItYWVjNi00ZWUxLWFjYjQtNjdjN2MzNzY0NmRlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg
+    Rated: TV-PG
+    Ratings:
+    - Source: Internet Movie Database
+      Value: 8.2/10
+    Released: 26 Oct 2022
+    Response: 'True'
+    Runtime: N/A
+    Title: Tales of the Jedi
+    Type: series
+    Writer: Dave Filoni
+    Year: "2022\u2013"
+    imdbID: tt20723374
+    imdbRating: '8.2'
+    imdbVotes: 29,255
+    totalSeasons: '1'
+
+        

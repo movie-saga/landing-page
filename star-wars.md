@@ -2,7 +2,7 @@
 layout: base_hero
 title:  "Star wars"
 url: star-wars
-hero: "custom_includes/star-wars-hero.html"
+#hero: "custom_includes/star-wars-hero.html"
 description: "Pew pew pew"
 img_url: "https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DVGL4LHDXVHT5FCRGHP7MU6APY.jpg"
 ---
