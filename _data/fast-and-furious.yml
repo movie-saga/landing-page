@@ -500,6 +500,7 @@ movies:
     imdbID: tt0280477
     imdbRating: '7.0'
     imdbVotes: 10,320
+    note: Not a movie from the franchise but this movie is Han's backstory
     watch_order: 35
 
   - imdb_id: tt8322592
@@ -527,6 +528,7 @@ movies:
     imdbRating: '5.9'
     imdbVotes: 1,646
     totalSeasons: '6'
-    watch_order: 100
+    note: You follow Dom's cousin, doesn't progress the story
+    watch_order: 115
         
 duration: 1528
