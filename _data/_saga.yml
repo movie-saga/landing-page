@@ -1,5 +1,5 @@
-#- name: Star wars
-#  url: star-wars
+- name: Star wars
+  url: star-wars
 
 - name: Fast and Furious
   url: fast-and-furious
