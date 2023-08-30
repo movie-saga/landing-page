@@ -1,9 +1,10 @@
 ---
-layout: base_hero
+layout: saga
 title:  "Star wars"
 url: star-wars
 description: "Space opera, through the space and time"
-img_url: "https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DVGL4LHDXVHT5FCRGHP7MU6APY.jpg"
+img_url: assets/img/star-wars.jpg
+# img_url: "https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DVGL4LHDXVHT5FCRGHP7MU6APY.jpg"
 ---
 
 {% include saga_description_p1.html %}
@@ -33,6 +34,6 @@ img_url: "https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DVGL
 {% assign saga_tv_shows = site.data.star-wars.movies | where: "Type", "series" %}
 {% assign duration = site.data.star-wars.duration | divided_by: 60 %}
 {% assign episodes = 52 %}
-{% 
+{%
   include saga_description_p2.html
 %}

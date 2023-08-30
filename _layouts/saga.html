@@ -1,4 +1,139 @@
----
-layout: base
----
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  {%- include header.html -%} {%- include style.html -%}
+  <body>
+    {%- include navbar.html -%}
+    <style type="text/css">
+      main {
+        position: relative;
+        padding-top: 33vh;
+      }
+
+      main > section {
+        padding-top: 16px;
+        max-width: var(--screen-lg);
+        margin: 16px auto 0 auto;
+      }
+
+      main > section > .trivia-container {
+        display: flex;
+        column-gap: 32px;
+        margin-top: -5rem;
+        justify-content: center;
+      }
+
+      main > section > .trivia-container > .trivia-card {
+        width: 22%;
+        display: block;
+        background-color: rgba(255,255,255,0.12);
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 2rem;
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        z-index: -1;
+        flex-grow: 0;
+        flex-shrink: 0;
+        text-align: center;
+        backdrop-filter: blur(3px);
+
+        position: relative;
+        /* background: inherit; */
+      }
+
+      main > section > .trivia-container > .trivia-card > .unit {
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: lowercase;
+      }
+
+      main > section > .trivia-container > .trivia-card > label {
+        position: absolute;
+        top: 0; right: 0; bottom: 0;
+        left: -1.7rem;
+        transform: rotate(-90deg);
+        font-size: 1rem;
+        opacity: 0.2;
+        font-weight: 400;
+        letter-spacing: 3px
+      }
+
+      main > section h1 {
+        margin-top: -15.4rem;
+        font-weight: 900;
+        font-size: 4rem;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      main > section article {
+        margin-top: 16.4rem;
+      }
+
+      main::before {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 33vh;
+        top: 0; left: 0; bottom: 0; right: 0;
+        z-index: -1;
+        background:
+          linear-gradient(
+            to bottom,
+            var(--grey-950),
+            transparent 84px
+          ),
+          linear-gradient(
+            to bottom,
+            transparent 60%,
+            var(--grey-950)
+          ),
+          url({{ page.img_url }}) {{ page.bg_position | default: "center" }}/cover no-repeat;
+      }
+    </style>
+    <main>
+      <section>
+        {% assign movies_count = site.data[page.data_key].movies | where: "Type", "movie" | size %}
+        {% assign tv_shows_count = site.data[page.data_key].movies | where: "Type", "series" | size %}
+        {% assign duration = site.data[page.data_key].duration | divided_by: 60 %}
+
+        <div class="trivia-container">
+          {%- if movies_count > 0 -%}
+          <div class="trivia-card">
+            <label id="movies-label">Movies</label>
+            <span aria-labelledby="movies-label">{{ movies_count }}</span>
+          </div>
+          {% endif %}
+
+          {%- if tv_shows_count > 0 -%}
+            <div class="trivia-card">
+              <label id="tv-shows-label">TV Shows</label>
+              <span aria-labelledby="tv-shows-label">{{ tv_shows_count }}</span>
+            </div>
+          {% endif %}
+          <div class="trivia-card">
+            <label id="duration-label">Duration</label>
+            <span aria-labelledby="duration-label">{{ duration }}</span><span class="unit">h</span>
+          </div>
+        </div>
+
+        <h1>{{ page.title }}</h1>
+
+        {%- if page.orders.size > 0 -%}
+        <article>
+          <ul>
+            {%- for order in page.orders -%}
+            <li>
+              <a href="{{ order.link }}.html"> {{ order.title }} </a>
+            </li>
+            {%- endfor -%}
+          </ul>
+        </article>
+        {%- endif -%}
+      </section>
+    </main>
+  </body>
+</html>

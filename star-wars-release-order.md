@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: saga
 title:  "Star Wars"
 subtitle: " | Release order"
 img_url: "https://cloudfront-eu-central-1.images.arcpublishing.com/ipmgroup/DVGL4LHDXVHT5FCRGHP7MU6APY.jpg"
