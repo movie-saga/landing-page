@@ -1,16 +1,12 @@
-<!doctype html>
-<html lang="en" class="h-100" data-bs-theme="dark">
-  {% include header.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include header.html %} {% include style.html bg_url=page.img_url %}
+  </head>
   <body class="d-flex flex-column h-100">
-
-        {% include navbar.html %}
-        <section class="hero-panel">
-          <div class="gradient-panel-top">
-            {{ content }}
-          </div>
-        </section>        
-        <!--% include footer.html %-->
-
-  {% include style.html bg_url=page.img_url %}
+    {% include navbar.html %}
+    <section class="hero-panel">
+      <div class="gradient-panel-top">{{ content }}</div>
+    </section>
   </body>
 </html>
