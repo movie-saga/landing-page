@@ -10,7 +10,7 @@ This order will let you watch the movie for the most coherent and logical story 
 
 # {{title_1 }}
 
-{% assign movies_sorted = site.data.fast-and-furious.movies | sort: 'watch_order' %}
+{% assign movies_sorted = site.data.fast-and-furious | sort: 'watch_order' %}
 {% for movie in movies_sorted %}
 {% include movie_card.html movie=movie %}
 {% endfor %}

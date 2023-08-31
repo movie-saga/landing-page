@@ -10,7 +10,7 @@ This is the order of the release of each movies, keep in mind that the releases 
 
 # {{ title_2 }}
 
-{% assign movies_sorted = site.data.star-wars.movies | sort: 'Year' %}
+{% assign movies_sorted = site.data.star-wars | sort: 'Year' %}
 {% for movie in movies_sorted %}
 {% include movie_card.html movie=movie %}
 {% endfor %}
