@@ -5,41 +5,25 @@ import textwrap
 
 api_key = "aae47f0d"
 file_list = [
-  "_star-wars.yml",
-  "_fast-and-furious.yml"
+  "_star-wars",
+  "_fast-and-furious"
 ]
 
+
 for file_name in file_list:
-    with open(file_name, "r") as file:
+    content = []
+
+    with open(f"{file_name}.yml", "r") as file:
         movies_ids = yaml.safe_load(file)
-    
-    file_content = f"""
-file_source: {file_name}
-movies:
-    """
-    duration = 0
 
     for movie in movies_ids:
         movie_id = movie["id"]
         url = f"http://www.omdbapi.com/?i={movie_id}&apikey={api_key}"
         movie_detail = urllib.request.urlopen(url).read()
         movie_details_json = json.loads(movie_detail)
-        movie_detail_yaml = textwrap.indent(yaml.dump(movie_details_json), prefix="    ")
-        movie_detail_yaml = f"""
-  - imdb_id: {movie_id}
-{movie_detail_yaml}
-        """
-        file_content += movie_detail_yaml
-        try:
-            runtime = movie_details_json['Runtime']
-            if runtime == "N/A" or runtime is None:
-                pass
-            else:
-                duration += int(runtime.split(" ")[0])
-        except Exception:
-            pass
+        #file_content = json.dumps(movie_details_json, indent=True)
+        content.append(movie_details_json)
+        file_content = json.dumps(content, indent=True)
     
-    file_content += f"\nduration: {duration}"
-    
-    with open(f"output/{file_name}", "w") as file:
+    with open(f"output/{file_name}.json", "w") as file:
         file.write(file_content)

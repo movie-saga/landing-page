@@ -3,3 +3,37 @@
 
 - name: Fast and Furious
   url: fast-and-furious
+
+  [
+  { 
+    "name": "Fast and Furious", 
+    "url": "fast-and-furious", 
+    "poster": "assets/img/ff.jpg",
+    "originalposter": "https://images.hdqwalls.com/download/fast-8-df-1920x1080.jpg",
+    "hero_data": {
+      "metric_1_hours_duration":"",
+      "metric_2_series_count":"",
+      "metric_3_movies_count":"",
+      "metric_4_budget":"",
+      "metric_5_income":""
+    },
+    "orders": [
+      {
+        "name": "Best story accurate order",
+        "description": "This order will let you watch the movie for the most coherent and logical story progression.",
+        "sort_key": "watch_order"
+      },
+      {
+        "name":"Release order of the movies",
+        "description":"This is the order of the release of each movies, keep in mind that it leads to some weird story inconsistencies.",
+        "sort_key":"Year"
+      }
+    ]
+  },
+  { 
+    "name": "Star Wars", 
+    "url": "star-wars", 
+    "poster": "assets/img/star-wars.jpg", 
+    "originalposter": "https://images.hdqwalls.com/download/star-wars-the-rise-of-skywalker-8k-qh-1920x1080.jpg" 
+  }
+]
