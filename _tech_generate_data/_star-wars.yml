@@ -1,36 +1,82 @@
 - id: tt0076759
   comment: 4
+  original_machete_order: 10
+  chronological_order: 110
 - id: tt0080684
   comment: 5
+  original_machete_order: 20
+  chronological_order: 120
 - id: tt0086190
   comment: 6
+  original_machete_order: 50
+  chronological_order: 130
 - id: tt0121766
   comment: 1
+  chronological_order: 10
+  note: "Some people feel like this movie can be skipped with minimal impact on the story consistency"
 - id: tt0121765
   comment: 2
+  original_machete_order: 30
+  chronological_order: 20
 - id: tt0120915
   comment: 3
+  original_machete_order: 40
+  chronological_order: 40
 - id: tt2488496
   comment: 7
+  chronological_order: 180
 - id: tt2527336
   comment: 8
+  chronological_order: 190
 - id: tt2527338
   comment: 9
+  chronological_order: 200
 - id: tt3748528
   comment: rogue one
+  chronological_order: 100
 - id: tt3778644
   comment: solo a star wars story
+  chronological_order: 60
 - id: tt8466564
   comment: Obi-wan Kenobi
+  chronological_order: 70
 - id: tt13668894
   comment: The book of boba fett
+  chronological_order: 150
 - id: tt9253284
-  title: Andor
+  comment: Andor
+  chronological_order: 90
 - id: tt8111088
-  title: The Mandalorian
-- id: tt11502498
-  title: Kenobi a Star wars story
+  comment: The Mandalorian (Season 1 - 2)
+  chronological_order: 140
+  note: Season 1 - 2
+- id: tt8111088
+  comment: The Mandalorian (Season 3)
+  chronological_order: 155
+  note: Season 3
 - id: tt12708542
-  title: Star wars the bad batch
+  comment: Star wars the bad batch
+  chronological_order: 50
 - id: tt20723374
-  title: Tales of the Jedi
+  comment: Tales of the Jedi (Dooku)
+  note: Episodes 2,3,4
+  chronological_order: 15
+- id: tt20723374
+  comment: Tales of the Jedi (Ahsoka)
+  note: Episodes 1,5,6
+  chronological_order: 23
+- id: tt0458290
+  comment: Star Wars The Clone Wars (tv show)
+  chronological_order: 30
+- id: tt1185834
+  comment: Star wars the clone wars (movie)
+  chronological_order: 25
+- id: tt2930604
+  comment: Star wars rebels
+  chronological_order: 80
+- id: tt13622776
+  comment: Ashoka
+  chronological_order: 160
+- id: tt8336340
+  comment: Star wars resistance
+  chronological_order: 170
