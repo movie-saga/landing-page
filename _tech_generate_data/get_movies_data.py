@@ -22,8 +22,9 @@ for file_name in file_list:
         movie_detail = urllib.request.urlopen(url).read()
         movie_details_json = json.loads(movie_detail)
         #file_content = json.dumps(movie_details_json, indent=True)
+        movie_details_json["custom_data"] = movie
         content.append(movie_details_json)
         file_content = json.dumps(content, indent=True)
     
-    with open(f"output/{file_name}.json", "w") as file:
+    with open(f"../_data/{file_name[1:]}.json", "w") as file:
         file.write(file_content)
