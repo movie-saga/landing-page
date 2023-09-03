@@ -69,8 +69,101 @@
         overflow: hidden;
         text-overflow: ellipsis;
       }
+
       main > section article {
         margin-top: 16.4rem;
+        padding-bottom: 18rem;
+      }
+
+      main > section article ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        align-items: center;
+      }
+
+      main > section article .order {
+        width: 480px;
+        height: 270px;
+      }
+
+      main > section article .order a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 5px;
+      }
+
+      main > section article .order .title {
+        position: absolute;
+        width: 88%;
+        line-height: 1.1rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        bottom: 30%;
+        left: 12%;
+        z-index: 1;
+        transition: scale 100ms ease-in-out;
+        cursor: pointer;
+      }
+
+      main > section article .order a::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-image: radial-gradient(
+          at 0 100%,
+          rgba(0,0,0,0.6),
+          rgba(0, 0, 0, 0.1) 60%
+        );
+        transition: background-image 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      main > section article .order a:focus,
+      main > section article .order a:hover {
+        border: 2px solid white;
+      }
+
+      main > section article .order a:focus::after,
+      main > section article .order a:hover::after {
+        background-image: radial-gradient(
+          at 0 100%,
+          rgba(0,0,0,0.9),
+          rgba(0, 0, 0, 0.2) 80%
+        );
+      }
+
+      main > section article .order_poster {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      main > section article .order_poster_list {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        transform: rotate(3deg) translateY(-13%);
+        transform-origin: center;
+      }
+
+
+      main > section article .order_poster_list li {
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+
+      main > section article .order_poster_list li img {
+        object-fit: cover;
+        width: 88px;
+        border-radius: 8px;
       }
 
       main::before {
@@ -91,48 +184,75 @@
             transparent 60%,
             var(--grey-950)
           ),
-          url({{ page.img_url }}) {{ page.bg_position | default: "center" }}/cover no-repeat;
+          url({{ page.poster | relative_url }}) {{ page.bg_position | default: "center" }}/cover no-repeat;
       }
     </style>
     <main>
-      <section>
-        {% assign movies_count = site.data[page.data_key].movies | where: "Type", "movie" | size %}
-        {% assign tv_shows_count = site.data[page.data_key].movies | where: "Type", "series" | size %}
-        {% assign duration = site.data[page.data_key].duration | divided_by: 60 %}
+      {% assign movies_count = site.data[page.slug] | where: "Type", "movie" | size %}
+      {% assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size %}
+      {% assign duration = 0 %}
+      {% for element in site.data[page.slug] %}
+        {% assign current_duration = element.Runtime | replace: " min" | to_integer%}
+        {% assign duration = duration | plus: current_duration %}
+      {% endfor %}
+      {% assign duration = duration | divided_by: 60 | to_integer %}
 
+      <section>
         <div class="trivia-container">
           {%- if movies_count > 0 -%}
           <div class="trivia-card">
             <label id="movies-label">Movies</label>
             <span aria-labelledby="movies-label">{{ movies_count }}</span>
           </div>
-          {% endif %}
-
-          {%- if tv_shows_count > 0 -%}
-            <div class="trivia-card">
-              <label id="tv-shows-label">TV Shows</label>
-              <span aria-labelledby="tv-shows-label">{{ tv_shows_count }}</span>
-            </div>
+          {% endif %} {%- if tv_shows_count > 0 -%}
+          <div class="trivia-card">
+            <label id="tv-shows-label">TV Shows</label>
+            <span aria-labelledby="tv-shows-label">{{ tv_shows_count }}</span>
+          </div>
           {% endif %}
           <div class="trivia-card">
             <label id="duration-label">Duration</label>
-            <span aria-labelledby="duration-label">{{ duration }}</span><span class="unit">h</span>
+            <span aria-labelledby="duration-label">{{ duration }}</span
+            ><span class="unit">h</span>
           </div>
         </div>
 
         <h1>{{ page.title }}</h1>
 
-        {%- if page.orders.size > 0 -%}
+        {% assign order_id = page.slug | prepend: "/orders/" %}
+        {% assign orders = site.orders | where_exp: "item", "item.id contains order_id" %}
+        {%- if orders.size > 0 -%}
         <article>
           <ul>
-            {%- for order in page.orders -%}
-            <li>
-              <a href="{{ order.link }}.html"> {{ order.title }} </a>
+            {%- for order in orders -%}
+            <li class="order">
+              <a href="{{ order.url | relative_url }}" tabindex="0">
+                <div class="order_poster" role="presentation">
+                  <ul class="order_poster_list" role="presentation">
+                    {% for movie in site.data[page.slug] limit: 15 | sort: order.sort_by %}
+                    <li role="presentation">
+                      <img
+                        src="{{ movie.Poster }}"
+                        alt=""
+                      />
+                    </li>
+                    {% endfor %}
+                  </ul>
+                </div>
+
+                <div class="title">{{ order.title }} {{ order.subtitle}}</div>
+              </a>
             </li>
             {%- endfor -%}
           </ul>
         </article>
+
+        {%- else -%}
+
+          <p>No order defined yet...</p>
+
         {%- endif -%}
+
       </section>
     </main>
   </body>

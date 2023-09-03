@@ -94,9 +94,8 @@
     </a>
   </h1>
   <nav>
-    {%- for saga in site.data._saga -%}
-    <a href="{{site.baseurl}}{{ saga.url }}.html">{{ saga.name }}</a>
+    {%- for saga in site.sagas -%}
+    <a href="{{ saga.url }}" tabindex="0">{{ saga.title }}</a>
     {%- endfor -%}
-    <a type="button" href="#">Other sagas</a>
   </nav>
 </aside>

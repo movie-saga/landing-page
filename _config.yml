@@ -1,11 +1,8 @@
 title: Movie saga
-email: your-email@example.com
 description: >-
   The best place to find in which order you can or should watch your favorite movie sagas !
 baseurl: "/"
 url: "https://telary.gitlab.io/movie_saga/"
-twitter_username: jekyllrb
-github_username:  jekyll
 
 collections_dir: database
 collections:

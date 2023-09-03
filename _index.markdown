@@ -1,10 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
 title: In what order to watch your favorite saga
-#img_url: https://wallpapercave.com/wp/wp2037466.png
 ---
 
 # In what order to watch your favorite saga ?

@@ -94,18 +94,18 @@
       </style>
 
       <div class="posters">
-        {% for saga in site.data._saga %}
-        <a class="poster" href="{{ saga.url }}.html">
-          <h2>{{ saga.name }}</h2>
+        {% for saga in site.sagas %}
+        <a class="poster" href="{{ saga.url }}">
+          <h2>{{ saga.title }}</h2>
           <img
             class="poster-poster"
             src="{{ saga.poster }}"
-            alt="{{ saga.name }} poster"
+            alt="{{ saga.title }} poster"
           />
           <img
             class="shadow"
             src="{{ saga.poster }}"
-            alt="{{ saga.name }} poster shadow"
+            alt="{{ saga.title }} poster shadow"
             aria-hidden="true"
           />
         </a>
