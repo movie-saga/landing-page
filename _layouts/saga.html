@@ -1,28 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  {%- include header.html -%} {%- include style.html -%}
+  {%- include header.html -%}
+  {%- include style.html -%}
   <body>
     {%- include navbar.html -%}
+    {%- include wrapper.html -%}
+
     <style type="text/css">
-      main {
-        position: relative;
-        padding-top: 33vh;
-      }
-
-      main > section {
-        padding-top: 16px;
+      .container {
         max-width: var(--screen-lg);
-        margin: 16px auto 0 auto;
+        margin: 8px auto 0 auto;
       }
 
-      main > section > .trivia-container {
+      .container > .trivia-container {
         display: flex;
         column-gap: 32px;
-        margin-top: -5rem;
         justify-content: center;
       }
 
-      main > section > .trivia-container > .trivia-card {
+      .container > .trivia-container > .trivia-card {
         width: 22%;
         display: block;
         background-color: rgba(255,255,255,0.12);
@@ -42,13 +38,13 @@
         /* background: inherit; */
       }
 
-      main > section > .trivia-container > .trivia-card > .unit {
+      .container > .trivia-container > .trivia-card > .unit {
         font-size: 4rem;
         font-weight: 700;
         text-transform: lowercase;
       }
 
-      main > section > .trivia-container > .trivia-card > label {
+      .container > .trivia-container > .trivia-card > label {
         position: absolute;
         top: 0; right: 0; bottom: 0;
         left: -1.7rem;
@@ -59,35 +55,24 @@
         letter-spacing: 3px
       }
 
-      main > section h1 {
-        margin-top: -15.4rem;
-        font-weight: 900;
-        font-size: 4rem;
-        text-align: center;
-        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-      }
-
-      main > section article {
-        margin-top: 16.4rem;
+      .container article {
+        margin-top: 4rem;
         padding-bottom: 18rem;
       }
 
-      main > section article ul {
+      .container article ul {
         display: flex;
         flex-direction: column;
         row-gap: 3rem;
         align-items: center;
       }
 
-      main > section article .order {
+      .container article .order {
         width: 480px;
         height: 270px;
       }
 
-      main > section article .order a {
+      .container article .order a {
         display: block;
         position: relative;
         width: 100%;
@@ -96,7 +81,7 @@
         border-radius: 5px;
       }
 
-      main > section article .order .title {
+      .container article .order .title {
         position: absolute;
         width: 88%;
         line-height: 1.1rem;
@@ -110,7 +95,7 @@
         cursor: pointer;
       }
 
-      main > section article .order a::after {
+      .container article .order a::after {
         content: "";
         position: absolute;
         display: block;
@@ -124,13 +109,13 @@
         cursor: pointer;
       }
 
-      main > section article .order a:focus,
-      main > section article .order a:hover {
+      .container article .order a:focus,
+      .container article .order a:hover {
         border: 2px solid white;
       }
 
-      main > section article .order a:focus::after,
-      main > section article .order a:hover::after {
+      .container article .order a:focus::after,
+      .container article .order a:hover::after {
         background-image: radial-gradient(
           at 0 100%,
           rgba(0,0,0,0.9),
@@ -138,14 +123,14 @@
         );
       }
 
-      main > section article .order_poster {
+      .container article .order_poster {
         position: absolute;
         width: 100%;
         height: 100%;
         overflow: hidden;
       }
 
-      main > section article .order_poster_list {
+      .container article .order_poster_list {
         display: flex;
         flex-direction: row;
         gap: 0.5em;
@@ -155,73 +140,55 @@
       }
 
 
-      main > section article .order_poster_list li {
+      .container article .order_poster_list li {
         flex-grow: 0;
         flex-shrink: 0;
       }
 
-      main > section article .order_poster_list li img {
+      .container article .order_poster_list li img {
         object-fit: cover;
         width: 88px;
         border-radius: 8px;
       }
 
-      main::before {
-        content: "";
-        position: absolute;
-        display: block;
-        height: 33vh;
-        top: 0; left: 0; bottom: 0; right: 0;
-        z-index: -1;
-        background:
-          linear-gradient(
-            to bottom,
-            var(--grey-950),
-            transparent 84px
-          ),
-          linear-gradient(
-            to bottom,
-            transparent 60%,
-            var(--grey-950)
-          ),
-          url({{ page.poster | relative_url }}) {{ page.bg_position | default: "center" }}/cover no-repeat;
-      }
     </style>
-    <main>
-      {% assign movies_count = site.data[page.slug] | where: "Type", "movie" | size %}
-      {% assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size %}
-      {% assign duration = 0 %}
-      {% for element in site.data[page.slug] %}
-        {% assign current_duration = element.Runtime | replace: " min" | to_integer%}
-        {% assign duration = duration | plus: current_duration %}
-      {% endfor %}
-      {% assign duration = duration | divided_by: 60 | to_integer %}
+      {%- assign movies_count = site.data[page.slug] | where: "Type", "movie" | size -%}
+      {%- assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size -%}
+      {%- assign duration = 0 -%}
+      {%- for element in site.data[page.slug] -%}
+        {%- assign current_duration = element.Runtime | replace: " min" | to_integer-%}
+        {%- assign duration = duration | plus: current_duration -%}
+      {%- endfor -%}
+      {%- assign duration = duration | divided_by: 60 | to_integer -%}
 
-      <section>
+      <div class="container">
         <div class="trivia-container">
           {%- if movies_count > 0 -%}
           <div class="trivia-card">
             <label id="movies-label">Movies</label>
             <span aria-labelledby="movies-label">{{ movies_count }}</span>
           </div>
-          {% endif %} {%- if tv_shows_count > 0 -%}
+          {%- endif -%}
+
+          {%- if tv_shows_count > 0 -%}
           <div class="trivia-card">
             <label id="tv-shows-label">TV Shows</label>
             <span aria-labelledby="tv-shows-label">{{ tv_shows_count }}</span>
           </div>
-          {% endif %}
+          {%- endif -%}
+
           <div class="trivia-card">
             <label id="duration-label">Duration</label>
-            <span aria-labelledby="duration-label">{{ duration }}</span
-            ><span class="unit">h</span>
+            <span aria-labelledby="duration-label">{{ duration }}</span><span class="unit">h</span>
           </div>
+
         </div>
 
-        <h1>{{ page.title }}</h1>
+        <!-- <h1>{{ page.title }}</h1> -->
 
-        {% assign order_id = page.slug | prepend: "/orders/" %}
-        {% assign orders = site.orders | where_exp: "item", "item.id contains order_id" %}
-        {%- if orders.size > 0 -%}
+        {%- assign order_id = page.slug | prepend: "/orders/" -%}
+        {%- assign orders = site.orders | where_exp: "item", "item.id contains order_id" -%}
+        {%- if orders.size > 0 and site.data[page.slug] -%}
         <article>
           <ul>
             {%- for order in orders -%}
@@ -229,14 +196,12 @@
               <a href="{{ order.url | relative_url }}" tabindex="0">
                 <div class="order_poster" role="presentation">
                   <ul class="order_poster_list" role="presentation">
-                    {% for movie in site.data[page.slug] limit: 15 | sort: order.sort_by %}
+                    {%- assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 -%}
+                    {%- for movie in sorted_movies -%}
                     <li role="presentation">
-                      <img
-                        src="{{ movie.Poster }}"
-                        alt=""
-                      />
+                      <img src="{{ movie.Poster }}" alt="">
                     </li>
-                    {% endfor %}
+                    {%- endfor -%}
                   </ul>
                 </div>
 
@@ -252,8 +217,7 @@
           <p>No order defined yet...</p>
 
         {%- endif -%}
-
-      </section>
-    </main>
+      </div>
+      {%- include endwrapper.html -%}
   </body>
 </html>
