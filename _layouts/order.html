@@ -93,7 +93,7 @@
 
     <div class="footer-navigation">
       {%- assign saga = site.sagas | where_exp: "saga", "saga.id contains page.slug_parent" | first -%}
-      <a href="{{ saga.url }}" class="button" tabindex="0">
+      <a href="{{ site.url }}{{ saga.url }}" class="button" tabindex="0">
         <svg xmlns="http://www.w3.org/2000/svg"><use href="#hero-chevron-left" /></svg>
         <span>{{ saga.title }}</span>
       </a>
