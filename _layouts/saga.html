@@ -193,13 +193,13 @@
           <ul>
             {%- for order in orders -%}
             <li class="order">
-              <a href="{{ order.url | relative_url }}" tabindex="0">
+              <a href="{{ site.url }}{{ order.url | relative_url }}" tabindex="0">
                 <div class="order_poster" role="presentation">
                   <ul class="order_poster_list" role="presentation">
                     {%- assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 -%}
                     {%- for movie in sorted_movies -%}
                     <li role="presentation">
-                      <img src="{{ site.url }}{{ movie.Poster }}" alt="">
+                      <img src="{{ movie.Poster }}" alt="">
                     </li>
                     {%- endfor -%}
                   </ul>
