@@ -14,6 +14,12 @@
       <span class="ratings-score">{{ ratings }}</span>
     </div>
 
+    {% if page.sort_by != "Year" %}
+      <div class="to style later" style="font-size: 25px;">
+        <p>{{ movie.note }}</p>
+      </div>
+    {% endif %}
+
     <div class="plot">
       <p>{{ movie.Plot }}</p>
     </div>

@@ -30,7 +30,7 @@
   ],
   "Metascore": "90",
   "imdbRating": "8.6",
-  "imdbVotes": "1,405,284",
+  "imdbVotes": "1,411,144",
   "imdbID": "tt0076759",
   "Type": "movie",
   "DVD": "10 Oct 2016",
@@ -38,12 +38,10 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0076759",
-   "comment": 4,
-   "original_machete_order": 10,
-   "chronological_order": 110
-  }
+  "id": "tt0076759",
+  "comment": 4,
+  "original_machete_order": 10,
+  "chronological_order": 110
  },
  {
   "Title": "Star Wars: Episode V - The Empire Strikes Back",
@@ -76,7 +74,7 @@
   ],
   "Metascore": "82",
   "imdbRating": "8.7",
-  "imdbVotes": "1,333,514",
+  "imdbVotes": "1,339,360",
   "imdbID": "tt0080684",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -84,12 +82,10 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0080684",
-   "comment": 5,
-   "original_machete_order": 20,
-   "chronological_order": 120
-  }
+  "id": "tt0080684",
+  "comment": 5,
+  "original_machete_order": 20,
+  "chronological_order": 120
  },
  {
   "Title": "Star Wars: Episode VI - Return of the Jedi",
@@ -122,7 +118,7 @@
   ],
   "Metascore": "58",
   "imdbRating": "8.3",
-  "imdbVotes": "1,087,569",
+  "imdbVotes": "1,091,792",
   "imdbID": "tt0086190",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -130,12 +126,98 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0086190",
-   "comment": 6,
-   "original_machete_order": 50,
-   "chronological_order": 130
-  }
+  "id": "tt0086190",
+  "comment": 6,
+  "original_machete_order": 50,
+  "chronological_order": 130
+ },
+ {
+  "Title": "Star Wars: Episode I - The Phantom Menace",
+  "Year": "1999",
+  "Rated": "PG",
+  "Released": "19 May 1999",
+  "Runtime": "136 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas",
+  "Actors": "Ewan McGregor, Liam Neeson, Natalie Portman",
+  "Plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+  "Language": "English, Sanskrit",
+  "Country": "United States",
+  "Awards": "Nominated for 3 Oscars. 27 wins & 71 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.5/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "52%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "51/100"
+   }
+  ],
+  "Metascore": "51",
+  "imdbRating": "6.5",
+  "imdbVotes": "834,221",
+  "imdbID": "tt0120915",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$474,544,677",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0120915",
+  "comment": 1,
+  "chronological_order": 10,
+  "note": "Some people feel like this movie can be skipped with minimal impact on the story consistency"
+ },
+ {
+  "Title": "Star Wars: Episode II - Attack of the Clones",
+  "Year": "2002",
+  "Rated": "PG",
+  "Released": "16 May 2002",
+  "Runtime": "142 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas, Jonathan Hales",
+  "Actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
+  "Plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm\u00e9 Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 1 Oscar. 20 wins & 67 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.6/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "66%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "54/100"
+   }
+  ],
+  "Metascore": "54",
+  "imdbRating": "6.6",
+  "imdbVotes": "738,330",
+  "imdbID": "tt0121765",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$310,676,740",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0121765",
+  "comment": 2,
+  "original_machete_order": 30,
+  "chronological_order": 20
  },
  {
   "Title": "Star Wars: Episode III - Revenge of the Sith",
@@ -168,7 +250,7 @@
   ],
   "Metascore": "68",
   "imdbRating": "7.6",
-  "imdbVotes": "818,718",
+  "imdbVotes": "822,096",
   "imdbID": "tt0121766",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -176,104 +258,10 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0121766",
-   "comment": 1,
-   "chronological_order": 10,
-   "note": "Some people feel like this movie can be skipped with minimal impact on the story consistency"
-  }
- },
- {
-  "Title": "Star Wars: Episode II - Attack of the Clones",
-  "Year": "2002",
-  "Rated": "PG",
-  "Released": "16 May 2002",
-  "Runtime": "142 min",
-  "Genre": "Action, Adventure, Fantasy",
-  "Director": "George Lucas",
-  "Writer": "George Lucas, Jonathan Hales",
-  "Actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
-  "Plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm\u00e9 Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
-  "Language": "English",
-  "Country": "United States",
-  "Awards": "Nominated for 1 Oscar. 20 wins & 67 nominations total",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-  "Ratings": [
-   {
-    "Source": "Internet Movie Database",
-    "Value": "6.6/10"
-   },
-   {
-    "Source": "Rotten Tomatoes",
-    "Value": "65%"
-   },
-   {
-    "Source": "Metacritic",
-    "Value": "54/100"
-   }
-  ],
-  "Metascore": "54",
-  "imdbRating": "6.6",
-  "imdbVotes": "735,298",
-  "imdbID": "tt0121765",
-  "Type": "movie",
-  "DVD": "10 Apr 2015",
-  "BoxOffice": "$310,676,740",
-  "Production": "N/A",
-  "Website": "N/A",
-  "Response": "True",
-  "custom_data": {
-   "id": "tt0121765",
-   "comment": 2,
-   "original_machete_order": 30,
-   "chronological_order": 20
-  }
- },
- {
-  "Title": "Star Wars: Episode I - The Phantom Menace",
-  "Year": "1999",
-  "Rated": "PG",
-  "Released": "19 May 1999",
-  "Runtime": "136 min",
-  "Genre": "Action, Adventure, Fantasy",
-  "Director": "George Lucas",
-  "Writer": "George Lucas",
-  "Actors": "Ewan McGregor, Liam Neeson, Natalie Portman",
-  "Plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
-  "Language": "English, Sanskrit",
-  "Country": "United States",
-  "Awards": "Nominated for 3 Oscars. 27 wins & 71 nominations total",
-  "Poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
-  "Ratings": [
-   {
-    "Source": "Internet Movie Database",
-    "Value": "6.5/10"
-   },
-   {
-    "Source": "Rotten Tomatoes",
-    "Value": "51%"
-   },
-   {
-    "Source": "Metacritic",
-    "Value": "51/100"
-   }
-  ],
-  "Metascore": "51",
-  "imdbRating": "6.5",
-  "imdbVotes": "831,009",
-  "imdbID": "tt0120915",
-  "Type": "movie",
-  "DVD": "10 Apr 2015",
-  "BoxOffice": "$474,544,677",
-  "Production": "N/A",
-  "Website": "N/A",
-  "Response": "True",
-  "custom_data": {
-   "id": "tt0120915",
-   "comment": 3,
-   "original_machete_order": 40,
-   "chronological_order": 40
-  }
+  "id": "tt0121766",
+  "comment": 3,
+  "original_machete_order": 40,
+  "chronological_order": 40
  },
  {
   "Title": "Star Wars: Episode VII - The Force Awakens",
@@ -306,7 +294,7 @@
   ],
   "Metascore": "80",
   "imdbRating": "7.8",
-  "imdbVotes": "953,073",
+  "imdbVotes": "955,666",
   "imdbID": "tt2488496",
   "Type": "movie",
   "DVD": "01 Apr 2016",
@@ -314,11 +302,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2488496",
-   "comment": 7,
-   "chronological_order": 180
-  }
+  "id": "tt2488496",
+  "comment": 7,
+  "chronological_order": 180
  },
  {
   "Title": "Star Wars: Episode VIII - The Last Jedi",
@@ -351,7 +337,7 @@
   ],
   "Metascore": "84",
   "imdbRating": "6.9",
-  "imdbVotes": "652,434",
+  "imdbVotes": "655,231",
   "imdbID": "tt2527336",
   "Type": "movie",
   "DVD": "11 Mar 2018",
@@ -359,11 +345,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2527336",
-   "comment": 8,
-   "chronological_order": 190
-  }
+  "id": "tt2527336",
+  "comment": 8,
+  "chronological_order": 190
  },
  {
   "Title": "Star Wars: Episode IX - The Rise of Skywalker",
@@ -404,11 +388,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2527338",
-   "comment": 9,
-   "chronological_order": 200
-  }
+  "id": "tt2527338",
+  "comment": 9,
+  "chronological_order": 200
  },
  {
   "Title": "Rogue One: A Star Wars Story",
@@ -441,7 +423,7 @@
   ],
   "Metascore": "65",
   "imdbRating": "7.8",
-  "imdbVotes": "663,358",
+  "imdbVotes": "666,219",
   "imdbID": "tt3748528",
   "Type": "movie",
   "DVD": "24 Mar 2017",
@@ -449,11 +431,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt3748528",
-   "comment": "rogue one",
-   "chronological_order": 100
-  }
+  "id": "tt3748528",
+  "comment": "rogue one",
+  "chronological_order": 100
  },
  {
   "Title": "Solo: A Star Wars Story",
@@ -494,11 +474,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt3778644",
-   "comment": "solo a star wars story",
-   "chronological_order": 60
-  }
+  "id": "tt3778644",
+  "comment": "solo a star wars story",
+  "chronological_order": 60
  },
  {
   "Title": "Obi-Wan Kenobi",
@@ -528,11 +506,9 @@
   "Type": "series",
   "totalSeasons": "1",
   "Response": "True",
-  "custom_data": {
-   "id": "tt8466564",
-   "comment": "Obi-wan Kenobi",
-   "chronological_order": 70
-  }
+  "id": "tt8466564",
+  "comment": "Obi-wan Kenobi",
+  "chronological_order": 70
  },
  {
   "Title": "The Book of Boba Fett",
@@ -557,16 +533,14 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "7.2",
-  "imdbVotes": "171,695",
+  "imdbVotes": "173,713",
   "imdbID": "tt13668894",
   "Type": "series",
   "totalSeasons": "1",
   "Response": "True",
-  "custom_data": {
-   "id": "tt13668894",
-   "comment": "The book of boba fett",
-   "chronological_order": 150
-  }
+  "id": "tt13668894",
+  "comment": "The book of boba fett",
+  "chronological_order": 150
  },
  {
   "Title": "Andor",
@@ -581,7 +555,7 @@
   "Plot": "Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Nominated for 8 Primetime Emmys. 2 wins & 44 nominations total",
+  "Awards": "Nominated for 8 Primetime Emmys. 2 wins & 47 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
   "Ratings": [
    {
@@ -591,16 +565,14 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.4",
-  "imdbVotes": "143,786",
+  "imdbVotes": "146,503",
   "imdbID": "tt9253284",
   "Type": "series",
   "totalSeasons": "2",
   "Response": "True",
-  "custom_data": {
-   "id": "tt9253284",
-   "comment": "Andor",
-   "chronological_order": 90
-  }
+  "id": "tt9253284",
+  "comment": "Andor",
+  "chronological_order": 90
  },
  {
   "Title": "The Mandalorian",
@@ -630,12 +602,10 @@
   "Type": "series",
   "totalSeasons": "3",
   "Response": "True",
-  "custom_data": {
-   "id": "tt8111088",
-   "comment": "The Mandalorian (Season 1 - 2)",
-   "chronological_order": 140,
-   "note": "Season 1 - 2"
-  }
+  "id": "tt8111088",
+  "comment": "The Mandalorian (Season 1 - 2)",
+  "chronological_order": 140,
+  "note": "Season 1 - 2"
  },
  {
   "Title": "The Mandalorian",
@@ -665,12 +635,10 @@
   "Type": "series",
   "totalSeasons": "3",
   "Response": "True",
-  "custom_data": {
-   "id": "tt8111088",
-   "comment": "The Mandalorian (Season 3)",
-   "chronological_order": 155,
-   "note": "Season 3"
-  }
+  "id": "tt8111088",
+  "comment": "The Mandalorian (Season 3)",
+  "chronological_order": 155,
+  "note": "Season 3"
  },
  {
   "Title": "Star Wars: The Bad Batch",
@@ -695,16 +663,14 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "7.8",
-  "imdbVotes": "45,173",
+  "imdbVotes": "45,959",
   "imdbID": "tt12708542",
   "Type": "series",
   "totalSeasons": "2",
   "Response": "True",
-  "custom_data": {
-   "id": "tt12708542",
-   "comment": "Star wars the bad batch",
-   "chronological_order": 50
-  }
+  "id": "tt12708542",
+  "comment": "Star wars the bad batch",
+  "chronological_order": 50
  },
  {
   "Title": "Tales of the Jedi",
@@ -729,17 +695,15 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.2",
-  "imdbVotes": "29,255",
+  "imdbVotes": "30,173",
   "imdbID": "tt20723374",
   "Type": "series",
   "totalSeasons": "1",
   "Response": "True",
-  "custom_data": {
-   "id": "tt20723374",
-   "comment": "Tales of the Jedi (Dooku)",
-   "note": "Episodes 2,3,4",
-   "chronological_order": 15
-  }
+  "id": "tt20723374",
+  "comment": "Tales of the Jedi (Dooku)",
+  "note": "Episodes 2,3,4",
+  "chronological_order": 15
  },
  {
   "Title": "Tales of the Jedi",
@@ -764,17 +728,15 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.2",
-  "imdbVotes": "29,255",
+  "imdbVotes": "30,173",
   "imdbID": "tt20723374",
   "Type": "series",
   "totalSeasons": "1",
   "Response": "True",
-  "custom_data": {
-   "id": "tt20723374",
-   "comment": "Tales of the Jedi (Ahsoka)",
-   "note": "Episodes 1,5,6",
-   "chronological_order": 23
-  }
+  "id": "tt20723374",
+  "comment": "Tales of the Jedi (Ahsoka)",
+  "note": "Episodes 1,5,6",
+  "chronological_order": 23
  },
  {
   "Title": "Star Wars: The Clone Wars",
@@ -799,16 +761,14 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.4",
-  "imdbVotes": "109,356",
+  "imdbVotes": "111,130",
   "imdbID": "tt0458290",
   "Type": "series",
   "totalSeasons": "7",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0458290",
-   "comment": "Star Wars The Clone Wars (tv show)",
-   "chronological_order": 30
-  }
+  "id": "tt0458290",
+  "comment": "Star Wars The Clone Wars (tv show)",
+  "chronological_order": 30
  },
  {
   "Title": "Star Wars: The Clone Wars",
@@ -849,11 +809,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt1185834",
-   "comment": "Star wars the clone wars (movie)",
-   "chronological_order": 25
-  }
+  "id": "tt1185834",
+  "comment": "Star wars the clone wars (movie)",
+  "chronological_order": 25
  },
  {
   "Title": "Star Wars: Rebels",
@@ -878,16 +836,14 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.0",
-  "imdbVotes": "50,612",
+  "imdbVotes": "52,310",
   "imdbID": "tt2930604",
   "Type": "series",
   "totalSeasons": "4",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2930604",
-   "comment": "Star wars rebels",
-   "chronological_order": 80
-  }
+  "id": "tt2930604",
+  "comment": "Star wars rebels",
+  "chronological_order": 80
  },
  {
   "Title": "Ahsoka",
@@ -912,11 +868,9 @@
   "Type": "series",
   "totalSeasons": "1",
   "Response": "True",
-  "custom_data": {
-   "id": "tt13622776",
-   "comment": "Ashoka",
-   "chronological_order": 160
-  }
+  "id": "tt13622776",
+  "comment": "Ashoka",
+  "chronological_order": 160
  },
  {
   "Title": "Star Wars Resistance",
@@ -946,10 +900,8 @@
   "Type": "series",
   "totalSeasons": "2",
   "Response": "True",
-  "custom_data": {
-   "id": "tt8336340",
-   "comment": "Star wars resistance",
-   "chronological_order": 170
-  }
+  "id": "tt8336340",
+  "comment": "Star wars resistance",
+  "chronological_order": 170
  }
 ]

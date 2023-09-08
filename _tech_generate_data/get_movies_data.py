@@ -23,7 +23,8 @@ for file_name in file_list:
         movie_detail = urllib.request.urlopen(url).read()
         movie_details_json = json.loads(movie_detail)
         #file_content = json.dumps(movie_details_json, indent=True)
-        movie_details_json["custom_data"] = movie
+        #movie_details_json["custom_data"] = movie
+        movie_details_json = dict(list(movie_details_json.items()) + list(movie.items()))
         content.append(movie_details_json)
         file_content = json.dumps(content, indent=True)
     

@@ -67,13 +67,26 @@
   {%- include wrapper.html -%}
 
   {%- if site.data[page.slug_parent] -%}
+  {% assign ids_displayed = '' | split: ',' %}
+
   <div class="container">
     <ul class="movie-card-list">
       {%- assign sorted_movies = site.data[page.slug_parent] | sort: page.sort_by -%}
       {%- for movie in sorted_movies -%}
-      <li class="{%- unless forloop.first -%}-separated{%- endunless -%}">
-        {%- include new_movie_card.html -%}
-      </li>
+        {% if sort_by == "Year" %}
+          {% unless ids_displayed contains movie.id %}
+            {% assign ids_displayed = ids_displayed | push: movie.id %}
+          <li class="{%- unless forloop.first -%}-separated{%- endunless -%}">
+            {%- include new_movie_card.html -%}
+          </li>
+          {% endunless %}
+        {% else %}
+          {% if movie[page.sort_by] %}
+          <li class="{%- unless forloop.first -%}-separated{%- endunless -%}">
+            {%- include new_movie_card.html -%}
+          </li>
+          {% endif %}
+        {% endif %}
       {%- endfor -%}
     </ul>
 

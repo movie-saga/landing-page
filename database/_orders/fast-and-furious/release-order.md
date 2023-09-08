@@ -6,16 +6,3 @@ img_url: "https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cn
 slug_parent: fast-and-furious
 sort_by: Year
 ---
-{% assign title_2 = "Release order of the movies" %}
-
-This is the order of the release of each movies, keep in mind that it leads to some weird story inconsistencies.
-
-{% assign ff = site.sagas[page.slug_parent].url %}
-# {{ title_2 }} - {{ ff }}
-
-
-
-{% assign movies_sorted = site.data[page.slug_parent] | sort: 'Year' %}
-{% for movie in movies_sorted %}
-{% include movie_card.html movie=movie %}
-{% endfor %}

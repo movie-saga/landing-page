@@ -21,7 +21,7 @@
    },
    {
     "Source": "Rotten Tomatoes",
-    "Value": "55%"
+    "Value": "54%"
    },
    {
     "Source": "Metacritic",
@@ -30,7 +30,7 @@
   ],
   "Metascore": "58",
   "imdbRating": "6.8",
-  "imdbVotes": "405,351",
+  "imdbVotes": "407,431",
   "imdbID": "tt0232500",
   "Type": "movie",
   "DVD": "10 Sep 2015",
@@ -38,11 +38,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0232500",
-   "comment": "FF1",
-   "chronological_order": 10
-  }
+  "id": "tt0232500",
+  "comment": "FF1",
+  "chronological_order": 10
  },
  {
   "Title": "Turbo Charged Prelude to 2 Fast 2 Furious",
@@ -75,11 +73,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2055789",
-   "comment": "Turbo charged prelude",
-   "chronological_order": 20
-  }
+  "id": "tt2055789",
+  "comment": "Turbo charged prelude",
+  "chronological_order": 20
  },
  {
   "Title": "2 Fast 2 Furious",
@@ -112,7 +108,7 @@
   ],
   "Metascore": "38",
   "imdbRating": "5.9",
-  "imdbVotes": "287,666",
+  "imdbVotes": "289,178",
   "imdbID": "tt0322259",
   "Type": "movie",
   "DVD": "01 Jan 2015",
@@ -120,11 +116,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0322259",
-   "comment": "2 fast 2 furious",
-   "chronological_order": 30
-  }
+  "id": "tt0322259",
+  "comment": "2 fast 2 furious",
+  "chronological_order": 30
  },
  {
   "Title": "Los Bandoleros",
@@ -157,11 +151,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt1538503",
-   "comment": "Los bandoleros",
-   "chronological_order": 40
-  }
+  "id": "tt1538503",
+  "comment": "Los bandoleros",
+  "chronological_order": 40
  },
  {
   "Title": "The Fast and the Furious: Tokyo Drift",
@@ -194,7 +186,7 @@
   ],
   "Metascore": "45",
   "imdbRating": "6.0",
-  "imdbVotes": "287,800",
+  "imdbVotes": "289,544",
   "imdbID": "tt0463985",
   "Type": "movie",
   "DVD": "22 Jul 2015",
@@ -202,11 +194,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0463985",
-   "comment": "Tokyo drift",
-   "chronological_order": 80
-  }
+  "id": "tt0463985",
+  "comment": "Tokyo drift",
+  "chronological_order": 80
  },
  {
   "Title": "Fast & Furious",
@@ -239,7 +229,7 @@
   ],
   "Metascore": "46",
   "imdbRating": "6.5",
-  "imdbVotes": "301,320",
+  "imdbVotes": "302,870",
   "imdbID": "tt1013752",
   "Type": "movie",
   "DVD": "01 Jan 2015",
@@ -247,11 +237,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt1013752",
-   "comment": "Fast & Furious",
-   "chronological_order": 50
-  }
+  "id": "tt1013752",
+  "comment": "Fast & Furious",
+  "chronological_order": 50
  },
  {
   "Title": "Fast Five",
@@ -284,7 +272,7 @@
   ],
   "Metascore": "66",
   "imdbRating": "7.3",
-  "imdbVotes": "396,619",
+  "imdbVotes": "398,202",
   "imdbID": "tt1596343",
   "Type": "movie",
   "DVD": "01 Jan 2015",
@@ -292,11 +280,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt1596343",
-   "comment": "Fast Five",
-   "chronological_order": 60
-  }
+  "id": "tt1596343",
+  "comment": "Fast Five",
+  "chronological_order": 60
  },
  {
   "Title": "Fast & Furious 6",
@@ -329,7 +315,7 @@
   ],
   "Metascore": "61",
   "imdbRating": "7.0",
-  "imdbVotes": "407,595",
+  "imdbVotes": "408,868",
   "imdbID": "tt1905041",
   "Type": "movie",
   "DVD": "06 Jan 2015",
@@ -337,11 +323,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt1905041",
-   "comment": "FF 6",
-   "chronological_order": 70
-  }
+  "id": "tt1905041",
+  "comment": "FF 6",
+  "chronological_order": 70
  },
  {
   "Title": "Furious 7",
@@ -374,7 +358,7 @@
   ],
   "Metascore": "67",
   "imdbRating": "7.1",
-  "imdbVotes": "404,699",
+  "imdbVotes": "406,134",
   "imdbID": "tt2820852",
   "Type": "movie",
   "DVD": "01 Mar 2016",
@@ -382,11 +366,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt2820852",
-   "comment": "Furious 7",
-   "chronological_order": 90
-  }
+  "id": "tt2820852",
+  "comment": "Furious 7",
+  "chronological_order": 90
  },
  {
   "Title": "The Fate of the Furious",
@@ -419,7 +401,7 @@
   ],
   "Metascore": "56",
   "imdbRating": "6.6",
-  "imdbVotes": "245,269",
+  "imdbVotes": "246,488",
   "imdbID": "tt4630562",
   "Type": "movie",
   "DVD": "27 Jun 2017",
@@ -427,11 +409,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt4630562",
-   "comment": "The Fate of the furious",
-   "chronological_order": 100
-  }
+  "id": "tt4630562",
+  "comment": "The Fate of the furious",
+  "chronological_order": 100
  },
  {
   "Title": "Fast & Furious Presents: Hobbs & Shaw",
@@ -446,7 +426,7 @@
   "Plot": "Lawman Luke Hobbs and outcast Deckard Shaw form an unlikely alliance when a cyber-genetically enhanced villain threatens the future of humanity.",
   "Language": "English, Samoan, Russian",
   "Country": "United States, Japan",
-  "Awards": "1 win & 30 nominations",
+  "Awards": "1 win & 29 nominations",
   "Poster": "https://m.media-amazon.com/images/M/MV5BOTIzYmUyMmEtMWQzNC00YzExLTk3MzYtZTUzYjMyMmRiYzIwXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -464,7 +444,7 @@
   ],
   "Metascore": "60",
   "imdbRating": "6.5",
-  "imdbVotes": "226,368",
+  "imdbVotes": "227,679",
   "imdbID": "tt6806448",
   "Type": "movie",
   "DVD": "27 Aug 2019",
@@ -472,11 +452,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt6806448",
-   "comment": "Hobbs & Shaw",
-   "chronological_order": 110
-  }
+  "id": "tt6806448",
+  "comment": "Hobbs & Shaw",
+  "chronological_order": 110
  },
  {
   "Title": "F9: The Fast Saga",
@@ -517,11 +495,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt5433138",
-   "comment": "F9",
-   "chronological_order": 120
-  }
+  "id": "tt5433138",
+  "comment": "F9",
+  "chronological_order": 120
  },
  {
   "Title": "Fast X",
@@ -541,7 +517,7 @@
   "Ratings": [
    {
     "Source": "Internet Movie Database",
-    "Value": "5.9/10"
+    "Value": "5.8/10"
    },
    {
     "Source": "Rotten Tomatoes",
@@ -553,8 +529,8 @@
    }
   ],
   "Metascore": "56",
-  "imdbRating": "5.9",
-  "imdbVotes": "84,743",
+  "imdbRating": "5.8",
+  "imdbVotes": "91,766",
   "imdbID": "tt5433140",
   "Type": "movie",
   "DVD": "09 Jun 2023",
@@ -562,11 +538,9 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt5433140",
-   "comment": "FX",
-   "chronological_order": 130
-  }
+  "id": "tt5433140",
+  "comment": "FX",
+  "chronological_order": 130
  },
  {
   "Title": "Better Luck Tomorrow",
@@ -607,12 +581,10 @@
   "Production": "N/A",
   "Website": "N/A",
   "Response": "True",
-  "custom_data": {
-   "id": "tt0280477",
-   "comment": "Better Luck Tomorrow",
-   "chronological_order": 35,
-   "note": "This movie is not part of the fast & furious saga BUT it is the backstory of Han"
-  }
+  "id": "tt0280477",
+  "comment": "Better Luck Tomorrow",
+  "chronological_order": 35,
+  "note": "This movie is not part of the fast & furious saga BUT it is the backstory of Han"
  },
  {
   "Title": "Fast & Furious Spy Racers",
@@ -642,10 +614,8 @@
   "Type": "series",
   "totalSeasons": "6",
   "Response": "True",
-  "custom_data": {
-   "id": "tt8322592",
-   "comment": "FF: Spy racers",
-   "chronological_order": 115
-  }
+  "id": "tt8322592",
+  "comment": "FF: Spy racers",
+  "chronological_order": 115
  }
 ]
