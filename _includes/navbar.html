@@ -95,7 +95,7 @@
   </h1>
   <nav>
     {%- for saga in site.sagas -%}
-    <a href="{{ saga.url }}" tabindex="0">{{ saga.title }}</a>
+    <a href="{{ site.url }}{{ saga.url }}" tabindex="0">{{ saga.title }}</a>
     {%- endfor -%}
   </nav>
 </aside>
