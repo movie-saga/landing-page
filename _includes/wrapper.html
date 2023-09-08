@@ -1,0 +1,55 @@
+{%- assign poster = '' -%}
+{%- if page.collection == "orders" -%}
+  {%- assign saga = site.sagas | where_exp: "saga", "saga.id contains page.slug_parent" | first -%}
+  {%- assign poster = saga.poster -%}
+  {%- assign bg_position = saga.bg_position -%}
+  {%- assign title = saga.title -%}
+{%- elsif page.collection == "sagas" -%}
+  {%- assign poster = page.poster -%}
+  {%- assign bg_position = page.bg_position -%}
+  {%- assign title = page.title -%}
+{%- endif -%}
+
+<style type="text/css">
+  main {
+    position: relative;
+    padding-top: 20vh;
+  }
+
+  h1.wrapper__title {
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  main::before {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 33vh;
+    top: 0; left: 0; bottom: 0; right: 0;
+    z-index: -1;
+    background:
+      linear-gradient(
+        to bottom,
+        var(--grey-950),
+        transparent 84px
+      ),
+      linear-gradient(
+        to bottom,
+        transparent 60%,
+        var(--grey-950)
+      ),
+      url({{ poster | relative_url }}) {{ bg_position | default: "center" }}/cover no-repeat;
+  }
+</style>
+
+<main class="wrapper">
+  {%- if title -%}
+  <h1 class="wrapper__title">{{ title }}{{ page.subtitle }}</h1>
+  {%- endif -%}
+  <section>

@@ -1,0 +1,907 @@
+[
+ {
+  "Title": "Star Wars: Episode IV - A New Hope",
+  "Year": "1977",
+  "Rated": "PG",
+  "Released": "25 May 1977",
+  "Runtime": "121 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas",
+  "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Plot": "Luke Skywalker joins forces with a Jedi Knight, a cocky pilot, a Wookiee and two droids to save the galaxy from the Empire's world-destroying battle station, while also attempting to rescue Princess Leia from the mysterious Darth ...",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 6 Oscars. 65 wins & 31 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTA5NjhiOTAtZWM0ZC00MWNhLThiMzEtZDFkOTk2OTU1ZDJkXkEyXkFqcGdeQXVyMTA4NDI1NTQx._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.6/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "93%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "90/100"
+   }
+  ],
+  "Metascore": "90",
+  "imdbRating": "8.6",
+  "imdbVotes": "1,411,144",
+  "imdbID": "tt0076759",
+  "Type": "movie",
+  "DVD": "10 Oct 2016",
+  "BoxOffice": "$460,998,507",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0076759",
+  "comment": 4,
+  "original_machete_order": 10,
+  "chronological_order": 110
+ },
+ {
+  "Title": "Star Wars: Episode V - The Empire Strikes Back",
+  "Year": "1980",
+  "Rated": "PG",
+  "Released": "18 Jun 1980",
+  "Runtime": "124 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Irvin Kershner",
+  "Writer": "Leigh Brackett, Lawrence Kasdan, George Lucas",
+  "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Plot": "After the Rebels are overpowered by the Empire, Luke Skywalker begins his Jedi training with Yoda, while his friends are pursued across the galaxy by Darth Vader and bounty hunter Boba Fett.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 1 Oscar. 26 wins & 20 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYmU1NDRjNDgtMzhiMi00NjZmLTg5NGItZDNiZjU5NTU4OTE0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.7/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "94%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "82/100"
+   }
+  ],
+  "Metascore": "82",
+  "imdbRating": "8.7",
+  "imdbVotes": "1,339,360",
+  "imdbID": "tt0080684",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$292,753,960",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0080684",
+  "comment": 5,
+  "original_machete_order": 20,
+  "chronological_order": 120
+ },
+ {
+  "Title": "Star Wars: Episode VI - Return of the Jedi",
+  "Year": "1983",
+  "Rated": "PG",
+  "Released": "25 May 1983",
+  "Runtime": "131 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Richard Marquand",
+  "Writer": "Lawrence Kasdan, George Lucas",
+  "Actors": "Mark Hamill, Harrison Ford, Carrie Fisher",
+  "Plot": "After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.",
+  "Language": "English, Kikuyu, Tagalog, Kalmyk-Oirat, Quechua, Polish",
+  "Country": "United States",
+  "Awards": "Nominated for 4 Oscars. 23 wins & 20 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.3/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "83%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "58/100"
+   }
+  ],
+  "Metascore": "58",
+  "imdbRating": "8.3",
+  "imdbVotes": "1,091,792",
+  "imdbID": "tt0086190",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$316,566,101",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0086190",
+  "comment": 6,
+  "original_machete_order": 50,
+  "chronological_order": 130
+ },
+ {
+  "Title": "Star Wars: Episode I - The Phantom Menace",
+  "Year": "1999",
+  "Rated": "PG",
+  "Released": "19 May 1999",
+  "Runtime": "136 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas",
+  "Actors": "Ewan McGregor, Liam Neeson, Natalie Portman",
+  "Plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
+  "Language": "English, Sanskrit",
+  "Country": "United States",
+  "Awards": "Nominated for 3 Oscars. 27 wins & 71 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.5/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "52%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "51/100"
+   }
+  ],
+  "Metascore": "51",
+  "imdbRating": "6.5",
+  "imdbVotes": "834,221",
+  "imdbID": "tt0120915",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$474,544,677",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0120915",
+  "comment": 1,
+  "chronological_order": 10,
+  "note": "Some people feel like this movie can be skipped with minimal impact on the story consistency"
+ },
+ {
+  "Title": "Star Wars: Episode II - Attack of the Clones",
+  "Year": "2002",
+  "Rated": "PG",
+  "Released": "16 May 2002",
+  "Runtime": "142 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas, Jonathan Hales",
+  "Actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
+  "Plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm\u00e9 Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 1 Oscar. 20 wins & 67 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.6/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "66%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "54/100"
+   }
+  ],
+  "Metascore": "54",
+  "imdbRating": "6.6",
+  "imdbVotes": "738,330",
+  "imdbID": "tt0121765",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$310,676,740",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0121765",
+  "comment": 2,
+  "original_machete_order": 30,
+  "chronological_order": 20
+ },
+ {
+  "Title": "Star Wars: Episode III - Revenge of the Sith",
+  "Year": "2005",
+  "Rated": "PG-13",
+  "Released": "19 May 2005",
+  "Runtime": "140 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "George Lucas",
+  "Writer": "George Lucas, John Ostrander, Jan Duursema",
+  "Actors": "Hayden Christensen, Natalie Portman, Ewan McGregor",
+  "Plot": "Three years into the Clone Wars, Obi-Wan pursues a new threat, while Anakin is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.",
+  "Language": "English",
+  "Country": "United States, Italy, Switzerland, Thailand",
+  "Awards": "Nominated for 1 Oscar. 27 wins & 64 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.6/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "79%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "68/100"
+   }
+  ],
+  "Metascore": "68",
+  "imdbRating": "7.6",
+  "imdbVotes": "822,096",
+  "imdbID": "tt0121766",
+  "Type": "movie",
+  "DVD": "10 Apr 2015",
+  "BoxOffice": "$380,270,577",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt0121766",
+  "comment": 3,
+  "original_machete_order": 40,
+  "chronological_order": 40
+ },
+ {
+  "Title": "Star Wars: Episode VII - The Force Awakens",
+  "Year": "2015",
+  "Rated": "PG-13",
+  "Released": "18 Dec 2015",
+  "Runtime": "138 min",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "J.J. Abrams",
+  "Writer": "Lawrence Kasdan, J.J. Abrams, Michael Arndt",
+  "Actors": "Daisy Ridley, John Boyega, Oscar Isaac",
+  "Plot": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of restoring peace.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 5 Oscars. 64 wins & 140 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTAzODEzNDAzMl5BMl5BanBnXkFtZTgwMDU1MTgzNzE@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.8/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "93%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "80/100"
+   }
+  ],
+  "Metascore": "80",
+  "imdbRating": "7.8",
+  "imdbVotes": "955,666",
+  "imdbID": "tt2488496",
+  "Type": "movie",
+  "DVD": "01 Apr 2016",
+  "BoxOffice": "$936,662,225",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt2488496",
+  "comment": 7,
+  "chronological_order": 180
+ },
+ {
+  "Title": "Star Wars: Episode VIII - The Last Jedi",
+  "Year": "2017",
+  "Rated": "PG-13",
+  "Released": "15 Dec 2017",
+  "Runtime": "152 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "Rian Johnson",
+  "Writer": "Rian Johnson, George Lucas",
+  "Actors": "Daisy Ridley, John Boyega, Mark Hamill",
+  "Plot": "The Star Wars saga continues as new heroes and galactic legends go on an epic adventure, unlocking mysteries of the Force and shocking revelations of the past.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 4 Oscars. 25 wins & 98 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.9/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "91%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "84/100"
+   }
+  ],
+  "Metascore": "84",
+  "imdbRating": "6.9",
+  "imdbVotes": "655,231",
+  "imdbID": "tt2527336",
+  "Type": "movie",
+  "DVD": "11 Mar 2018",
+  "BoxOffice": "$620,181,382",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt2527336",
+  "comment": 8,
+  "chronological_order": 190
+ },
+ {
+  "Title": "Star Wars: Episode IX - The Rise of Skywalker",
+  "Year": "2019",
+  "Rated": "PG-13",
+  "Released": "20 Dec 2019",
+  "Runtime": "141 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "J.J. Abrams",
+  "Writer": "Chris Terrio, J.J. Abrams, Derek Connolly",
+  "Actors": "Daisy Ridley, John Boyega, Oscar Isaac",
+  "Plot": "In the riveting conclusion of the landmark Skywalker saga, new legends will be born-and the final battle for freedom is yet to come.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 3 Oscars. 21 wins & 55 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMDljNTQ5ODItZmQwMy00M2ExLTljOTQtZTVjNGE2NTg0NGIxXkEyXkFqcGdeQXVyODkzNTgxMDg@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.5/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "52%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "53/100"
+   }
+  ],
+  "Metascore": "53",
+  "imdbRating": "6.5",
+  "imdbVotes": "474,864",
+  "imdbID": "tt2527338",
+  "Type": "movie",
+  "DVD": "20 Dec 2019",
+  "BoxOffice": "$515,202,542",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt2527338",
+  "comment": 9,
+  "chronological_order": 200
+ },
+ {
+  "Title": "Rogue One: A Star Wars Story",
+  "Year": "2016",
+  "Rated": "PG-13",
+  "Released": "16 Dec 2016",
+  "Runtime": "133 min",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "Gareth Edwards",
+  "Writer": "Chris Weitz, Tony Gilroy, John Knoll",
+  "Actors": "Felicity Jones, Diego Luna, Alan Tudyk",
+  "Plot": "In a time of conflict, a group of unlikely heroes band together on a mission to steal the plans to the Death Star, the Empire's ultimate weapon of destruction.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 2 Oscars. 24 wins & 85 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.8/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "84%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "65/100"
+   }
+  ],
+  "Metascore": "65",
+  "imdbRating": "7.8",
+  "imdbVotes": "666,219",
+  "imdbID": "tt3748528",
+  "Type": "movie",
+  "DVD": "24 Mar 2017",
+  "BoxOffice": "$533,539,991",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt3748528",
+  "comment": "rogue one",
+  "chronological_order": 100
+ },
+ {
+  "Title": "Solo: A Star Wars Story",
+  "Year": "2018",
+  "Rated": "PG-13",
+  "Released": "25 May 2018",
+  "Runtime": "135 min",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "Ron Howard",
+  "Writer": "Jonathan Kasdan, Lawrence Kasdan, George Lucas",
+  "Actors": "Alden Ehrenreich, Woody Harrelson, Emilia Clarke",
+  "Plot": "Board the Millennium Falcon and journey to a galaxy far, far away in an epic action-adventure that will set the course of one of the Star Wars saga's most unlikely heroes.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 1 Oscar. 6 wins & 26 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTM2NTI3NTc3Nl5BMl5BanBnXkFtZTgwNzM1OTQyNTM@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.9/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "69%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "62/100"
+   }
+  ],
+  "Metascore": "62",
+  "imdbRating": "6.9",
+  "imdbVotes": "364,939",
+  "imdbID": "tt3778644",
+  "Type": "movie",
+  "DVD": "14 Sep 2018",
+  "BoxOffice": "$213,767,512",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt3778644",
+  "comment": "solo a star wars story",
+  "chronological_order": 60
+ },
+ {
+  "Title": "Obi-Wan Kenobi",
+  "Year": "2022",
+  "Rated": "TV-14",
+  "Released": "27 May 2022",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "N/A",
+  "Writer": "N/A",
+  "Actors": "Ewan McGregor, Moses Ingram, Vivien Lyra Blair",
+  "Plot": "Jedi Master Obi-Wan Kenobi has to save young Leia after she is kidnapped, all the while being pursued by Imperial Inquisitors and his former Padawan, now known as Darth Vader.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 5 Primetime Emmys. 5 wins & 23 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTAxOTlmOTAtMjA0Yy00YjVjLWE3OTQtYjAzMWMxOTAwZTY1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.1/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "7.1",
+  "imdbVotes": "211,962",
+  "imdbID": "tt8466564",
+  "Type": "series",
+  "totalSeasons": "1",
+  "Response": "True",
+  "id": "tt8466564",
+  "comment": "Obi-wan Kenobi",
+  "chronological_order": 70
+ },
+ {
+  "Title": "The Book of Boba Fett",
+  "Year": "2021\u20132022",
+  "Rated": "TV-14",
+  "Released": "29 Dec 2021",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Sci-Fi",
+  "Director": "N/A",
+  "Writer": "Jon Favreau",
+  "Actors": "Temuera Morrison, Ming-Na Wen, Frank Trigg",
+  "Plot": "Bounty hunter Boba Fett and mercenary Fennec Shand navigate the underworld when they return to Tatooine to claim Jabba the Hutt's old turf.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 1 Primetime Emmy. 4 wins & 13 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZjllZjE1MWEtYTJhZC00MWIyLTliMjEtYzM3ODc4YzQ2MjFlXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.2/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "7.2",
+  "imdbVotes": "173,713",
+  "imdbID": "tt13668894",
+  "Type": "series",
+  "totalSeasons": "1",
+  "Response": "True",
+  "id": "tt13668894",
+  "comment": "The book of boba fett",
+  "chronological_order": 150
+ },
+ {
+  "Title": "Andor",
+  "Year": "2022\u2013",
+  "Rated": "TV-14",
+  "Released": "21 Sep 2022",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "N/A",
+  "Writer": "Tony Gilroy",
+  "Actors": "Diego Luna, Kyle Soller, Stellan Skarsg\u00e5rd",
+  "Plot": "Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 8 Primetime Emmys. 2 wins & 47 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.4/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.4",
+  "imdbVotes": "146,503",
+  "imdbID": "tt9253284",
+  "Type": "series",
+  "totalSeasons": "2",
+  "Response": "True",
+  "id": "tt9253284",
+  "comment": "Andor",
+  "chronological_order": 90
+ },
+ {
+  "Title": "The Mandalorian",
+  "Year": "2019\u2013",
+  "Rated": "TV-14",
+  "Released": "12 Nov 2019",
+  "Runtime": "40 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "N/A",
+  "Writer": "Jon Favreau",
+  "Actors": "Pedro Pascal, Chris Bartlett, Katee Sackhoff",
+  "Plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 14 Primetime Emmys. 58 wins & 135 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.7/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.7",
+  "imdbVotes": "556,774",
+  "imdbID": "tt8111088",
+  "Type": "series",
+  "totalSeasons": "3",
+  "Response": "True",
+  "id": "tt8111088",
+  "comment": "The Mandalorian (Season 1 - 2)",
+  "chronological_order": 140,
+  "note": "Season 1 - 2"
+ },
+ {
+  "Title": "The Mandalorian",
+  "Year": "2019\u2013",
+  "Rated": "TV-14",
+  "Released": "12 Nov 2019",
+  "Runtime": "40 min",
+  "Genre": "Action, Adventure, Fantasy",
+  "Director": "N/A",
+  "Writer": "Jon Favreau",
+  "Actors": "Pedro Pascal, Chris Bartlett, Katee Sackhoff",
+  "Plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 14 Primetime Emmys. 58 wins & 135 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.7/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.7",
+  "imdbVotes": "556,774",
+  "imdbID": "tt8111088",
+  "Type": "series",
+  "totalSeasons": "3",
+  "Response": "True",
+  "id": "tt8111088",
+  "comment": "The Mandalorian (Season 3)",
+  "chronological_order": 155,
+  "note": "Season 3"
+ },
+ {
+  "Title": "Star Wars: The Bad Batch",
+  "Year": "2021\u2013",
+  "Rated": "TV-PG",
+  "Released": "04 May 2021",
+  "Runtime": "N/A",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "N/A",
+  "Writer": "Jennifer Corbett, Dave Filoni",
+  "Actors": "Ming-Na Wen, Dee Bradley Baker, Michelle Ang",
+  "Plot": "The 'Bad Batch' of elite and experimental clones make their way through an ever-changing galaxy in the immediate aftermath of the Clone Wars.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "2 wins & 1 nomination",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNDA5YzQzYmItZTE4NC00NTNkLTljZGItNDQ0YjI3MzdhZjlhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.8/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "7.8",
+  "imdbVotes": "45,959",
+  "imdbID": "tt12708542",
+  "Type": "series",
+  "totalSeasons": "2",
+  "Response": "True",
+  "id": "tt12708542",
+  "comment": "Star wars the bad batch",
+  "chronological_order": 50
+ },
+ {
+  "Title": "Tales of the Jedi",
+  "Year": "2022\u2013",
+  "Rated": "TV-PG",
+  "Released": "26 Oct 2022",
+  "Runtime": "N/A",
+  "Genre": "Animation, Short, Action",
+  "Director": "N/A",
+  "Writer": "Dave Filoni",
+  "Actors": "Corey Burton, Ashley Eckstein, Dee Bradley Baker",
+  "Plot": "It showcases animated shorts that feature Jedi from the prequel era.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "2 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BODMwYmE1ZGItYWVjNi00ZWUxLWFjYjQtNjdjN2MzNzY0NmRlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.2/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.2",
+  "imdbVotes": "30,173",
+  "imdbID": "tt20723374",
+  "Type": "series",
+  "totalSeasons": "1",
+  "Response": "True",
+  "id": "tt20723374",
+  "comment": "Tales of the Jedi (Dooku)",
+  "note": "Episodes 2,3,4",
+  "chronological_order": 15
+ },
+ {
+  "Title": "Tales of the Jedi",
+  "Year": "2022\u2013",
+  "Rated": "TV-PG",
+  "Released": "26 Oct 2022",
+  "Runtime": "N/A",
+  "Genre": "Animation, Short, Action",
+  "Director": "N/A",
+  "Writer": "Dave Filoni",
+  "Actors": "Corey Burton, Ashley Eckstein, Dee Bradley Baker",
+  "Plot": "It showcases animated shorts that feature Jedi from the prequel era.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "2 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BODMwYmE1ZGItYWVjNi00ZWUxLWFjYjQtNjdjN2MzNzY0NmRlXkEyXkFqcGdeQXVyMTUzMTg2ODkz._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.2/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.2",
+  "imdbVotes": "30,173",
+  "imdbID": "tt20723374",
+  "Type": "series",
+  "totalSeasons": "1",
+  "Response": "True",
+  "id": "tt20723374",
+  "comment": "Tales of the Jedi (Ahsoka)",
+  "note": "Episodes 1,5,6",
+  "chronological_order": 23
+ },
+ {
+  "Title": "Star Wars: The Clone Wars",
+  "Year": "2008\u20132020",
+  "Rated": "TV-PG",
+  "Released": "03 Oct 2008",
+  "Runtime": "23 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "N/A",
+  "Writer": "George Lucas",
+  "Actors": "Tom Kane, Dee Bradley Baker, Matt Lanter",
+  "Plot": "Jedi Knights lead the Grand Army of the Republic against the droid army of the Separatists.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "27 wins & 74 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZWFlNzRmOTItZjY1Ni00ZjZkLTk5MDgtOGFhOTYzNWFhYzhmXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.4/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.4",
+  "imdbVotes": "111,130",
+  "imdbID": "tt0458290",
+  "Type": "series",
+  "totalSeasons": "7",
+  "Response": "True",
+  "id": "tt0458290",
+  "comment": "Star Wars The Clone Wars (tv show)",
+  "chronological_order": 30
+ },
+ {
+  "Title": "Star Wars: The Clone Wars",
+  "Year": "2008",
+  "Rated": "PG",
+  "Released": "15 Aug 2008",
+  "Runtime": "98 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "Dave Filoni",
+  "Writer": "Henry Gilroy, Steven Melching, Scott Murphy",
+  "Actors": "Matt Lanter, Nika Futterman, Tom Kane",
+  "Plot": "After the Republic's victory on Christophsis, Anakin and his new apprentice, Ahsoka Tano, must rescue the kidnapped son of Jabba the Hutt. Political intrigue complicates their mission.",
+  "Language": "English",
+  "Country": "United States, Singapore, Australia, United Kingdom",
+  "Awards": "2 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYTJiYTMyMGEtNjE0Zi00MzczLWI3ZWYtMmFkMDk0NWVjZGYzXkEyXkFqcGdeQXVyMTEyNzgwMDUw._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "5.9/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "18%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "35/100"
+   }
+  ],
+  "Metascore": "35",
+  "imdbRating": "5.9",
+  "imdbVotes": "70,155",
+  "imdbID": "tt1185834",
+  "Type": "movie",
+  "DVD": "05 Dec 2016",
+  "BoxOffice": "$35,161,554",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt1185834",
+  "comment": "Star wars the clone wars (movie)",
+  "chronological_order": 25
+ },
+ {
+  "Title": "Star Wars: Rebels",
+  "Year": "2014\u20132018",
+  "Rated": "TV-Y7-FV",
+  "Released": "26 Sep 2014",
+  "Runtime": "22 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "N/A",
+  "Writer": "Simon Kinberg, Carrie Beck, Dave Filoni",
+  "Actors": "Dave Filoni, Taylor Gray, Freddie Prinze Jr.",
+  "Plot": "A brave and clever ragtag starship crew stands up against the evil Empire as it tightens its grip on the galaxy and hunts down the last of the Jedi Knights.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 4 Primetime Emmys. 7 wins & 29 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BY2Q1ZTAzNzMtMzlmNy00NjdjLThhYjgtMzgxN2ZkYmFhMDIwXkEyXkFqcGdeQXVyMjg5NDMwMQ@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.0/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.0",
+  "imdbVotes": "52,310",
+  "imdbID": "tt2930604",
+  "Type": "series",
+  "totalSeasons": "4",
+  "Response": "True",
+  "id": "tt2930604",
+  "comment": "Star wars rebels",
+  "chronological_order": 80
+ },
+ {
+  "Title": "Ahsoka",
+  "Year": "2023\u2013",
+  "Rated": "N/A",
+  "Released": "23 Aug 2023",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "N/A",
+  "Writer": "Dave Filoni",
+  "Actors": "Rosario Dawson, Natasha Liu Bordizzo, Wes Chatham",
+  "Plot": "After the fall of the Galactic Empire, former Jedi Knight Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
+  "Ratings": [],
+  "Metascore": "N/A",
+  "imdbRating": "N/A",
+  "imdbVotes": "N/A",
+  "imdbID": "tt13622776",
+  "Type": "series",
+  "totalSeasons": "1",
+  "Response": "True",
+  "id": "tt13622776",
+  "comment": "Ashoka",
+  "chronological_order": 160
+ },
+ {
+  "Title": "Star Wars Resistance",
+  "Year": "2018\u20132020",
+  "Rated": "TV-Y7",
+  "Released": "07 Oct 2018",
+  "Runtime": "30 min",
+  "Genre": "Animation, Action, Adventure",
+  "Director": "N/A",
+  "Writer": "Carrie Beck, Dave Filoni, Kiri Hart",
+  "Actors": "Christopher Sean, Scott Lawrence, Josh Brener",
+  "Plot": "Kazuda Xiono, a young pilot for the Resistance, is tasked with a top secret mission to investigate the First Order, a growing threat in the galaxy.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Nominated for 2 Primetime Emmys. 1 win & 4 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTkyMTc3NjAwNF5BMl5BanBnXkFtZTgwNTU1ODIyNjM@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "5.3/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "5.3",
+  "imdbVotes": "6,978",
+  "imdbID": "tt8336340",
+  "Type": "series",
+  "totalSeasons": "2",
+  "Response": "True",
+  "id": "tt8336340",
+  "comment": "Star wars resistance",
+  "chronological_order": 170
+ }
+]

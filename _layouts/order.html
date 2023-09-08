@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include header.html -%}
+  {%- include style.html -%}
+  <style type="text/css">
+    .container {
+      max-width: var(--screen-lg);
+      margin: 2rem auto 0 auto;
+      padding: 0 2rem 18rem 2rem;
+    }
+
+    .movie-card-list {
+      display: flex;
+      flex-direction: column;
+      row-gap: 1rem;
+    }
+
+    .movie-card-list .-separated {
+      border-top: 1px solid #ffffff1f;
+      border-image: linear-gradient(to right, #ffffff1f, transparent 80%) 1;
+    }
+
+    .container .footer-navigation {
+      margin-top: 4rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container .button {
+      display: flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      background-color: white;
+      color: var(--grey-900);
+      text-transform: uppercase;
+      cursor: pointer;
+      box-shadow: 0 0 0 1px white;
+    }
+
+    .container .button svg + span {
+      padding-left: 0.2rem;
+      transition: padding 200ms;
+    }
+
+    .container .button:hover svg + span,
+    .container .button:focus svg + span {
+      padding-left: 0.4rem;
+    }
+
+    .container .button svg {
+      width: 22px;
+      height: 22px;
+    }
+
+    .container .button:hover,
+    .container .button:focus {
+      background-color: var(--grey-200);
+      text-decoration: underline;
+    }
+
+  </style>
+  {%- include styles/movies_card.html -%}
+</head>
+<body>
+  {%- include navbar.html -%}
+  {%- include wrapper.html -%}
+
+  {%- if site.data[page.slug_parent] -%}
+  {% assign ids_displayed = '' | split: ',' %}
+
+  <div class="container">
+    <ul class="movie-card-list">
+      {%- assign sorted_movies = site.data[page.slug_parent] | sort: page.sort_by -%}
+      {%- for movie in sorted_movies -%}
+        {% if page.sort_by == "Year" %}
+          {% if ids_displayed contains movie.id %}
+          {% else %}
+            {% assign ids_displayed = ids_displayed | push: movie.id %}
+            <li class="{%- unless forloop.first -%}-separated{%- endunless -%}">
+              {%- include new_movie_card.html -%}
+            </li>
+          {% endif %}
+        {% else %}
+          {% if movie[page.sort_by] %}
+          <li class="{%- unless forloop.first -%}-separated{%- endunless -%}">
+            {%- include new_movie_card.html -%}
+          </li>
+          {% endif %}
+        {% endif %}
+      {%- endfor -%}
+    </ul>
+
+    <div class="footer-navigation">
+      {%- assign saga = site.sagas | where_exp: "saga", "saga.id contains page.slug_parent" | first -%}
+      <a href="{{ saga.url }}" class="button" tabindex="0">
+        <svg xmlns="http://www.w3.org/2000/svg"><use href="#hero-chevron-left" /></svg>
+        <span>{{ saga.title }}</span>
+      </a>
+    </div>
+  </div>
+  {%- endif -%}
+  {%- include endwrapper.html -%}
+</body>
+</html>

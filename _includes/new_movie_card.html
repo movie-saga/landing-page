@@ -1,0 +1,27 @@
+<div class="movie-card">
+  <div class="poster">
+    <img src="{{ movie.Poster }}" alt="{{ movie.Title }}">
+  </div>
+
+  <div class="description">
+    <div class="head">
+      <h3>{{ movie.Title }}</h3>
+      <span class="release-year">{{ movie.Year }}</span>
+    </div>
+    <div class="ratings">
+      {%- assign ratings = movie.imdbRating -%}
+      <svg xmlns="http://www.w3.org/2000/svg"><use href="#hero-star-filled" /></svg>
+      <span class="ratings-score">{{ ratings }}</span>
+    </div>
+
+    {% if page.sort_by != "Year" %}
+      <div class="to style later" style="font-size: 25px;">
+        <p>{{ movie.note }}</p>
+      </div>
+    {% endif %}
+
+    <div class="plot">
+      <p>{{ movie.Plot }}</p>
+    </div>
+  </div>
+</div>

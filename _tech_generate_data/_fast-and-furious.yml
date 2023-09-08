@@ -1,30 +1,46 @@
 - id: tt0232500
   comment: "FF1"
+  chronological_order: 10
 - id: tt2055789
   comment: "Turbo charged prelude"
+  chronological_order: 20
 - id: tt0322259
   comment: "2 fast 2 furious"
+  chronological_order: 30
 - id: tt1538503
   comment: "Los bandoleros"
+  chronological_order: 40
 - id: tt0463985
   comment: "Tokyo drift"
+  chronological_order: 80
 - id: tt1013752
   comment: "Fast & Furious"
+  chronological_order: 50
 - id: tt1596343
   comment: "Fast Five"
+  chronological_order: 60
 - id: tt1905041
   comment: "FF 6"
+  chronological_order: 70
 - id: tt2820852
   comment: "Furious 7"
+  chronological_order: 90
 - id: tt4630562
   comment: "The Fate of the furious"
+  chronological_order: 100
 - id: tt6806448
   comment: "Hobbs & Shaw"
+  chronological_order: 110
 - id: tt5433138
   comment: "F9"
+  chronological_order: 120
 - id: tt5433140
   comment: "FX"
+  chronological_order: 130
 - id: tt0280477
   comment: "Better Luck Tomorrow"
+  chronological_order: 35
+  note: "This movie is not part of the fast & furious saga BUT it is the backstory of Han"
 - id: tt8322592
   comment: "FF: Spy racers"
+  chronological_order: 115
