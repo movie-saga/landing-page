@@ -155,6 +155,7 @@
       {%- assign movies_count = site.data[page.slug] | where: "Type", "movie" | size -%}
       {%- assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size -%}
       {%- assign duration = 0 -%}
+      {% assign movies_uniques = '' | split: ',' %}
       {% assign ids_uniques = '' | split: ',' %}
       {%- for movie in site.data[page.slug] -%}
         {% if ids_uniques contains movie.id %}
@@ -162,8 +163,10 @@
           {%- assign current_duration = movie.Runtime | replace: " min" | to_integer-%}
           {%- assign duration = duration | plus: current_duration -%}
           {% assign ids_uniques = ids_uniques | push: movie.id %}
+          {% assign movies_uniques = movies_uniques | push: movie %}
         {% endif %}
       {%- endfor -%}
+      {%- assign tv_shows_count = movies_uniques | where: "Type", "series" | size -%}
       {%- assign duration = duration | divided_by: 60 | to_integer -%}
 
       <div class="container">
