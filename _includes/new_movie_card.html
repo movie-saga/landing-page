@@ -1,6 +1,6 @@
 <div class="movie-card">
   <div class="poster">
-    <img src="{{ movie.Poster }}" alt="{{ movie.Title }}">
+    <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg" alt="{{ movie.Title }}">
   </div>
 
   <div class="description">
@@ -15,7 +15,7 @@
     </div>
 
     {% if page.sort_by != "Year" %}
-      <div class="to style later" style="font-size: 25px;">
+      <div class="" style="font-size: 15px; font-style: italic;">
         <p>{{ movie.note }}</p>
       </div>
     {% endif %}

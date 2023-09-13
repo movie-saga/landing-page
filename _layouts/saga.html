@@ -155,9 +155,14 @@
       {%- assign movies_count = site.data[page.slug] | where: "Type", "movie" | size -%}
       {%- assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size -%}
       {%- assign duration = 0 -%}
-      {%- for element in site.data[page.slug] -%}
-        {%- assign current_duration = element.Runtime | replace: " min" | to_integer-%}
-        {%- assign duration = duration | plus: current_duration -%}
+      {% assign ids_uniques = '' | split: ',' %}
+      {%- for movie in site.data[page.slug] -%}
+        {% if ids_uniques contains movie.id %}
+        {% else %}
+          {%- assign current_duration = movie.Runtime | replace: " min" | to_integer-%}
+          {%- assign duration = duration | plus: current_duration -%}
+          {% assign ids_uniques = ids_uniques | push: movie.id %}
+        {% endif %}
       {%- endfor -%}
       {%- assign duration = duration | divided_by: 60 | to_integer -%}
 
@@ -199,7 +204,7 @@
                     {%- assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 -%}
                     {%- for movie in sorted_movies -%}
                     <li role="presentation">
-                      <img src="{{ movie.Poster }}" alt="">
+                      <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg" alt="">
                     </li>
                     {%- endfor -%}
                   </ul>
@@ -220,4 +225,5 @@
       </div>
       {%- include endwrapper.html -%}
   </body>
+  {%- include analytics.html -%}
 </html>
