@@ -24,21 +24,19 @@
     cursor: pointer;
   }
 
-  aside > nav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-right: 32px;
-  }
-
   aside > nav > a {
     display: flex;
     align-items: center;
 
-    text-transform: uppercase;
+    font-size: 2rem;
     cursor: pointer;
     padding: 0 16px;
     height: 100%;
+    font-weight: 900;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 
     position: relative;
     transition: background-color 100ms ease-in;
@@ -48,7 +46,7 @@
     content: "";
     position: absolute;
     display: block;
-    height: 1px;
+    height: 3px;
     left: 0;
     bottom: 0;
     width: 0;
@@ -66,12 +64,95 @@
     width: 100%;
   }
 
+  /** MOBILE NAV */
+
+  aside .mobile-menu-button {
+    padding: 1rem;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    color: white;
+  }
+
+  aside .mobile-menu-button svg {
+    width: 24px;
+    height: 24px;
+  }
+
+  aside > nav.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  aside > nav button.mobile-menu-close-button {
+    padding: 1rem;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    color: white;
+    z-index: 20;
+    cursor: pointer;
+    transition: background-color 150ms ease-in-out;
+  }
+
+  aside > nav button.mobile-menu-close-button:hover,
+  aside > nav button.mobile-menu-close-button:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+
+  aside > nav button.mobile-menu-close-button svg {
+    width: 24px;
+    height: 24px;
+  }
+
   aside > nav > a:hover {
     color: var(--grey-200);
     background-color: rgba(255, 255, 255, 0.1);
   }
 
+  aside {
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: calc(var(--aside-width) / 4);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: transparent;
+    align-content: center;
+  }
+
+  aside > nav {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(150vh);
+    padding-top: 6rem;
+    background-color: var(--grey-900);
+    transition: transform 250ms ease-out, opacity 150ms ease-in-out;
+  }
+
+  aside > nav > a {
+    padding: 0.5rem 1rem;
+    max-height: 150px;
+  }
+
+  /** \ MOBILE NAV */
+
   @media screen and (min-width: 640px) {
+    aside > .mobile-menu-button {
+      display: none;
+    }
+
     aside {
       z-index: 1;
       position: fixed;
@@ -84,6 +165,35 @@
       flex-direction: row;
       justify-content: space-between;
     }
+
+    aside > nav {
+      position: static;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      padding-right: 32px;
+      background: transparent;
+      z-index: 0;
+      padding: 0;
+      height: initial;
+      transform: translateY(0);
+      opacity: 1;
+      transition: none;
+    }
+
+    aside > nav button.mobile-menu-close-button {
+      display: none;
+    }
+
+    aside > nav > a {
+      font-size: 1rem;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+
+    aside > nav > a::before {
+      height: 1px;
+    }
   }
 </style>
 
@@ -93,9 +203,84 @@
       <span class="movie">MOVIE</span><span class="saga">saga</span>
     </a>
   </h1>
-  <nav>
+  <button
+    class="mobile-menu-button"
+    aria-haspopup="navbar"
+    aria-expanded="false"
+    type="button"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" role="presentation">
+      <use href="#hero-menu" />
+    </svg>
+  </button>
+  <nav id="navbar" aria-modal="true" role="dialog">
+    <button
+      class="mobile-menu-close-button"
+      type="button"
+      aria-label="close menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" role="presentation">
+        <use href="#hero-x" />
+      </svg>
+    </button>
     {%- for saga in site.sagas -%}
     <a href="{{ site.url }}{{ saga.url }}" tabindex="0">{{ saga.title }}</a>
     {%- endfor -%}
   </nav>
 </aside>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    function isMobile() {
+      return (
+        window.getComputedStyle(document.body).getPropertyValue("--screen") ===
+        "mobile"
+      );
+    }
+
+    function listenOnMenuInput() {
+      const $btn = document.querySelector(".mobile-menu-button");
+      if (!$btn) return;
+      $btn.addEventListener("click", function () {
+        if (!isMobile()) return;
+
+        document
+          .querySelector(".mobile-menu-button")
+          .setAttribute("aria-expanded", "true");
+        window.history.pushState({}, "", "#menu");
+
+        function onPopState(e) {
+          document.querySelector("aside > nav").classList.remove("active");
+          document
+            .querySelector(".mobile-menu-button")
+            .setAttribute("aria-expanded", "false");
+          window.removeEventListener("popstate", onPopState);
+        }
+        window.addEventListener("popstate", onPopState);
+
+        function onEscPressed(e) {
+          if (e.key !== "Escape") return;
+          window.removeEventListener("keydown", onEscPressed);
+          window.history.back();
+        }
+        window.addEventListener("keydown", onEscPressed);
+
+        document.querySelector("aside > nav").classList.add("active");
+      });
+    }
+
+    function listenOnCloseButton() {
+      const $btn = document.querySelector("button.mobile-menu-close-button");
+      if (!$btn) return;
+
+      $btn.addEventListener("click", function () {
+        if (!isMobile()) return;
+
+        window.history.back();
+      });
+    }
+
+    listenOnMenuInput();
+    listenOnCloseButton();
+  });
+</script>
