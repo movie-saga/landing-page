@@ -52,7 +52,7 @@
         transparent 60%,
         var(--grey-950)
       ),
-      url({{ poster | relative_url }}) {{ bg_position | default: "center" }}/cover no-repeat;
+      url({{ site.url }}{{ poster }}) {{ bg_position | default: "center" }}/cover no-repeat;
   }
 
   @media screen and (min-width: 640px) {
