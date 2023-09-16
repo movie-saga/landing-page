@@ -13,19 +13,16 @@
 }
 
 .movie-card .description .head {
-  display: flex;
+  display: inline;
   flex-direction: row;
   align-items: center;
   column-gap: 0.5rem;
   overflow: hidden;
-  flex-wrap: nowrap;
 }
 
 .movie-card .description .head h3 {
   font-size: 1.4rem;
   line-height: 1.6rem;
-  white-space: nowrap;
-  text-overflow: ellipsis;
   font-weight: bold;
 }
 
@@ -33,9 +30,11 @@
   font-weight: 400;
   text-transform: uppercase;
   font-size: 0.9rem;
+  vertical-align: top;
 }
 
 .movie-card .poster {
+  min-width: 80px;
   overflow: hidden;
   height: 100%;
 }

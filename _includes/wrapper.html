@@ -17,13 +17,21 @@
   }
 
   h1.wrapper__title {
+    display: block;
     font-weight: 900;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0,0,0,0.3);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .__subtitle {
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 300;
   }
 
   main::before {
@@ -46,10 +54,39 @@
       ),
       url({{ poster | relative_url }}) {{ bg_position | default: "center" }}/cover no-repeat;
   }
+
+  @media screen and (min-width: 640px) {
+    h1.wrapper__title {
+      font-size: 3rem;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    h1.wrapper__title .__subtitle {
+      display: inline;
+      font-weight: 900;
+      text-transform: none;
+      font-size: 3rem;
+    }
+
+    {% if page.subtitle %}
+    h1.wrapper__title .__subtitle::before {
+      content: " | ";
+      display: inline;
+    }
+    {% endif %}
+  }
+
+  @media screen and (min-width: 1024px) {
+    h1.wrapper__title,
+    h1.wrapper__title .__subtitle {
+      font-size: 4rem;
+    }
+  }
 </style>
 
 <main class="wrapper">
   {%- if title -%}
-  <h1 class="wrapper__title">{{ title }}{{ page.subtitle }}</h1>
+  <h1 class="wrapper__title">{{ title }}{% if page.subtitle %}<span class="__subtitle">{{ page.subtitle }}</span>{% endif %}</h1>
   {%- endif -%}
   <section>
