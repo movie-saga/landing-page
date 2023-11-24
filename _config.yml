@@ -2,7 +2,7 @@ title: Movie saga
 description: >-
   The best place to find in which order you can or should watch your favorite movie sagas !
 baseurl: "/"
-url: "https://movie-saga.com/"
+url: "https://movie-saga.com"
 
 collections_dir: database
 collections:
