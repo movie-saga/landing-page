@@ -17,3 +17,17 @@
 
 
 https://www.pocket-lint.com/tv/news/155659-matrix-movies-in-order-chronological-timeline/
+
+# Launch image compression task
+
+```
+cd scripts
+./compress_all_images.sh
+```
+
+# Launch web app
+
+sudo bundle exec jekyll serve --verbose
+
+# Fetch new data
+
