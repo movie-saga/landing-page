@@ -52,8 +52,7 @@
         transparent 60%,
         var(--grey-950)
       ),
-<<<<<<< HEAD
-      url({{ site.url }}{{ poster }}) {{ bg_position | default: "center" }}/cover no-repeat;
+      url({{ site.url }}{{ poster }}.webp) {{ bg_position | default: "center" }}/cover no-repeat;
   }
 
   @media screen and (min-width: 640px) {
@@ -83,9 +82,6 @@
     h1.wrapper__title .__subtitle {
       font-size: 4rem;
     }
-=======
-      url({{ poster | relative_url }}.webp) {{ bg_position | default: "center" }}/cover no-repeat;
->>>>>>> a54c139 (Adding image compression)
   }
 </style>
 
