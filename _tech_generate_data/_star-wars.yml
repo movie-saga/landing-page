@@ -2,35 +2,44 @@
   comment: 4
   original_machete_order: 10
   chronological_order: 110
+  skywalker_saga_order: 40
 - id: tt0080684
   comment: 5
   original_machete_order: 20
   chronological_order: 120
+  skywalker_saga_order: 50
 - id: tt0086190
   comment: 6
   original_machete_order: 50
   chronological_order: 130
+  skywalker_saga_order: 60
 - id: tt0120915
   comment: 1
   chronological_order: 10
   note: "Some people feel like this movie can be skipped with minimal impact on the story consistency"
+  skywalker_saga_order: 10
 - id: tt0121765
   comment: 2
   original_machete_order: 30
   chronological_order: 20
+  skywalker_saga_order: 20
 - id: tt0121766
   comment: 3
   original_machete_order: 40
   chronological_order: 40
+  skywalker_saga_order: 30
 - id: tt2488496
   comment: 7
   chronological_order: 180
+  skywalker_saga_order: 70
 - id: tt2527336
   comment: 8
   chronological_order: 190
+  skywalker_saga_order: 80
 - id: tt2527338
   comment: 9
   chronological_order: 200
+  skywalker_saga_order: 90
 - id: tt3748528
   comment: rogue one
   chronological_order: 100

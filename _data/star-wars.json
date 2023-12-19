@@ -30,7 +30,7 @@
   ],
   "Metascore": "90",
   "imdbRating": "8.6",
-  "imdbVotes": "1,411,144",
+  "imdbVotes": "1,424,627",
   "imdbID": "tt0076759",
   "Type": "movie",
   "DVD": "10 Oct 2016",
@@ -41,7 +41,8 @@
   "id": "tt0076759",
   "comment": 4,
   "original_machete_order": 10,
-  "chronological_order": 110
+  "chronological_order": 110,
+  "skywalker_saga_order": 40
  },
  {
   "Title": "Star Wars: Episode V - The Empire Strikes Back",
@@ -65,7 +66,7 @@
    },
    {
     "Source": "Rotten Tomatoes",
-    "Value": "94%"
+    "Value": "95%"
    },
    {
     "Source": "Metacritic",
@@ -74,7 +75,7 @@
   ],
   "Metascore": "82",
   "imdbRating": "8.7",
-  "imdbVotes": "1,339,360",
+  "imdbVotes": "1,353,719",
   "imdbID": "tt0080684",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -85,7 +86,8 @@
   "id": "tt0080684",
   "comment": 5,
   "original_machete_order": 20,
-  "chronological_order": 120
+  "chronological_order": 120,
+  "skywalker_saga_order": 50
  },
  {
   "Title": "Star Wars: Episode VI - Return of the Jedi",
@@ -100,7 +102,7 @@
   "Plot": "After rescuing Han Solo from Jabba the Hutt, the Rebels attempt to destroy the second Death Star, while Luke struggles to help Darth Vader back from the dark side.",
   "Language": "English, Kikuyu, Tagalog, Kalmyk-Oirat, Quechua, Polish",
   "Country": "United States",
-  "Awards": "Nominated for 4 Oscars. 23 wins & 20 nominations total",
+  "Awards": "Nominated for 4 Oscars. 23 wins & 23 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BOWZlMjFiYzgtMTUzNC00Y2IzLTk1NTMtZmNhMTczNTk0ODk1XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -118,7 +120,7 @@
   ],
   "Metascore": "58",
   "imdbRating": "8.3",
-  "imdbVotes": "1,091,792",
+  "imdbVotes": "1,102,128",
   "imdbID": "tt0086190",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -129,7 +131,8 @@
   "id": "tt0086190",
   "comment": 6,
   "original_machete_order": 50,
-  "chronological_order": 130
+  "chronological_order": 130,
+  "skywalker_saga_order": 60
  },
  {
   "Title": "Star Wars: Episode I - The Phantom Menace",
@@ -144,7 +147,7 @@
   "Plot": "Two Jedi escape a hostile blockade to find allies and come across a young boy who may bring balance to the Force, but the long dormant Sith resurface to claim their original glory.",
   "Language": "English, Sanskrit",
   "Country": "United States",
-  "Awards": "Nominated for 3 Oscars. 27 wins & 71 nominations total",
+  "Awards": "Nominated for 3 Oscars. 28 wins & 71 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BYTRhNjcwNWQtMGJmMi00NmQyLWE2YzItODVmMTdjNWI0ZDA2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -162,7 +165,7 @@
   ],
   "Metascore": "51",
   "imdbRating": "6.5",
-  "imdbVotes": "834,221",
+  "imdbVotes": "841,790",
   "imdbID": "tt0120915",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -173,7 +176,8 @@
   "id": "tt0120915",
   "comment": 1,
   "chronological_order": 10,
-  "note": "Some people feel like this movie can be skipped with minimal impact on the story consistency"
+  "note": "Some people feel like this movie can be skipped with minimal impact on the story consistency",
+  "skywalker_saga_order": 10
  },
  {
   "Title": "Star Wars: Episode II - Attack of the Clones",
@@ -188,7 +192,7 @@
   "Plot": "Ten years after initially meeting, Anakin Skywalker shares a forbidden romance with Padm\u00e9 Amidala, while Obi-Wan Kenobi discovers a secret clone army crafted for the Jedi.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Nominated for 1 Oscar. 20 wins & 67 nominations total",
+  "Awards": "Nominated for 1 Oscar. 21 wins & 71 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMDAzM2M0Y2UtZjRmZi00MzVlLTg4MjEtOTE3NzU5ZDVlMTU5XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -197,7 +201,7 @@
    },
    {
     "Source": "Rotten Tomatoes",
-    "Value": "66%"
+    "Value": "65%"
    },
    {
     "Source": "Metacritic",
@@ -206,7 +210,7 @@
   ],
   "Metascore": "54",
   "imdbRating": "6.6",
-  "imdbVotes": "738,330",
+  "imdbVotes": "745,461",
   "imdbID": "tt0121765",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -217,7 +221,8 @@
   "id": "tt0121765",
   "comment": 2,
   "original_machete_order": 30,
-  "chronological_order": 20
+  "chronological_order": 20,
+  "skywalker_saga_order": 20
  },
  {
   "Title": "Star Wars: Episode III - Revenge of the Sith",
@@ -232,7 +237,7 @@
   "Plot": "Three years into the Clone Wars, Obi-Wan pursues a new threat, while Anakin is lured by Chancellor Palpatine into a sinister plot to rule the galaxy.",
   "Language": "English",
   "Country": "United States, Italy, Switzerland, Thailand",
-  "Awards": "Nominated for 1 Oscar. 27 wins & 64 nominations total",
+  "Awards": "Nominated for 1 Oscar. 29 wins & 64 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BNTc4MTc3NTQ5OF5BMl5BanBnXkFtZTcwOTg0NjI4NA@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -250,7 +255,7 @@
   ],
   "Metascore": "68",
   "imdbRating": "7.6",
-  "imdbVotes": "822,096",
+  "imdbVotes": "830,597",
   "imdbID": "tt0121766",
   "Type": "movie",
   "DVD": "10 Apr 2015",
@@ -261,7 +266,8 @@
   "id": "tt0121766",
   "comment": 3,
   "original_machete_order": 40,
-  "chronological_order": 40
+  "chronological_order": 40,
+  "skywalker_saga_order": 30
  },
  {
   "Title": "Star Wars: Episode VII - The Force Awakens",
@@ -294,7 +300,7 @@
   ],
   "Metascore": "80",
   "imdbRating": "7.8",
-  "imdbVotes": "955,666",
+  "imdbVotes": "962,099",
   "imdbID": "tt2488496",
   "Type": "movie",
   "DVD": "01 Apr 2016",
@@ -304,7 +310,8 @@
   "Response": "True",
   "id": "tt2488496",
   "comment": 7,
-  "chronological_order": 180
+  "chronological_order": 180,
+  "skywalker_saga_order": 70
  },
  {
   "Title": "Star Wars: Episode VIII - The Last Jedi",
@@ -319,7 +326,7 @@
   "Plot": "The Star Wars saga continues as new heroes and galactic legends go on an epic adventure, unlocking mysteries of the Force and shocking revelations of the past.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Nominated for 4 Oscars. 25 wins & 98 nominations total",
+  "Awards": "Nominated for 4 Oscars. 26 wins & 99 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -337,7 +344,7 @@
   ],
   "Metascore": "84",
   "imdbRating": "6.9",
-  "imdbVotes": "655,231",
+  "imdbVotes": "661,100",
   "imdbID": "tt2527336",
   "Type": "movie",
   "DVD": "11 Mar 2018",
@@ -347,7 +354,8 @@
   "Response": "True",
   "id": "tt2527336",
   "comment": 8,
-  "chronological_order": 190
+  "chronological_order": 190,
+  "skywalker_saga_order": 80
  },
  {
   "Title": "Star Wars: Episode IX - The Rise of Skywalker",
@@ -367,11 +375,11 @@
   "Ratings": [
    {
     "Source": "Internet Movie Database",
-    "Value": "6.5/10"
+    "Value": "6.4/10"
    },
    {
     "Source": "Rotten Tomatoes",
-    "Value": "52%"
+    "Value": "51%"
    },
    {
     "Source": "Metacritic",
@@ -379,8 +387,8 @@
    }
   ],
   "Metascore": "53",
-  "imdbRating": "6.5",
-  "imdbVotes": "474,864",
+  "imdbRating": "6.4",
+  "imdbVotes": "481,306",
   "imdbID": "tt2527338",
   "Type": "movie",
   "DVD": "20 Dec 2019",
@@ -390,7 +398,8 @@
   "Response": "True",
   "id": "tt2527338",
   "comment": 9,
-  "chronological_order": 200
+  "chronological_order": 200,
+  "skywalker_saga_order": 90
  },
  {
   "Title": "Rogue One: A Star Wars Story",
@@ -423,7 +432,7 @@
   ],
   "Metascore": "65",
   "imdbRating": "7.8",
-  "imdbVotes": "666,219",
+  "imdbVotes": "674,052",
   "imdbID": "tt3748528",
   "Type": "movie",
   "DVD": "24 Mar 2017",
@@ -466,7 +475,7 @@
   ],
   "Metascore": "62",
   "imdbRating": "6.9",
-  "imdbVotes": "364,939",
+  "imdbVotes": "371,715",
   "imdbID": "tt3778644",
   "Type": "movie",
   "DVD": "14 Sep 2018",
@@ -491,7 +500,7 @@
   "Plot": "Jedi Master Obi-Wan Kenobi has to save young Leia after she is kidnapped, all the while being pursued by Imperial Inquisitors and his former Padawan, now known as Darth Vader.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Nominated for 5 Primetime Emmys. 5 wins & 23 nominations total",
+  "Awards": "Nominated for 5 Primetime Emmys. 5 wins & 31 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BOTAxOTlmOTAtMjA0Yy00YjVjLWE3OTQtYjAzMWMxOTAwZTY1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
   "Ratings": [
    {
@@ -501,7 +510,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "7.1",
-  "imdbVotes": "211,962",
+  "imdbVotes": "221,295",
   "imdbID": "tt8466564",
   "Type": "series",
   "totalSeasons": "1",
@@ -533,7 +542,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "7.2",
-  "imdbVotes": "173,713",
+  "imdbVotes": "179,579",
   "imdbID": "tt13668894",
   "Type": "series",
   "totalSeasons": "1",
@@ -555,7 +564,7 @@
   "Plot": "Prequel series to Star Wars' 'Rogue One'. In an era filled with danger, deception and intrigue, Cassian will embark on the path that is destined to turn him into a Rebel hero.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Nominated for 8 Primetime Emmys. 2 wins & 47 nominations total",
+  "Awards": "Nominated for 8 Primetime Emmys. 4 wins & 67 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BNDgxNTIyZTMtMzYxNi00NmRjLWFiMTEtM2U4MTFmODkzNzM1XkEyXkFqcGdeQXVyMTM1MTE1NDMx._V1_SX300.jpg",
   "Ratings": [
    {
@@ -565,7 +574,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.4",
-  "imdbVotes": "146,503",
+  "imdbVotes": "154,541",
   "imdbID": "tt9253284",
   "Type": "series",
   "totalSeasons": "2",
@@ -587,7 +596,7 @@
   "Plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Won 14 Primetime Emmys. 58 wins & 135 nominations total",
+  "Awards": "Won 14 Primetime Emmys. 58 wins & 145 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -597,7 +606,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.7",
-  "imdbVotes": "556,774",
+  "imdbVotes": "567,655",
   "imdbID": "tt8111088",
   "Type": "series",
   "totalSeasons": "3",
@@ -620,7 +629,7 @@
   "Plot": "The travels of a lone bounty hunter in the outer reaches of the galaxy, far from the authority of the New Republic.",
   "Language": "English",
   "Country": "United States",
-  "Awards": "Won 14 Primetime Emmys. 58 wins & 135 nominations total",
+  "Awards": "Won 14 Primetime Emmys. 58 wins & 145 nominations total",
   "Poster": "https://m.media-amazon.com/images/M/MV5BN2M5YWFjN2YtYzU2YS00NzBlLTgwZWUtYWQzNWFhNDkyYjg3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
   "Ratings": [
    {
@@ -630,7 +639,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.7",
-  "imdbVotes": "556,774",
+  "imdbVotes": "567,655",
   "imdbID": "tt8111088",
   "Type": "series",
   "totalSeasons": "3",
@@ -663,10 +672,10 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "7.8",
-  "imdbVotes": "45,959",
+  "imdbVotes": "48,024",
   "imdbID": "tt12708542",
   "Type": "series",
-  "totalSeasons": "2",
+  "totalSeasons": "3",
   "Response": "True",
   "id": "tt12708542",
   "comment": "Star wars the bad batch",
@@ -682,7 +691,7 @@
   "Director": "N/A",
   "Writer": "Dave Filoni",
   "Actors": "Corey Burton, Ashley Eckstein, Dee Bradley Baker",
-  "Plot": "It showcases animated shorts that feature Jedi from the prequel era.",
+  "Plot": "Animated shorts that feature Jedi from the prequel era.",
   "Language": "English",
   "Country": "United States",
   "Awards": "2 nominations",
@@ -695,7 +704,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.2",
-  "imdbVotes": "30,173",
+  "imdbVotes": "32,340",
   "imdbID": "tt20723374",
   "Type": "series",
   "totalSeasons": "1",
@@ -715,7 +724,7 @@
   "Director": "N/A",
   "Writer": "Dave Filoni",
   "Actors": "Corey Burton, Ashley Eckstein, Dee Bradley Baker",
-  "Plot": "It showcases animated shorts that feature Jedi from the prequel era.",
+  "Plot": "Animated shorts that feature Jedi from the prequel era.",
   "Language": "English",
   "Country": "United States",
   "Awards": "2 nominations",
@@ -728,7 +737,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.2",
-  "imdbVotes": "30,173",
+  "imdbVotes": "32,340",
   "imdbID": "tt20723374",
   "Type": "series",
   "totalSeasons": "1",
@@ -761,7 +770,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "8.4",
-  "imdbVotes": "111,130",
+  "imdbVotes": "115,898",
   "imdbID": "tt0458290",
   "Type": "series",
   "totalSeasons": "7",
@@ -792,7 +801,7 @@
    },
    {
     "Source": "Rotten Tomatoes",
-    "Value": "18%"
+    "Value": "19%"
    },
    {
     "Source": "Metacritic",
@@ -801,7 +810,7 @@
   ],
   "Metascore": "35",
   "imdbRating": "5.9",
-  "imdbVotes": "70,155",
+  "imdbVotes": "71,608",
   "imdbID": "tt1185834",
   "Type": "movie",
   "DVD": "05 Dec 2016",
@@ -831,12 +840,12 @@
   "Ratings": [
    {
     "Source": "Internet Movie Database",
-    "Value": "8.0/10"
+    "Value": "8.1/10"
    }
   ],
   "Metascore": "N/A",
-  "imdbRating": "8.0",
-  "imdbVotes": "52,310",
+  "imdbRating": "8.1",
+  "imdbVotes": "55,956",
   "imdbID": "tt2930604",
   "Type": "series",
   "totalSeasons": "4",
@@ -848,22 +857,27 @@
  {
   "Title": "Ahsoka",
   "Year": "2023\u2013",
-  "Rated": "N/A",
-  "Released": "23 Aug 2023",
+  "Rated": "TV-14",
+  "Released": "22 Aug 2023",
   "Runtime": "N/A",
   "Genre": "Action, Adventure, Drama",
   "Director": "N/A",
   "Writer": "Dave Filoni",
-  "Actors": "Rosario Dawson, Natasha Liu Bordizzo, Wes Chatham",
-  "Plot": "After the fall of the Galactic Empire, former Jedi Knight Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
+  "Actors": "Rosario Dawson, David Tennant, Natasha Liu Bordizzo",
+  "Plot": "After the fall of the Galactic Empire, former Jedi Ahsoka Tano investigates an emerging threat to a vulnerable galaxy.",
   "Language": "English",
   "Country": "United States",
   "Awards": "N/A",
   "Poster": "https://m.media-amazon.com/images/M/MV5BMWM1NjU1MDgtYjhjYS00Mjg5LWE1MWEtNzUwNWMxNTU2ZWY3XkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg",
-  "Ratings": [],
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.6/10"
+   }
+  ],
   "Metascore": "N/A",
-  "imdbRating": "N/A",
-  "imdbVotes": "N/A",
+  "imdbRating": "7.6",
+  "imdbVotes": "91,039",
   "imdbID": "tt13622776",
   "Type": "series",
   "totalSeasons": "1",
@@ -873,7 +887,7 @@
   "chronological_order": 160
  },
  {
-  "Title": "Star Wars Resistance",
+  "Title": "Star Wars: Resistance",
   "Year": "2018\u20132020",
   "Rated": "TV-Y7",
   "Released": "07 Oct 2018",
@@ -895,7 +909,7 @@
   ],
   "Metascore": "N/A",
   "imdbRating": "5.3",
-  "imdbVotes": "6,978",
+  "imdbVotes": "7,234",
   "imdbID": "tt8336340",
   "Type": "series",
   "totalSeasons": "2",
