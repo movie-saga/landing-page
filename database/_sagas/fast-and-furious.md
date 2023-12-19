@@ -6,9 +6,4 @@ originalposter: "https://images.hdqwalls.com/download/fast-8-df-1920x1080.jpg"
 bg_position: "0 84%"
 layout: saga
 ---
-{% for order in site.orders %}
-    {% if page.title == order.title %}
-<h2>{{ order.title }} - {{ order.subtitle }}</h2>
-<a href="{{ order.url }}">Here</a>
-    {% endif %}
-{% endfor %}
+Fast & Furious (also known as The Fast and the Furious) is an American media franchise centered on a series of action films that are largely concerned with street racing, heists, spies, and family.

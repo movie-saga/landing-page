@@ -172,6 +172,30 @@
           padding: 0;
         }
       }
+
+      .content-card {
+        background-color: rgba(255,255,255,0.12);
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 2rem;
+        margin: 20px;
+        z-index: -1;
+        flex-grow: 0;
+        flex-shrink: 0;
+        backdrop-filter: blur(3px);
+      }
+
+      .content-title {
+        display: block;
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+      }
     </style>
       {%- assign movies_count = site.data[page.slug] | where: "Type", "movie" | size -%}
       {%- assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size -%}
@@ -213,8 +237,6 @@
 
         </div>
 
-        <!-- <h1>{{ page.title }}</h1> -->
-
         {%- assign order_id = page.slug | prepend: "/orders/" -%}
         {%- assign orders = site.orders | where_exp: "item", "item.id contains order_id" -%}
         {%- if orders.size > 0 and site.data[page.slug] -%}
@@ -239,6 +261,26 @@
             </li>
             {%- endfor -%}
           </ul>
+
+          <div>
+            <div class="content-card">
+              <h1 class="content-title" style="white-space: normal">In what order to watch {{page.title}} ?</h1>
+              <p>
+                On <a href="{{site.url}}">{{ site.title }}</a> you will find the best orders to watch {{page.title}}.
+                For {{page.title}} there are {{ orders | size }} different orders!
+                Each can be a new way of discovering your favorite saga.
+                The original experience is always named the original release order.
+                If there is a story order, it means you can watch {{ page.title }} movies in this order for a more story consistent
+                experience, either it can mean less flashbacks or more explanations on what is happening.
+              </p> 
+            </div>
+            <div class="content-card">
+              <h1 class="content-title">Synopsis</h1>
+              <p>
+                {{ content }}
+              </p>
+            </div>
+          </div>
         </article>
 
         {%- else -%}
