@@ -4,6 +4,9 @@ description: >-
 baseurl: "/"
 url: "https://movie-saga.com"
 
+plugins:
+  - jekyll-sitemap
+
 collections_dir: database
 collections:
   sagas:
