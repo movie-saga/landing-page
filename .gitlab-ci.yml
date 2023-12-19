@@ -7,7 +7,7 @@
 default:
   # Template project: https://gitlab.com/pages/jekyll
   # Docs: https://docs.gitlab.com/ee/pages/
-  image: ruby:2.6
+  image: ruby:3.0
 
   before_script:
     - gem install bundler
