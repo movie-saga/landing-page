@@ -1,0 +1,113 @@
+[
+ {
+  "Title": "Breaking Bad",
+  "Year": "2008\u20132013",
+  "Rated": "TV-MA",
+  "Released": "20 Jan 2008",
+  "Runtime": "49 min",
+  "Genre": "Crime, Drama, Thriller",
+  "Director": "N/A",
+  "Writer": "Vince Gilligan",
+  "Actors": "Bryan Cranston, Aaron Paul, Anna Gunn",
+  "Plot": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student in order to secure his family's future.",
+  "Language": "English, Spanish",
+  "Country": "United States",
+  "Awards": "Won 16 Primetime Emmys. 156 wins & 247 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYTU3NWI5OGMtZmZhNy00MjVmLTk1YzAtZjA3ZDA3NzcyNDUxXkEyXkFqcGdeQXVyODY5Njk4Njc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "9.5/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "96%"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "9.5",
+  "imdbVotes": "2,066,919",
+  "imdbID": "tt0903747",
+  "Type": "series",
+  "totalSeasons": "5",
+  "Response": "True",
+  "id": "tt0903747",
+  "comment": "Breaking bad : Tv Show",
+  "chronological_order": 20
+ },
+ {
+  "Title": "Better Call Saul",
+  "Year": "2015\u20132022",
+  "Rated": "TV-MA",
+  "Released": "08 Feb 2015",
+  "Runtime": "46 min",
+  "Genre": "Crime, Drama",
+  "Director": "N/A",
+  "Writer": "Vince Gilligan, Peter Gould",
+  "Actors": "Bob Odenkirk, Rhea Seehorn, Jonathan Banks",
+  "Plot": "The trials and tribulations of criminal lawyer Jimmy McGill in the years leading up to his fateful run-in with Walter White and Jesse Pinkman.",
+  "Language": "English, Spanish, Vietnamese",
+  "Country": "United States",
+  "Awards": "Nominated for 53 Primetime Emmys. 65 wins & 322 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZDA4YmE0OTYtMmRmNS00Mzk2LTlhM2MtNjk4NzBjZGE1MmIyXkEyXkFqcGdeQXVyMTMzNDExODE5._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "9.0/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "9.0",
+  "imdbVotes": "619,265",
+  "imdbID": "tt3032476",
+  "Type": "series",
+  "totalSeasons": "6",
+  "Response": "True",
+  "id": "tt3032476",
+  "comment": "Better call saul",
+  "chronological_order": 10
+ },
+ {
+  "Title": "El Camino: A Breaking Bad Movie",
+  "Year": "2019",
+  "Rated": "TV-MA",
+  "Released": "11 Oct 2019",
+  "Runtime": "122 min",
+  "Genre": "Action, Crime, Drama",
+  "Director": "Vince Gilligan",
+  "Writer": "Vince Gilligan",
+  "Actors": "Aaron Paul, Jonathan Banks, Matt Jones",
+  "Plot": "Fugitive Jesse Pinkman runs from his captors, the law, and his past.",
+  "Language": "English, Spanish",
+  "Country": "United States",
+  "Awards": "Nominated for 4 Primetime Emmys. 4 wins & 24 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjk4MzVlM2UtZGM0ZC00M2M1LThkMWEtZjUyN2U2ZTc0NmM5XkEyXkFqcGdeQXVyOTAzMTc2MjA@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.3/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "92%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "72/100"
+   }
+  ],
+  "Metascore": "72",
+  "imdbRating": "7.3",
+  "imdbVotes": "282,186",
+  "imdbID": "tt9243946",
+  "Type": "movie",
+  "DVD": "11 Oct 2019",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt9243946",
+  "comment": "El Camino",
+  "chronological_order": 30
+ }
+]
