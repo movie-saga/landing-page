@@ -59,6 +59,30 @@
       text-decoration: underline;
     }
 
+    .content-card {
+        background-color: rgba(255,255,255,0.12);
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 2rem;
+        margin: 20px;
+        z-index: -1;
+        flex-grow: 0;
+        flex-shrink: 0;
+        backdrop-filter: blur(3px);
+      }
+
+      .content-title {
+        display: block;
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+      }
+
   </style>
   {%- include styles/movies_card.html -%}
 </head>
@@ -70,6 +94,12 @@
   {% assign ids_displayed = '' | split: ',' %}
 
   <div class="container">
+    <div class="content-card">
+      <h1 class="content-title" style="white-space: normal">Order description</h1>
+      <p>
+        {{ content }}
+      </p> 
+    </div>
     <ul class="movie-card-list">
       {%- assign sorted_movies = site.data[page.slug_parent] | sort: page.sort_by -%}
       {%- for movie in sorted_movies -%}

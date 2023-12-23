@@ -31,3 +31,7 @@ sudo bundle exec jekyll serve --verbose
 
 # Fetch new data
 
+
+# i18n ?
+
+https://polyglot.untra.io/fr/sample/

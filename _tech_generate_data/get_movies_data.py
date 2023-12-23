@@ -6,11 +6,11 @@ import textwrap
 api_key = "aae47f0d"
 file_list = [
   #"_star-wars",
-  #"_fast-and-furious",
+  "_fast-and-furious"
   #"_matrix",
   #"_john-wick"
   #"_breaking-bad"
-  "_pirates-of-the-caribbean"
+  #"_pirates-of-the-caribbean"
 ]
 
 

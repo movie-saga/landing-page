@@ -40,7 +40,7 @@
 - id: tt0280477
   comment: "Better Luck Tomorrow"
   chronological_order: 35
-  note: "This movie is not part of the fast & furious saga BUT it is the backstory of Han"
+  global_note: "This movie is not part of the fast & furious saga BUT it is the backstory of Han"
 - id: tt8322592
   comment: "FF: Spy racers"
   chronological_order: 115
