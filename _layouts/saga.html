@@ -247,10 +247,10 @@
               <a href="{{ site.url }}{{ order.url | relative_url }}" tabindex="0">
                 <div class="order_poster" role="presentation">
                   <ul class="order_poster_list" role="presentation">
-                    {%- assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 -%}
+                    {% assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 %}
                     {%- for movie in sorted_movies -%}
                     <li role="presentation">
-                      <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="image representing all the movies in the {{page.title}} saga">
+                      <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
                     </li>
                     {%- endfor -%}
                   </ul>

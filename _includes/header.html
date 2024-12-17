@@ -4,13 +4,21 @@
     <title>Movie Saga | {{ page.title }} </title>
     <meta name="google-site-verification" content="MUYQd_IZ1zk-pYgUnZycB2vmi38bvy12Z_2ijL8gFyg" />
     <!-- HTML Meta Tags -->
-    <meta name="description" content="In what order to watch {{ page.title }}">
+    {% if page.layout == "home" %}
+        {% assign description = "On movie saga you will find informations about the orders of your favorite sagas" %}
+    {% elsif page.layout == "order" %}
+        {% assign description = "What is the " | append: {{page.subtitle | downcase }} | append: " for " | append: {{page.title}}| append: "?" %}
+    {% elsif page.layout == "saga" %}
+        {% assign description = "In which orders can you watch " | append: page.title| append: "?" %}
+    {% endif %}
+
+    <meta name="description" content="{{ description }}">
 
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Movie Saga | {{ page.title }} ">
-    <meta property="og:description" content="In what order should you watch {{ page.title }}">
+    <meta property="og:description" content="{{ description }}">
     <meta property="og:image" content="{{ site.url }}{{ page.poster }}-lg.webp">
 
     <!-- Twitter Meta Tags -->
@@ -18,10 +26,70 @@
     <meta property="twitter:domain" content="movie-saga.com">
     <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
     <meta name="twitter:title" content="Movie Saga | {{ page.title }}">
-    <meta name="twitter:description" content="In what order should you watch {{ page.title }}">
+    <meta name="twitter:description" content="{{ description }}">
     <meta name="twitter:image" content="{{ site.url }}{{ page.poster }}-lg.webp">
 
     <!-- Meta Tags Generated via https://www.opengraph.xyz -->
-</head>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
+    {% if page.layout == "order" %}
+    {% assign all_movies = site.data[page.slug_parent] | sort:page.sort_by %}
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "{{ description }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>To watch {{page.title}} saga in the {{page.subtitle | downcase }} you should watch the different movies and tvshows in this order: 
+                {% for movie in all_movies %}
+                  {% if forloop.last %}and {% endif %}
+                    {{movie.Title}}{% unless forloop.last %}, {% endunless %}
+                {% endfor %}
+              </p>"
+          }
+          ]
+        }
+    </script>
+    {% endif %}
+
+    {% if page.layout == "saga" %}
+    {%- assign order_id = page.slug | prepend: "/orders/" -%}
+    {%- assign orders = site.orders | where_exp: "item", "item.id contains order_id" -%}
+    {% assign all_movies = site.data[page.slug] | sort: orders[0].sort_by %}
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [{
+            "@type": "Question",
+            "name": "{{ description }}",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>There are {{orders.size}} orders available, 
+                  {% for order in orders %}
+                    {{order.subtitle}}{% unless forloop.last %}, {% endunless %}
+                  {% endfor %} that can be followed to watch {{page.title}} saga.
+                </p>"
+            }
+          },{
+            "@type": "Question",
+            "name": "What are the movies in {{page.title}} saga?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>The {{page.title}} saga is composed of the following movies and tvshows: 
+                  {% for movie in all_movies %}
+                    {{movie.Title}}
+                    {% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </p>"
+            }
+          }
+          ]
+        }
+    </script>
+    {% endif %}
+</head>
 {% include icons.html %}
