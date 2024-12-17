@@ -250,7 +250,7 @@
                     {%- assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 -%}
                     {%- for movie in sorted_movies -%}
                     <li role="presentation">
-                      <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="">
+                      <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="image representing all the movies in the {{page.title}} saga">
                     </li>
                     {%- endfor -%}
                   </ul>
