@@ -6,3 +6,4 @@ img_url: "https://occ-0-7521-55.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cn
 slug_parent: star-wars
 sort_by: original_machete_order
 ---
+An order shared by [Rod Hilton](https://www.rodhilton.com/index.html#about) to fix some of the issues he found in the [release order]() of the first 6 star wars movies. He also decided to entirely skip the first episode.
