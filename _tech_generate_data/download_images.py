@@ -10,7 +10,8 @@ file_list = [
   #"_breaking-bad"
   #"_pirates-of-the-caribbean"
   #"_one-piece"
-  "_bleach"
+  #"_bleach"
+  "_marvel-mcu"
 ]
 
 for file_name in file_list:
