@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in ../assets/img/*.jpg;
+for f in ../assets/img/pirate*.jpg;
 do 
     echo "Processing $f file..."; 
     ./cwebp -q 50 $f -o $f-lg.webp
