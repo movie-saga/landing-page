@@ -12,7 +12,10 @@ file_list = [
   #"_one-piece"
   #"_bleach"
   #"_marvel-mcu"
-  "_lord-of-the-rings"
+  #"_lord-of-the-rings"
+  #"_planet-of-the-apes"
+  #"_game-of-thrones"
+  "_minions"
 ]
 
 for file_name in file_list:

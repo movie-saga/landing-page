@@ -1,0 +1,426 @@
+[
+ {
+  "Title": "Despicable Me",
+  "Year": "2010",
+  "Rated": "PG",
+  "Released": "09 Jul 2010",
+  "Runtime": "95 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Pierre Coffin, Chris Renaud",
+  "Writer": "Cinco Paul, Ken Daurio, Sergio Pablos",
+  "Actors": "Steve Carell, Jason Segel, Russell Brand",
+  "Plot": "Gru, a criminal mastermind, adopts three orphans as pawns to carry out the biggest heist in history. His life takes an unexpected turn when the little girls see the evildoer as their potential father.",
+  "Language": "English",
+  "Country": "United States, France",
+  "Awards": "Nominated for 1 BAFTA Award3 wins & 41 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTY3NjY0MTQ0Nl5BMl5BanBnXkFtZTcwMzQ2MTc0Mw@@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.6/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "80%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "72/100"
+   }
+  ],
+  "Metascore": "72",
+  "imdbRating": "7.6",
+  "imdbVotes": "598,922",
+  "imdbID": "tt1323594",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$251,683,815",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt1323594",
+  "comment": "Despicable Me",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Despicable Me 2",
+  "Year": "2013",
+  "Rated": "PG",
+  "Released": "03 Jul 2013",
+  "Runtime": "98 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Pierre Coffin, Chris Renaud",
+  "Writer": "Cinco Paul, Ken Daurio",
+  "Actors": "Steve Carell, Kristen Wiig, Benjamin Bratt",
+  "Plot": "When a new criminal comes to town, the Anti-Villain League decides to hire Gru in order to fight him off. While Gru initially refuses, he eventually agrees after his aide goes back to his evil ways.",
+  "Language": "English, Ukrainian",
+  "Country": "United States",
+  "Awards": "Nominated for 2 Oscars. 12 wins & 66 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNDExNDllYzMtZjdmOS00NWMwLWJlY2EtMDk2ZjE5MmZiOWY5XkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.3/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "75%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "62/100"
+   }
+  ],
+  "Metascore": "62",
+  "imdbRating": "7.3",
+  "imdbVotes": "436,715",
+  "imdbID": "tt1690953",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$368,065,385",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt1690953",
+  "comment": "Despicable Me 2",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Despicable Me 2: 3 Mini-Movie Collection",
+  "Year": "2014",
+  "Rated": "Not Rated",
+  "Released": "04 Nov 2014",
+  "Runtime": "13 min",
+  "Genre": "Animation, Short, Comedy, Family, Sci-Fi",
+  "Director": "N/A",
+  "Writer": "N/A",
+  "Actors": "N/A",
+  "Plot": "Bringing laughs for the whole family, the mischievous Minions return in three new hilariously entertaining mini-movies.",
+  "Language": "N/A",
+  "Country": "N/A",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjAwNzA0NjAyNl5BMl5BanBnXkFtZTgwOTg2MDM4MzE@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "7.5/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "7.5",
+  "imdbVotes": "562",
+  "imdbID": "tt4294236",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt4294236",
+  "comment": "Despicable Me 2: 3 Mini-Movie Collection",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Despicable Me 3",
+  "Year": "2017",
+  "Rated": "PG",
+  "Released": "30 Jun 2017",
+  "Runtime": "89 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Kyle Balda, Pierre Coffin, Eric Guillon",
+  "Writer": "Cinco Paul, Ken Daurio",
+  "Actors": "Steve Carell, Kristen Wiig, Trey Parker",
+  "Plot": "Gru meets his long-lost, charming, cheerful, and more successful twin brother Dru, who wants to team up with him for one last criminal heist.",
+  "Language": "English",
+  "Country": "United States, France, Japan",
+  "Awards": "33 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNjUyNzQ2MTg3Ml5BMl5BanBnXkFtZTgwNzE4NDM3MTI@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.2/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "59%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "49/100"
+   }
+  ],
+  "Metascore": "49",
+  "imdbRating": "6.2",
+  "imdbVotes": "163,189",
+  "imdbID": "tt3469046",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$264,624,300",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt3469046",
+  "comment": "Despicable Me 3",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Despicable Me 4",
+  "Year": "2024",
+  "Rated": "PG",
+  "Released": "03 Jul 2024",
+  "Runtime": "94 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Chris Renaud, Patrick Delage",
+  "Writer": "Mike White, Ken Daurio",
+  "Actors": "Steve Carell, Kristen Wiig, Pierre Coffin",
+  "Plot": "Gru, Lucy, Margo, Edith, and Agnes welcome a new member to the family, Gru Jr., who is intent on tormenting his dad. Gru faces a new nemesis in Maxime Le Mal and his girlfriend Valentina, and the family is forced to go on the run.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "1 win & 1 nomination",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BNzY0ZTlhYzgtOTgzZC00ZTg2LTk4NTEtZDllM2E2NGE5Njg2XkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.2/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "56%"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.2",
+  "imdbVotes": "50,709",
+  "imdbID": "tt7510222",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$361,004,205",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt7510222",
+  "comment": "Despicable Me 4",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions",
+  "Year": "2015",
+  "Rated": "PG",
+  "Released": "10 Jul 2015",
+  "Runtime": "91 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Kyle Balda, Pierre Coffin",
+  "Writer": "Brian Lynch",
+  "Actors": "Sandra Bullock, Jon Hamm, Michael Keaton",
+  "Plot": "Minions Stuart, Kevin, and Bob are recruited by Scarlet Overkill, a supervillain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
+  "Language": "English, Spanish, Italian",
+  "Country": "United States",
+  "Awards": "Nominated for 1 BAFTA Award4 wins & 29 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BODI4NzMyNjE0MF5BMl5BanBnXkFtZTgwMTcwNzI0MzE@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.4/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "55%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "56/100"
+   }
+  ],
+  "Metascore": "56",
+  "imdbRating": "6.4",
+  "imdbVotes": "267,541",
+  "imdbID": "tt2293640",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$336,045,770",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt2293640",
+  "comment": "Minions",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions & More 1",
+  "Year": "2022",
+  "Rated": "TV-PG",
+  "Released": "20 Sep 2022",
+  "Runtime": "48 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Pierre Coffin",
+  "Writer": "Pierre Coffin, Van Robichaux, Evan Susser",
+  "Actors": "Pierre Coffin, Miranda Cosgrove, Danny DeVito",
+  "Plot": "This collection of Minions shorts from the \"Despicable Me\" franchise includes mini-movies like \"Training Wheels,\" \"Puppy\" and \"Yellow Is the New Black.\"",
+  "Language": "English",
+  "Country": "France, United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOTcxNDIwMmItNGFiOC00NjRkLWI1NDQtMGM3ZGNmZjljNDFhXkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.5/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.5",
+  "imdbVotes": "2,229",
+  "imdbID": "tt22184976",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt22184976",
+  "comment": "Minions & More 1",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions & More 2",
+  "Year": "2022",
+  "Rated": "TV-Y7",
+  "Released": "08 Nov 2022",
+  "Runtime": "50 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Pierre Coffin",
+  "Writer": "Pierre Coffin",
+  "Actors": "Pierre Coffin, Dana Gaier, Nev Scharrel",
+  "Plot": "Catch animated shorts like \"Phil's Dance Party\" and \"Binky Nelson Unpacified\" in this compilation from the company behind the \"Despicable Me\" franchise.",
+  "Language": "English, Portuguese",
+  "Country": "France, United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZjgyYzlhMjUtMjQyNi00MWVmLTlmNmEtNTg2MzNlMmMzOWIxXkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [],
+  "Metascore": "N/A",
+  "imdbRating": "N/A",
+  "imdbVotes": "1,028",
+  "imdbID": "tt23382644",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt23382644",
+  "comment": "Minions & More 2",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions & Monsters",
+  "Year": "2021",
+  "Rated": "N/A",
+  "Released": "11 Jun 2021",
+  "Runtime": "4 min",
+  "Genre": "Animation, Short, Comedy",
+  "Director": "Jed Diffenderfer, Chlo\u00e9 Lesueur",
+  "Writer": "Jed Diffenderfer",
+  "Actors": "Pierre Coffin",
+  "Plot": "Laundry day goes cosplay when a Minion noob gets a seat at the table of some pro-role-playing gamers. Starting as a punching bag for monsters and punchline for peers, his perseverance unlocks bardacious skills just in time to save...",
+  "Language": "English",
+  "Country": "France, United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZjZkNzgyYTUtNjA1Yy00OTNmLTg5YWEtNmU4ZGM0ZjkwMmZhXkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.7/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.7",
+  "imdbVotes": "301",
+  "imdbID": "tt14845172",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt14845172",
+  "comment": "Minions & Monsters",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions Holiday Special",
+  "Year": "2020",
+  "Rated": "TV-PG",
+  "Released": "27 Nov 2020",
+  "Runtime": "21 min",
+  "Genre": "Animation, Short, Comedy",
+  "Director": "Brad Ableson, Guy Bar'ely, Frank Baradat",
+  "Writer": "David Feiss, Josh Lieb, Brett Konner",
+  "Actors": "Carlos Alazraqui, Pierre Coffin, Brian T. Delaney",
+  "Plot": "Illumination presents four new mini-movie escapades along with special guest appearances from some of Illumination's beloved characters from their \"The Secret Life of Pets\" and \"Sing\" franchises.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BYjBjZjU1YzItMzYxMC00ZGNlLWI4MzUtMjcyNWY3M2JiNjk0XkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.3/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "6.3",
+  "imdbVotes": "956",
+  "imdbID": "tt13457952",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "N/A",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt13457952",
+  "comment": "Minions Holiday Special",
+  "chronological_oder": null
+ },
+ {
+  "Title": "Minions: The Rise of Gru",
+  "Year": "2022",
+  "Rated": "PG",
+  "Released": "01 Jul 2022",
+  "Runtime": "87 min",
+  "Genre": "Animation, Adventure, Comedy",
+  "Director": "Kyle Balda, Brad Ableson, Jonathan del Val",
+  "Writer": "Matthew Fogel, Brian Lynch",
+  "Actors": "Steve Carell, Pierre Coffin, Alan Arkin",
+  "Plot": "The untold story of one twelve-year-old's dream to become the world's greatest supervillain.",
+  "Language": "English, Vietnamese",
+  "Country": "United States, France",
+  "Awards": "1 win & 18 nominations",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BZTAzMTkyNmQtNTMzZS00MTM1LWI4YzEtMjVlYjU0ZWI5Y2IzXkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "6.5/10"
+   },
+   {
+    "Source": "Rotten Tomatoes",
+    "Value": "70%"
+   },
+   {
+    "Source": "Metacritic",
+    "Value": "56/100"
+   }
+  ],
+  "Metascore": "56",
+  "imdbRating": "6.5",
+  "imdbVotes": "94,126",
+  "imdbID": "tt5113044",
+  "Type": "movie",
+  "DVD": "N/A",
+  "BoxOffice": "$370,270,765",
+  "Production": "N/A",
+  "Website": "N/A",
+  "Response": "True",
+  "id": "tt5113044",
+  "comment": "Minions: The Rise of Gru",
+  "chronological_oder": null
+ }
+]

@@ -1,0 +1,93 @@
+[
+ {
+  "Title": "Game of Thrones",
+  "Year": "2011\u20132019",
+  "Rated": "TV-MA",
+  "Released": "17 Apr 2011",
+  "Runtime": "57 min",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "N/A",
+  "Writer": "David Benioff, D.B. Weiss",
+  "Actors": "Emilia Clarke, Peter Dinklage, Kit Harington",
+  "Plot": "Nine noble families fight for control over the lands of Westeros, while an ancient enemy returns after being dormant for millennia.",
+  "Language": "English",
+  "Country": "United States, United Kingdom",
+  "Awards": "Won 59 Primetime Emmys. 397 wins & 655 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BMTNhMDJmNmYtNDQ5OS00ODdlLWE0ZDAtZTgyYTIwNDY3OTU3XkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "9.2/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "9.2",
+  "imdbVotes": "2,370,839",
+  "imdbID": "tt0944947",
+  "Type": "series",
+  "totalSeasons": "8",
+  "Response": "True",
+  "id": "tt0944947",
+  "comment": "Game of Thrones",
+  "chronological_oder": 30
+ },
+ {
+  "Title": "House of the Dragon",
+  "Year": "2022\u2013",
+  "Rated": "TV-MA",
+  "Released": "21 Aug 2022",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "N/A",
+  "Writer": "Ryan J. Condal, George R.R. Martin",
+  "Actors": "Matt Smith, Emma D'Arcy, Olivia Cooke",
+  "Plot": "An internal succession war within House Targaryen at the height of its power, 172 years before the birth of Daenerys Targaryen.",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "Won 1 Primetime Emmy. 14 wins & 79 nominations total",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BM2QzMGVkNjUtN2Y4Yi00ODMwLTg3YzktYzUxYjJlNjFjNDY1XkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [
+   {
+    "Source": "Internet Movie Database",
+    "Value": "8.3/10"
+   }
+  ],
+  "Metascore": "N/A",
+  "imdbRating": "8.3",
+  "imdbVotes": "453,730",
+  "imdbID": "tt11198330",
+  "Type": "series",
+  "totalSeasons": "4",
+  "Response": "True",
+  "id": "tt11198330",
+  "comment": "House of the Dragon",
+  "chronological_oder": 20
+ },
+ {
+  "Title": "A Knight of the Seven Kingdoms: The Hedge Knight",
+  "Year": "2025\u2013",
+  "Rated": "TV-MA",
+  "Released": "N/A",
+  "Runtime": "N/A",
+  "Genre": "Action, Adventure, Drama",
+  "Director": "N/A",
+  "Writer": "N/A",
+  "Actors": "Daniel Ings, Sam Spruell, Bertie Carvel",
+  "Plot": "A century before GOT, Ser Duncan the Tall, and his squire, Egg wandered through Westeros, while the Targaryen dynasty ruled the Iron Throne and dragons were still remembered, great destinies and enemies await the incomparable frie...",
+  "Language": "English",
+  "Country": "United States",
+  "Awards": "N/A",
+  "Poster": "https://m.media-amazon.com/images/M/MV5BOWNmYTRlOGYtZjE4Yy00YjAxLWEwZDgtNzU4MGViN2Q2ODMzXkEyXkFqcGc@._V1_SX300.jpg",
+  "Ratings": [],
+  "Metascore": "N/A",
+  "imdbRating": "N/A",
+  "imdbVotes": "N/A",
+  "imdbID": "tt27497448",
+  "Type": "series",
+  "totalSeasons": "N/A",
+  "Response": "True",
+  "id": "tt27497448",
+  "comment": "A Knight of the Seven Kingdoms: The Hedge Knight",
+  "chronological_oder": 10
+ }
+]

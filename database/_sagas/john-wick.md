@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "John Wick"
-url: matrix
+url: john-wick
 poster: /assets/img/john-wick.jpg
 bg_position: 0 20%
 originalposter: https://images.hdqwalls.com/download/keanu-reeves-as-john-wick-in-john-wick-chapter-4-sg-1920x1080.jpg

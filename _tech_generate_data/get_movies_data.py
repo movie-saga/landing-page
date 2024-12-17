@@ -13,7 +13,10 @@ file_list = [
   #"_pirates-of-the-caribbean"
   #"_bleach"
   #"_marvel-mcu"
-  "_lord-of-the-rings"
+  #"_lord-of-the-rings"
+  #"_planet-of-the-apes"
+  #"_game-of-thrones"
+  "_minions"
 ]
 
 
