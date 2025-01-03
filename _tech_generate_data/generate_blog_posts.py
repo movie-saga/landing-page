@@ -89,7 +89,7 @@ def __main__():
     for filename in os.listdir(directory):
         f = os.path.join(directory, filename)
         # checking if it is a file
-        if os.path.isfile(f):
+        if os.path.isfile(f) and f != ".gitkeep":
             with open(f, "r") as file:
                 blog_metadata = yaml.safe_load(file)
                 metadata_slug = blog_metadata['slug']
