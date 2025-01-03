@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include header.html -%}
+  {%- include style.html -%}
+  <body>
+    {%- include navbar.html -%}
+    {%- include wrapper.html -%}
+
+    <style type="text/css">
+      .container {
+        max-width: var(--screen-lg);
+        margin: 8px auto 0 auto;
+      }
+
+      .container > .trivia-container {
+        display: flex;
+        column-gap: 32px;
+        justify-content: flex-start;
+        padding: 0 4rem;
+        overflow-x: auto;
+      }
+
+      .container > .trivia-container > .trivia-card {
+        width: 240px;
+        display: block;
+        background-color: rgba(255,255,255,0.12);
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 2rem;
+        font-size: 5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+        z-index: -1;
+        flex-grow: 0;
+        flex-shrink: 0;
+        text-align: center;
+        backdrop-filter: blur(3px);
+
+        position: relative;
+      }
+
+      .container > .trivia-container > .trivia-card > .unit {
+        font-size: 4rem;
+        font-weight: 700;
+        text-transform: lowercase;
+      }
+
+      .container > .trivia-container > .trivia-card > label {
+        position: absolute;
+        top: 0; right: 0; bottom: 0;
+        left: -20%;
+        transform: rotate(-90deg);
+        font-size: 1rem;
+        opacity: 0.2;
+        font-weight: 400;
+        letter-spacing: 3px
+      }
+
+      .container article {
+        margin-top: 4rem;
+        padding-bottom: 18rem;
+      }
+
+      .container article ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3rem;
+        align-items: center;
+      }
+
+      .container article .order {
+        max-width: 480px;
+        max-height: 270px;
+        width: calc(100% - 2rem);
+        aspect-ratio: 16 / 9;
+        margin: 0 2rem;
+      }
+
+      .container article .order a {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        border: 2px solid transparent;
+        border-radius: 5px;
+      }
+
+      .container article .order .title {
+        position: absolute;
+        width: 88%;
+        line-height: 1.3rem;
+        font-size: 1.8rem;
+        font-weight: bold;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+        bottom: 30%;
+        left: 12%;
+        z-index: 1;
+        transition: scale 100ms ease-in-out;
+        cursor: pointer;
+      }
+
+      .container article .order a::after {
+        content: "";
+        position: absolute;
+        display: block;
+        top: 0; right: 0; bottom: 0; left: 0;
+        background-image: radial-gradient(
+          at 0 100%,
+          rgba(0,0,0,0.6),
+          rgba(0, 0, 0, 0.1) 60%
+        );
+        transition: background-image 200ms ease-in-out;
+        cursor: pointer;
+      }
+
+      .container article .order a:focus,
+      .container article .order a:hover {
+        border: 2px solid white;
+      }
+
+      .container article .order a:focus::after,
+      .container article .order a:hover::after {
+        background-image: radial-gradient(
+          at 0 100%,
+          rgba(0,0,0,0.9),
+          rgba(0, 0, 0, 0.2) 80%
+        );
+      }
+
+      .container article .order_poster {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+      }
+
+      .container article .order_poster_list {
+        display: flex;
+        flex-direction: row;
+        gap: 0.5em;
+        flex-wrap: wrap;
+        transform: rotate(3deg) translateY(-13%);
+        transform-origin: center;
+      }
+
+
+      .container article .order_poster_list li {
+        flex-grow: 0;
+        flex-shrink: 0;
+      }
+
+      .container article .order_poster_list li img {
+        object-fit: cover;
+        width: 88px;
+        border-radius: 8px;
+      }
+
+      @media screen and (min-width: 640px) {
+        .trivia-container .trivia-card {
+          width: 22%;
+        }
+
+        .container > .trivia-container > .trivia-card > label {
+          left: -1.7rem;
+        }
+      }
+
+      @media screen and (min-width: 800px) {
+        .container > .trivia-container {
+          justify-content: center;
+          overflow-x: unset;
+          padding: 0;
+        }
+      }
+
+      .content-card {
+        background-color: rgba(255,255,255,0.12);
+        border-radius: 2rem;
+        overflow: hidden;
+        padding: 2rem;
+        margin: 20px;
+        z-index: -1;
+        flex-grow: 0;
+        flex-shrink: 0;
+        backdrop-filter: blur(3px);
+      }
+
+      .content-title {
+        display: block;
+        font-weight: 900;
+        font-size: 2rem;
+        text-align: center;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+        white-space: normal;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin-bottom: 5px;
+      }
+    </style>
+      <div class="container">
+        <div class="content-card">
+            <h1 class="content-title">Our latest articles</h1>
+            <p>
+              {{ content }}
+            </p>
+        </div>
+
+        <article>
+            <ul>
+            {% for post in site.posts %}
+            {% if post.lang == 'english' %}
+              <li class="order">
+                <a href="{{ post.url }}" tabindex="0">
+                  <div class="order_poster" role="presentation">
+                    <ul class="order_poster_list" role="presentation">
+                        {% assign sorted_movies = site.data[post.saga] | slice: 0, 15 %}
+                        {%- for movie in sorted_movies -%}
+                        <li role="presentation">
+                          <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
+                        </li>
+                        {%- endfor -%}
+                    </ul>
+                  </div>
+  
+                  <div class="title">{{ post.title }}</div>
+                </a>
+              </li>
+              {% endif %}
+              {%- endfor -%}
+            </ul>
+  
+            <div>
+              <div class="content-card">
+                <h1 class="content-title" style="white-space: normal">Movie Saga isn't only lists and orders of movies</h1>
+                <p>
+                  At Movie saga we also like to share our opinion on the movies we like! So here are our lattest articles regarding
+                  the hottest sagas and epic movie or tvshows.
+                </p> 
+              </div>
+            </div>
+        </article>
+      </div>
+      {%- include endwrapper.html -%}
+  </body>
+  {%- include analytics.html -%}
+</html>

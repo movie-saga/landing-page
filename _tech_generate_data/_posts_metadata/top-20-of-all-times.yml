@@ -1,0 +1,11 @@
+layout: post
+title:  "Top 20 sagas of all time"
+slug: top-20-sagas
+saga: star-wars #this is a shitty way to have an image but it does the trick currently
+link_to: 
+  - saga_order_1
+  - saga_order_2
+lang:
+  - english
+  - french
+extra: ""
