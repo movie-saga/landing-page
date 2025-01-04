@@ -133,7 +133,7 @@
     left: 0;
     right: 0;
     opacity: 0;
-    display: flex;
+    display: block;
     flex-direction: column;
     transform: translateY(150vh);
     padding-top: 6rem;
@@ -143,57 +143,12 @@
 
   aside > nav > a {
     padding: 0.5rem 1rem;
-    max-height: 150px;
+    max-height: 50px;
   }
 
   /** \ MOBILE NAV */
-
-  @media screen and (min-width: 640px) {
-    aside > .mobile-menu-button {
-      display: none;
-    }
-
-    aside {
-      z-index: 1;
-      position: fixed;
-      right: 0;
-      left: 0;
-      top: 0;
-      background-color: transparent;
-      height: calc(var(--aside-width) / 4);
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-
-    aside > nav {
-      position: static;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      padding-right: 32px;
-      background: transparent;
-      z-index: 0;
-      padding: 0;
-      height: initial;
-      transform: translateY(0);
-      opacity: 1;
-      transition: none;
-    }
-
-    aside > nav button.mobile-menu-close-button {
-      display: none;
-    }
-
-    aside > nav > a {
-      font-size: 1rem;
-      font-weight: 400;
-      text-transform: uppercase;
-    }
-
-    aside > nav > a::before {
-      height: 1px;
-    }
+  #navbar {
+    overflow-y: scroll;
   }
 </style>
 
@@ -223,7 +178,8 @@
         <use href="#hero-x" />
       </svg>
     </button>
-    {%- for saga in site.sagas -%}
+    {%- assign sorted_sagas = site.sagas | sort: 'title' -%}
+    {%- for saga in sorted_sagas -%}
     <a href="{{ site.url }}{{ saga.url }}" tabindex="0">{{ saga.title }}</a>
     {%- endfor -%}
   </nav>
@@ -232,10 +188,7 @@
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
     function isMobile() {
-      return (
-        window.getComputedStyle(document.body).getPropertyValue("--screen") ===
-        "mobile"
-      );
+      return (true);
     }
 
     function listenOnMenuInput() {
