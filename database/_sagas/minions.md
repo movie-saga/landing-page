@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Minions"
-url: minions
+saga_name: minions
 poster: /assets/img/minions.jpg
 bg_position: 0 20%
 originalposter: https://wallpapersden.com/game-of-thrones-season-8-wallpaper/

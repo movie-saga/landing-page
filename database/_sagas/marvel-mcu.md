@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Marvel MCU"
-url: marvel-mcu
+saga_name: marvel-mcu
 poster: /assets/img/mcu.jpg
 bg_position: 0 20%
 originalposter: https://images.hdqwalls.com/download/marvel-10-year-anniversary-9y-1366x768.jpg

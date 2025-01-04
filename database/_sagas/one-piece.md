@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "One Piece"
-url: one-piece
+saga_name: one-piece
 poster: /assets/img/one-piece.jpg
 bg_position: 0 20%
 originalposter: https://hdqwalls.com/one-piece-netflix-8k-wallpaper

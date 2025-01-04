@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Breaking bad"
-url: breaking-bad
+saga_name: breaking-bad
 poster: /assets/img/breaking-bad.jpg
 bg_position: 0 20%
 originalposter: https://images.hdqwalls.com/download/breaking-bad-walter-white-image-1920x1080.jpg

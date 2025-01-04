@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Game of thrones"
-url: game-of-thrones
+saga_name: game-of-thrones
 poster: /assets/img/got.jpg
 bg_position: 0 20%
 originalposter: https://wallpapersden.com/game-of-thrones-season-8-wallpaper/

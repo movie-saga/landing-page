@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Pirates of the Caribbean"
-url: pirates-of-the-caribbean
+saga_name: pirates-of-the-caribbean
 poster: /assets/img/pirates-of-the-caribbean.jpg
 bg_position: 0 20%
 originalposter: https://images.hdqwalls.com/download/jack-sparrow-1920x1080.jpg

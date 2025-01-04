@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Lord of the rings"
-url: lord-of-the-rings
+saga_name: lord-of-the-rings
 poster: /assets/img/lotr.jpg
 bg_position: 0 20%
 originalposter: https://wallpapersden.com/the-lord-of-the-rings-rise-to-war-4k-wallpaper/

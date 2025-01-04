@@ -1,5 +1,5 @@
 ---
-slug: "fast-and-furious"
+saga_name: fast-and-furious
 title:  "Fast & Furious"
 poster: "/assets/img/ff.jpg"
 originalposter: "https://images.hdqwalls.com/download/fast-8-df-1920x1080.jpg"

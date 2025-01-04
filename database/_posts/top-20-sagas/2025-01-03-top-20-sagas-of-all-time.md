@@ -2,7 +2,9 @@
 layout: post
 title: "Top 20 Movie Sagas of All Time to Binge Watch"
 slug: top-20-sagas-of-all-time
-saga: star-wars
+saga: 
+  - star-wars
+  - marvel-mcu
 lang: english
 ---
 

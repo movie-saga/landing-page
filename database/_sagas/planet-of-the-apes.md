@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Planet of the apes"
-url: planet-of-the-apes
+saga_name: planet-of-the-apes
 poster: /assets/img/planet-of-the-apes.jpg
 bg_position: 0 20%
 originalposter: https://images.wallpapersden.com/image/download/planet-of-the-apes-movie_bmZrbmiUmZqaraWkpJRmbmdlrWZlbWU.jpg

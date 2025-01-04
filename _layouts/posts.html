@@ -208,25 +208,27 @@
         <article>
             <ul>
             {% for post in site.posts %}
-            {% if post.lang == 'english' %}
+            {% if post.lang == page.lang %}
               <li class="order">
                 <a href="{{ post.url }}" tabindex="0">
                   <div class="order_poster" role="presentation">
                     <ul class="order_poster_list" role="presentation">
-                        {% assign sorted_movies = site.data[post.saga] | slice: 0, 15 %}
-                        {%- for movie in sorted_movies -%}
-                        <li role="presentation">
-                          <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
-                        </li>
-                        {%- endfor -%}
+                        {% for saga in post.saga %}
+                          {% assign sorted_movies = site.data[saga] | slice: 0, 15 %}
+                          {%- for movie in sorted_movies -%}
+                          <li role="presentation">
+                            <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
+                          </li>
+                          {%- endfor -%}
+                        {% endfor %}
                     </ul>
                   </div>
   
                   <div class="title">{{ post.title }}</div>
                 </a>
               </li>
-              {% endif %}
-              {%- endfor -%}
+            {% endif %}
+            {%- endfor -%}
             </ul>
   
             <div>

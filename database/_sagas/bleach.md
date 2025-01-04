@@ -1,7 +1,7 @@
 ---
 layout: saga
 title:  "Bleach"
-url: bleach
+saga_name: bleach
 poster: /assets/img/bleach.jpg
 bg_position: 0 20%
 originalposter: https://wallpapersden.com/ichigo-kurosaki-cool-bleach-tv-wallpaper/
