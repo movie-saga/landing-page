@@ -226,14 +226,86 @@
         margin-top: 10px;
         margin-left: 15px;
       }
+
+      .container .footer-navigation {
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+      }
+
+      .container .button {
+        display: flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        background-color: white;
+        color: var(--grey-900);
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 0 0 1px white;
+      }
+
+      .container .button svg + span {
+        padding-left: 0.2rem;
+        transition: padding 200ms;
+      }
+
+      .container .button:hover svg + span,
+      .container .button:focus svg + span {
+        padding-left: 0.4rem;
+      }
+
+      .container .button svg {
+        width: 22px;
+        height: 22px;
+      }
+
+      .container .button:hover,
+      .container .button:focus {
+        background-color: var(--grey-200);
+        text-decoration: underline;
+      }
     </style>
       <div class="container">
         <article>
+            <ul>
+              {% assign counter = 0 %}
+              <li class="order">
+                <a href="{{ post.url }}" tabindex="0">
+                  <div class="order_poster" role="presentation">
+                    <ul class="order_poster_list" role="presentation">
+                      {% for saga in page.saga %}
+                        {% assign sorted_movies = site.data[saga] | slice: 0, 15 %}
+                        {%- for movie in sorted_movies -%}
+                        <li role="presentation">
+                          <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
+                        </li>
+                          {% assign counter = counter | plus: 1 %}
+                          {% if counter > 14 %}
+                            {% break %}
+                          {% endif %}
+                        {%- endfor -%}
+                        {% if counter > 14 %}
+                          {% break %}
+                        {% endif %}
+                      {% endfor %}
+                    </ul>
+                  </div>
+                  <div class="title">{{ post.title }}</div>
+                </a>
+              </li>
+            </ul>
             <div class="content-card">
                 <h1 class="content-title">{{ page.title }}</h1>
                 <p>
                 {{ content }}
                 </p>
+            </div>
+            <div class="footer-navigation">
+              <a href="{{ site.url }}/en/posts.html" class="button" tabindex="0">
+                <svg xmlns="http://www.w3.org/2000/svg"><use href="#hero-chevron-left" /></svg>
+                <span>All posts</span>
+              </a>
             </div>
         </article>
       </div>

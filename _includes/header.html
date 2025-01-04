@@ -56,9 +56,9 @@
     {% endif %}
 
     {% if page.layout == "saga" %}
-    {%- assign order_id = page.slug | prepend: "/orders/" -%}
+    {%- assign order_id = page.saga_name | prepend: "/orders/" -%}
     {%- assign orders = site.orders | where_exp: "item", "item.id contains order_id" -%}
-    {% assign all_movies = site.data[page.slug] | sort: orders[0].sort_by %}
+    {% assign all_movies = site.data[page.saga_name] | sort: orders[0].sort_by %}
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",

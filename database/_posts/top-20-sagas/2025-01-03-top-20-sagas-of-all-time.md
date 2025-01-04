@@ -5,6 +5,10 @@ slug: top-20-sagas-of-all-time
 saga: 
   - star-wars
   - marvel-mcu
+  - lord-of-the-rings
+  - matrix
+  - planet-of-the-apes
+  - fast-and-furious
 lang: english
 ---
 

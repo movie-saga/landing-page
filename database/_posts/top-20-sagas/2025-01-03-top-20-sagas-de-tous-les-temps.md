@@ -2,7 +2,13 @@
 layout: post
 title: "Top 20 des sagas de tous les temps pour planifier votre marathon de films"
 slug: top-20-sagas-de-tous-les-temps
-saga: star-wars
+saga:
+  - star-wars
+  - marvel-mcu
+  - lord-of-the-rings
+  - matrix
+  - planet-of-the-apes
+  - fast-and-furious
 lang: french
 ---
 

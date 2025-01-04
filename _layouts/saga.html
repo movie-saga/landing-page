@@ -197,12 +197,12 @@
         margin-bottom: 5px;
       }
     </style>
-      {%- assign movies_count = site.data[page.slug] | where: "Type", "movie" | size -%}
-      {%- assign tv_shows_count = site.data[page.slug] | where: "Type", "series" | size -%}
+      {%- assign movies_count = site.data[page.saga_name] | where: "Type", "movie" | size -%}
+      {%- assign tv_shows_count = site.data[page.saga_name] | where: "Type", "series" | size -%}
       {%- assign duration = 0 -%}
       {% assign movies_uniques = '' | split: ',' %}
       {% assign ids_uniques = '' | split: ',' %}
-      {%- for movie in site.data[page.slug] -%}
+      {%- for movie in site.data[page.saga_name] -%}
         {% if ids_uniques contains movie.id %}
         {% else %}
           {%- assign current_duration = movie.Runtime | replace: " min" | to_integer-%}
@@ -237,9 +237,9 @@
 
         </div>
 
-        {%- assign order_id = page.slug | prepend: "/orders/" -%}
+        {%- assign order_id = page.saga_name | prepend: "/orders/" -%}
         {%- assign orders = site.orders | where_exp: "item", "item.id contains order_id" -%}
-        {%- if orders.size > 0 and site.data[page.slug] -%}
+        {%- if orders.size > 0 and site.data[page.saga_name] -%}
         <article>
           <ul>
             {%- for order in orders -%}
@@ -247,7 +247,7 @@
               <a href="{{ site.url }}{{ order.url | relative_url }}" tabindex="0">
                 <div class="order_poster" role="presentation">
                   <ul class="order_poster_list" role="presentation">
-                    {% assign sorted_movies = site.data[page.slug] | sort: order.sort_by | slice: 0, 15 %}
+                    {% assign sorted_movies = site.data[page.saga_name] | where_exp: "item", "item contains order.sort_by" | sort: order.sort_by | slice: 0, 15 %}
                     {%- for movie in sorted_movies -%}
                     <li role="presentation">
                       <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
@@ -284,6 +284,7 @@
           <ul>
             {% for post in site.posts %}
             {% if post.lang == 'english' and post.saga contains page.saga_name %}
+              {% assign counter = 0 %}
               <li class="order">
                 <a href="{{ post.url }}" tabindex="0">
                   <div class="order_poster" role="presentation">
@@ -294,16 +295,22 @@
                         <li role="presentation">
                           <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
                         </li>
+                          {% assign counter = counter | plus: 1 %}
+                          {% if counter > 14 %}
+                            {% break %}
+                          {% endif %}
                         {%- endfor -%}
+                        {% if counter > 14 %}
+                          {% break %}
+                        {% endif %}
                       {% endfor %}
                     </ul>
                   </div>
-  
                   <div class="title">{{ post.title }}</div>
                 </a>
               </li>
             {% endif %}
-            {%- endfor -%}
+            {% endfor %}
           </ul>
         </article>
 

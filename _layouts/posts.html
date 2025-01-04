@@ -207,28 +207,35 @@
 
         <article>
             <ul>
-            {% for post in site.posts %}
-            {% if post.lang == page.lang %}
-              <li class="order">
-                <a href="{{ post.url }}" tabindex="0">
-                  <div class="order_poster" role="presentation">
-                    <ul class="order_poster_list" role="presentation">
+              {% for post in site.posts %}
+              {% if post.lang == page.lang %}
+                {% assign counter = 0 %}
+                <li class="order">
+                  <a href="{{ post.url }}" tabindex="0">
+                    <div class="order_poster" role="presentation">
+                      <ul class="order_poster_list" role="presentation">
                         {% for saga in post.saga %}
                           {% assign sorted_movies = site.data[saga] | slice: 0, 15 %}
                           {%- for movie in sorted_movies -%}
                           <li role="presentation">
                             <img src="{{ site.url }}/assets/img/{{ movie.id }}.jpg-mini.webp" alt="poster for the movie {{movie.Title}}">
                           </li>
+                            {% assign counter = counter | plus: 1 %}
+                            {% if counter > 14 %}
+                              {% break %}
+                            {% endif %}
                           {%- endfor -%}
+                          {% if counter > 14 %}
+                            {% break %}
+                          {% endif %}
                         {% endfor %}
-                    </ul>
-                  </div>
-  
-                  <div class="title">{{ post.title }}</div>
-                </a>
-              </li>
-            {% endif %}
-            {%- endfor -%}
+                      </ul>
+                    </div>
+                    <div class="title">{{ post.title }}</div>
+                  </a>
+                </li>
+              {% endif %}
+              {% endfor %}
             </ul>
   
             <div>
